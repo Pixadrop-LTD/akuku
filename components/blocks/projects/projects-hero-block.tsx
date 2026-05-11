@@ -165,17 +165,17 @@ export const ProjectsHeroBlock = () => {
               href="#portfolio"
               whileHover={{ scale: 1.06, y: -3 }}
               whileTap={{ scale: 0.96 }}
-              className="group inline-flex w-full items-center justify-center gap-3 rounded-full bg-linear-to-br from-accent to-secondary px-10 py-4 font-semibold text-white shadow-2xl transition-all duration-300 hover:shadow-accent/40 sm:w-auto"
+              className="group inline-flex w-full items-center justify-center gap-3 rounded-full bg-linear-to-br from-accent to-secondary px-6 py-3 text-sm font-semibold text-white shadow-2xl transition-all duration-300 hover:shadow-accent/40 sm:w-auto sm:px-10 sm:py-4 sm:text-base"
             >
-              <Layers3 className="h-5 w-5" />
+              <Layers3 className="h-4 w-4 sm:h-5 sm:w-5" />
               {t.projects.hero.cta.primary}
-              <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+              <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1 sm:h-4 sm:w-4" />
             </motion.a>
             <motion.a
               href="#pipeline"
               whileHover={{ scale: 1.06, y: -3 }}
               whileTap={{ scale: 0.96 }}
-              className="inline-flex w-full items-center justify-center rounded-full border border-white/30 bg-white/10 px-10 py-4 font-semibold text-white backdrop-blur-md transition-all duration-300 hover:bg-white/15 sm:w-auto"
+              className="inline-flex w-full items-center justify-center rounded-full border border-white/30 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur-md transition-all duration-300 hover:bg-white/15 sm:w-auto sm:px-10 sm:py-4 sm:text-base"
             >
               {t.projects.hero.cta.secondary}
             </motion.a>

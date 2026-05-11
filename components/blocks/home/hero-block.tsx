@@ -221,12 +221,12 @@ const HomeHeroBlock = () => {
               transition={{ duration: 0.6, delay: 3.0, ease: "easeOut" }}
               whileHover={{ scale: 1.08, y: -4, rotateZ: 1 }}
               whileTap={{ scale: 0.95 }}
-              className="group relative inline-flex w-full cursor-pointer items-center justify-center gap-4 rounded-full bg-linear-to-br from-accent to-secondary px-12 py-5 font-semibold tracking-wide text-neutral-50 shadow-2xl transition-all duration-300 hover:shadow-accent/50 focus:outline-none focus-visible:ring-4 focus-visible:ring-accent/60 sm:w-auto"
+              className="group relative inline-flex w-full cursor-pointer items-center justify-center gap-4 rounded-full bg-linear-to-br from-accent to-secondary px-6 py-3.5 text-sm font-semibold tracking-wide text-neutral-50 shadow-2xl transition-all duration-300 hover:shadow-accent/50 focus:outline-none focus-visible:ring-4 focus-visible:ring-accent/60 sm:w-auto sm:px-12 sm:py-5 sm:text-base"
             >
               <span className="flex items-center gap-3">
                 {/* Handshake Icon */}
                 <motion.div
-                  className="relative h-6 w-6 shrink-0 text-accent"
+                  className="relative h-5 w-5 shrink-0 text-accent sm:h-6 sm:w-6"
                   animate={{ rotate: [0, 10, -10, 0] }}
                   transition={{ duration: 2, repeat: Infinity, repeatDelay: 3 }}
                   whileHover={{ rotate: 20, scale: 1.2 }}
@@ -239,7 +239,7 @@ const HomeHeroBlock = () => {
                 >
                   {t.home.hero.cta.partner}
                 </motion.span>
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+                <ArrowRight className="ml-2 h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1 sm:h-4 sm:w-4" />
               </span>
               {/* Glow ring */}
               <motion.span
@@ -257,12 +257,12 @@ const HomeHeroBlock = () => {
               transition={{ duration: 0.6, delay: 3.2, ease: "easeOut" }}
               whileHover={{ scale: 1.08, y: -4, rotateZ: -1 }}
               whileTap={{ scale: 0.95 }}
-              className="group relative inline-flex w-full items-center justify-center gap-4 rounded-full border border-white/40 bg-white/10 px-12 py-5 font-semibold tracking-wide text-white backdrop-blur-md transition-all duration-300 hover:border-accent hover:bg-white/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 sm:w-auto"
+              className="group relative inline-flex w-full items-center justify-center gap-4 rounded-full border border-white/40 bg-white/10 px-6 py-3.5 text-sm font-semibold tracking-wide text-white backdrop-blur-md transition-all duration-300 hover:border-accent hover:bg-white/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 sm:w-auto sm:px-12 sm:py-5 sm:text-base"
             >
               <span className="flex items-center gap-3">
                 {/* Heart Icon */}
                 <motion.div
-                  className="relative h-6 w-6 text-accent"
+                  className="relative h-5 w-5 text-accent sm:h-6 sm:w-6"
                   animate={{ scale: [1, 1.2, 1] }}
                   transition={{
                     duration: 1.5,
@@ -279,7 +279,7 @@ const HomeHeroBlock = () => {
                 >
                   {t.home.hero.cta.explore}
                 </motion.span>
-                <ArrowDown className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-y-1" />
+                <ArrowDown className="ml-2 h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-y-1 sm:h-4 sm:w-4" />
               </span>
               {/* Subtle glow */}
               <motion.span

@@ -53,7 +53,7 @@ export const CollaborationHeroBlock = () => {
   return (
     <section
       id="collaboration"
-      className="relative flex items-center justify-center px-4 text-center pt-28 lg:pt-32"
+      className="relative flex items-center justify-center px-4 pt-28 text-center lg:pt-32"
     >
       <motion.div
         ref={containerRef}
@@ -134,10 +134,10 @@ export const CollaborationHeroBlock = () => {
               href="#partner-models"
               whileHover={{ scale: 1.08, y: -4, rotateZ: 1 }}
               whileTap={{ scale: 0.95 }}
-              className="group relative inline-flex w-full items-center justify-center gap-4 rounded-full bg-linear-to-br from-accent to-secondary px-12 py-5 font-semibold tracking-wide text-neutral-50 shadow-2xl transition-all duration-300 hover:shadow-accent/50 focus:outline-none focus-visible:ring-4 focus-visible:ring-accent/60 sm:w-auto"
+              className="group relative inline-flex w-full items-center justify-center gap-4 rounded-full bg-linear-to-br from-accent to-secondary px-6 py-3.5 text-sm font-semibold tracking-wide text-neutral-50 shadow-2xl transition-all duration-300 hover:shadow-accent/50 focus:outline-none focus-visible:ring-4 focus-visible:ring-accent/60 sm:w-auto sm:px-12 sm:py-5 sm:text-base"
             >
               <motion.div
-                className="relative h-6 w-6 shrink-0"
+                className="relative h-5 w-5 shrink-0 sm:h-6 sm:w-6"
                 animate={{ rotate: [0, 10, -10, 0] }}
                 transition={{ duration: 2, repeat: Infinity, repeatDelay: 3 }}
                 whileHover={{ rotate: 18, scale: 1.2 }}
@@ -145,7 +145,7 @@ export const CollaborationHeroBlock = () => {
                 <Handshake className="h-full w-full" />
               </motion.div>
               {t.collaboration.hero.cta.primary}
-              <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+              <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1 sm:h-4 sm:w-4" />
               <motion.span
                 className="absolute -inset-px rounded-full bg-linear-to-br from-accent to-secondary opacity-0 blur-lg transition-opacity duration-300 group-hover:opacity-60"
                 animate={{ opacity: [0, 0.3, 0] }}
@@ -157,10 +157,10 @@ export const CollaborationHeroBlock = () => {
               href="#evidence"
               whileHover={{ scale: 1.06, y: -4, rotateZ: -1 }}
               whileTap={{ scale: 0.95 }}
-              className="group relative inline-flex w-full items-center justify-center gap-4 rounded-full border border-white/40 bg-white/10 px-12 py-5 font-semibold tracking-wide text-white backdrop-blur-md transition-all duration-300 hover:border-accent hover:bg-white/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 sm:w-auto"
+              className="group relative inline-flex w-full items-center justify-center gap-4 rounded-full border border-white/40 bg-white/10 px-6 py-3.5 text-sm font-semibold tracking-wide text-white backdrop-blur-md transition-all duration-300 hover:border-accent hover:bg-white/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 sm:w-auto sm:px-12 sm:py-5 sm:text-base"
             >
               <motion.div
-                className="relative h-6 w-6"
+                className="relative h-5 w-5 sm:h-6 sm:w-6"
                 animate={{ scale: [1, 1.15, 1] }}
                 transition={{
                   duration: 1.6,
@@ -172,7 +172,7 @@ export const CollaborationHeroBlock = () => {
                 <ShieldCheck className="h-full w-full" />
               </motion.div>
               {t.collaboration.hero.cta.secondary}
-              <ArrowDown className="h-4 w-4 transition-transform duration-300 group-hover:translate-y-1" />
+              <ArrowDown className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-y-1 sm:h-4 sm:w-4" />
               <motion.span
                 className="absolute -inset-px rounded-full bg-accent opacity-0 blur-lg transition-opacity duration-300 group-hover:opacity-30"
                 animate={{ opacity: [0, 0.2, 0] }}

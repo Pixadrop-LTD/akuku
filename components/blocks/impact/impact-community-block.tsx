@@ -232,13 +232,13 @@ export const ImpactCommunityBlock = () => {
             >
               <motion.a
                 href="#our-impact"
-                className="group relative inline-flex items-center justify-center gap-4 rounded-full bg-accent px-8 py-3.5 text-base font-medium text-white shadow-lg transition-all duration-300 hover:bg-accent/90 hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60"
+                className="group relative inline-flex items-center justify-center gap-4 rounded-full bg-accent px-6 py-3 text-sm font-medium text-white shadow-lg transition-all duration-300 hover:bg-accent/90 hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 sm:px-8 sm:py-3.5 sm:text-base"
                 whileHover="hover"
                 whileTap="tap"
               >
                 <span className="flex items-center gap-3">
                   <motion.div
-                    className="relative h-5 w-5 shrink-0 text-accent"
+                    className="relative h-4 w-4 shrink-0 text-accent sm:h-5 sm:w-5"
                     animate={{ rotate: [0, 10, -10, 0] }}
                     transition={{
                       duration: 2,
@@ -255,7 +255,7 @@ export const ImpactCommunityBlock = () => {
                   >
                     {t.impact.domains.cards.community_block.learn_more}
                   </motion.span>
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+                  <ArrowRight className="ml-2 h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1 sm:h-4 sm:w-4" />
                 </span>
                 <motion.span
                   className="absolute -inset-px rounded-full bg-accent opacity-0 blur-lg transition-opacity duration-300 group-hover:opacity-60"
@@ -266,13 +266,13 @@ export const ImpactCommunityBlock = () => {
 
               <motion.a
                 href="#donate"
-                className="group relative inline-flex items-center justify-center gap-4 rounded-full border-2 border-white/30 bg-white/10 px-8 py-3.5 text-base font-medium text-white backdrop-blur-md transition-all duration-300 hover:border-accent hover:bg-white/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60"
+                className="group relative inline-flex items-center justify-center gap-4 rounded-full border-2 border-white/30 bg-white/10 px-6 py-3 text-sm font-medium text-white backdrop-blur-md transition-all duration-300 hover:border-accent hover:bg-white/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 sm:px-8 sm:py-3.5 sm:text-base"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
                 <span className="flex items-center gap-3">
                   <motion.div
-                    className="relative h-5 w-5 text-accent"
+                    className="relative h-4 w-4 text-accent sm:h-5 sm:w-5"
                     animate={{ scale: [1, 1.2, 1] }}
                     transition={{
                       duration: 1.5,
@@ -289,7 +289,7 @@ export const ImpactCommunityBlock = () => {
                   >
                     Support Our Mission
                   </motion.span>
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+                  <ArrowRight className="ml-2 h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1 sm:h-4 sm:w-4" />
                 </span>
                 <motion.span
                   className="absolute -inset-px rounded-full bg-accent opacity-0 blur-lg transition-opacity duration-300 group-hover:opacity-30"

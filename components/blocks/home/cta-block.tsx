@@ -232,7 +232,7 @@ const HomeCTABlock = () => {
               <motion.button
                 type="button"
                 onClick={openSheet}
-                className="group relative flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full bg-white px-8 py-4 font-bold text-primary-700 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:w-auto"
+                className="group relative flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full bg-white px-6 py-3 text-sm font-bold text-primary-700 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:w-auto sm:px-8 sm:py-4 sm:text-base"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={isInView ? { opacity: 1, scale: 1 } : {}}
                 transition={{ duration: 0.6, delay: 1.4 }}
@@ -242,7 +242,7 @@ const HomeCTABlock = () => {
                 <span className="relative z-10 flex items-center">
                   {t.home.cta.primary_button.text}
                   <motion.svg
-                    className="ml-2 h-5 w-5 transition-transform"
+                    className="ml-2 h-4 w-4 transition-transform sm:h-5 sm:w-5"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -264,7 +264,7 @@ const HomeCTABlock = () => {
               <motion.button
                 type="button"
                 onClick={openModal}
-                className="group relative flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full border-2 border-white px-8 py-4 font-bold text-white transition-all duration-300 hover:border-white/50 hover:bg-white/10 sm:w-auto"
+                className="group relative flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full border-2 border-white px-6 py-3 text-sm font-bold text-white transition-all duration-300 hover:border-white/50 hover:bg-white/10 sm:w-auto sm:px-8 sm:py-4 sm:text-base"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={isInView ? { opacity: 1, scale: 1 } : {}}
                 transition={{ duration: 0.6, delay: 1.6 }}
@@ -277,7 +277,7 @@ const HomeCTABlock = () => {
                 <span className="relative z-10 flex items-center">
                   {t.footer.sections.insights.links.become_a_partner}
                   <motion.svg
-                    className="ml-2 h-5 w-5 transition-transform"
+                    className="ml-2 h-4 w-4 transition-transform sm:h-5 sm:w-5"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

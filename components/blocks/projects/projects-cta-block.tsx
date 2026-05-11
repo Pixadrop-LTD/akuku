@@ -57,11 +57,11 @@ export const ProjectsCTABlock = () => {
                 shouldReduceMotion ? undefined : { scale: 1.06, y: -2 }
               }
               whileTap={shouldReduceMotion ? undefined : { scale: 0.96 }}
-              className="group inline-flex items-center justify-center gap-3 rounded-full bg-white px-8 py-4 font-semibold text-primary shadow-lg transition-all duration-300 hover:bg-neutral-100"
+              className="group inline-flex items-center justify-center gap-3 rounded-full bg-white px-6 py-3 text-sm font-semibold text-primary shadow-lg transition-all duration-300 hover:bg-neutral-100 sm:px-8 sm:py-4 sm:text-base"
             >
-              <Handshake className="h-5 w-5" />
+              <Handshake className="h-4 w-4 sm:h-5 sm:w-5" />
               {t.projects.cta.primary.label}
-              <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+              <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1 sm:h-4 sm:w-4" />
             </motion.a>
             <motion.a
               href={t.projects.cta.secondary.href}
@@ -69,9 +69,9 @@ export const ProjectsCTABlock = () => {
                 shouldReduceMotion ? undefined : { scale: 1.06, y: -2 }
               }
               whileTap={shouldReduceMotion ? undefined : { scale: 0.96 }}
-              className="inline-flex items-center justify-center gap-3 rounded-full border-2 border-white px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-white/10"
+              className="inline-flex items-center justify-center gap-3 rounded-full border-2 border-white px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-white/10 sm:px-8 sm:py-4 sm:text-base"
             >
-              <LineChart className="h-5 w-5" />
+              <LineChart className="h-4 w-4 sm:h-5 sm:w-5" />
               {t.projects.cta.secondary.label}
             </motion.a>
           </motion.div>

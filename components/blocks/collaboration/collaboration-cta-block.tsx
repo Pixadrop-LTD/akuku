@@ -56,19 +56,19 @@ export const CollaborationCTABlock = () => {
               onClick={openSheet}
               whileHover={{ scale: 1.06, y: -2 }}
               whileTap={{ scale: 0.96 }}
-              className="group inline-flex cursor-pointer items-center justify-center gap-3 rounded-full bg-white px-8 py-4 font-semibold text-primary shadow-lg transition-all duration-300 hover:bg-neutral-100"
+              className="group inline-flex cursor-pointer items-center justify-center gap-3 rounded-full bg-white px-6 py-3 text-sm font-semibold text-primary shadow-lg transition-all duration-300 hover:bg-neutral-100 sm:px-8 sm:py-4 sm:text-base"
             >
-              <Mail className="h-5 w-5" />
+              <Mail className="h-4 w-4 sm:h-5 sm:w-5" />
               {t.collaboration.cta.primary.label}
-              <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+              <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1 sm:h-4 sm:w-4" />
             </motion.button>
             <motion.a
               href={t.collaboration.cta.secondary.href}
               whileHover={{ scale: 1.06, y: -2 }}
               whileTap={{ scale: 0.96 }}
-              className="inline-flex items-center justify-center gap-3 rounded-full border-2 border-white px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-white/10"
+              className="inline-flex items-center justify-center gap-3 rounded-full border-2 border-white px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-white/10 sm:px-8 sm:py-4 sm:text-base"
             >
-              <Phone className="h-5 w-5" />
+              <Phone className="h-4 w-4 sm:h-5 sm:w-5" />
               {t.collaboration.cta.secondary.label}
             </motion.a>
           </motion.div>

@@ -129,7 +129,7 @@ export const ContactSheet = (): React.ReactElement => {
         side="bottom"
         showCloseButton={false}
         className={cn(
-          "right-4! bottom-4! left-auto! w-[440px] max-w-[calc(100vw-2rem)] rounded-3xl border border-border/60 bg-linear-to-br from-background to-secondary/5 shadow-2xl",
+          "right-4! bottom-4! left-auto! max-h-[85vh] w-[440px] max-w-[calc(100vw-2rem)] overflow-hidden rounded-3xl border border-border/60 bg-linear-to-br from-background to-secondary/5 shadow-2xl",
           "data-[state=closed]:duration-200 data-[state=open]:duration-300"
         )}
       >
@@ -140,22 +140,22 @@ export const ContactSheet = (): React.ReactElement => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 18 }}
               transition={{ type: "spring", stiffness: 280, damping: 26 }}
-              className="flex h-full flex-col"
+              className="flex max-h-[85vh] min-h-0 flex-col"
             >
-              <SheetHeader className="gap-2 border-b border-border/60 px-6 pt-6 pb-5">
+              <SheetHeader className="gap-2 border-b border-border/60 px-4 pt-4 pb-4 sm:px-6 sm:pt-6 sm:pb-5">
                 <div className="flex items-start justify-between gap-4">
                   <div className="min-w-0">
-                    <SheetTitle className="text-lg font-semibold tracking-tight">
+                    <SheetTitle className="text-base font-semibold tracking-tight sm:text-lg">
                       {t.contact_sheet.title}
                     </SheetTitle>
-                    <SheetDescription className="mt-1 text-sm">
+                    <SheetDescription className="mt-1 text-xs sm:text-sm">
                       {t.contact_sheet.description}
                     </SheetDescription>
                   </div>
                   <div className="flex shrink-0 items-center gap-2">
                     <Badge
                       variant="secondary"
-                      className="gap-2 rounded-full bg-primary/10 text-primary"
+                      className="hidden gap-2 rounded-full bg-primary/10 text-primary sm:inline-flex"
                     >
                       <Mail className="h-4 w-4" />
                       {t.contact_sheet.badge_secure}
@@ -186,10 +186,13 @@ export const ContactSheet = (): React.ReactElement => {
                 )}
               </SheetHeader>
 
-              <form onSubmit={onSubmit} className="flex flex-1 flex-col">
+              <form
+                onSubmit={onSubmit}
+                className="flex min-h-0 flex-1 flex-col"
+              >
                 <div
                   className={cn(
-                    "grid gap-5 px-6 pt-5 pb-6",
+                    "grid min-h-0 flex-1 gap-5 overflow-y-auto px-4 pt-4 pb-5 sm:px-6 sm:pt-5 sm:pb-6",
                     isSending && "opacity-60"
                   )}
                 >
@@ -444,7 +447,7 @@ export const ContactSheet = (): React.ReactElement => {
 
                 <div
                   className={cn(
-                    "mt-auto border-t border-border/60 px-6 py-5",
+                    "mt-auto border-t border-border/60 px-4 py-4 sm:px-6 sm:py-5",
                     isSending && "opacity-60"
                   )}
                 >

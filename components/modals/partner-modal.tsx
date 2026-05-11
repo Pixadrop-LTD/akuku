@@ -142,13 +142,13 @@ export const PartnerModal = (): React.ReactElement => {
               transition={{ type: "spring", stiffness: 280, damping: 26 }}
               className="flex max-h-[85vh] min-h-0 flex-col"
             >
-              <DialogHeader className="gap-3 border-b border-border/60 px-6 pt-6 pb-5">
+              <DialogHeader className="gap-2 border-b border-border/60 px-4 pt-4 pb-4 sm:gap-3 sm:px-6 sm:pt-6 sm:pb-5">
                 <div className="flex items-start justify-between gap-4">
                   <div className="min-w-0">
-                    <DialogTitle className="text-lg font-semibold tracking-tight">
+                    <DialogTitle className="text-base font-semibold tracking-tight sm:text-lg">
                       {t.partner_modal.title}
                     </DialogTitle>
-                    <DialogDescription className="mt-1 text-sm">
+                    <DialogDescription className="mt-1 text-xs sm:text-sm">
                       {t.partner_modal.description}
                     </DialogDescription>
                   </div>
@@ -156,7 +156,7 @@ export const PartnerModal = (): React.ReactElement => {
                   <div className="flex shrink-0 items-center gap-2">
                     <Badge
                       variant="secondary"
-                      className="gap-2 rounded-full bg-primary/10 text-primary"
+                      className="hidden gap-2 rounded-full bg-primary/10 text-primary sm:inline-flex"
                     >
                       <Handshake className="h-4 w-4" />
                       {t.partner_modal.badge}

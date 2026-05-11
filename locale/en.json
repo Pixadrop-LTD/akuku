@@ -1,0 +1,1523 @@
+{
+  "header": {
+    "brand_name": "AKUKURANUT",
+    "navigation": {
+      "home": "Home",
+      "who_we_are": "Who We Are",
+      "our_impact": "Our Impact",
+      "projects": "Projects",
+      "collaboration": "Collaboration"
+    },
+    "mobile_navigation": {
+      "home": "Home",
+      "who_we_are": "Who We Are",
+      "our_impact_domains": "Our Impact Domains",
+      "strategic_projects": "Strategic Projects",
+      "partners_collaboration": "Partners & Collaboration"
+    },
+    "cta": {
+      "become_a_partner": "Become A Partner",
+      "get_involved": "Get Involved"
+    }
+  },
+  "footer": {
+    "brand": {
+      "name": "AKUKURANUT",
+      "tagline": "Empowering lives through compassion, advocacy, and sustainable support for children in need."
+    },
+    "sections": {
+      "quick_links": {
+        "title": "Quick Links",
+        "links": {
+          "home": "Home",
+          "about_us": "About Us",
+          "programs": "Programs",
+          "impact": "Impact",
+          "contact": "Contact"
+        }
+      },
+      "insights": {
+        "title": "Company Insights",
+        "links": {
+          "advocacy": "Advocacy",
+          "partnerships": "Partnerships",
+          "legacy_giving": "Legacy Giving",
+          "in_kind_donations": "In-Kind Donations",
+          "blog": "Blog",
+          "become_a_partner": "Become a Partner"
+        }
+      },
+      "newsletter": {
+        "title": "Newsletter",
+        "description": "Stay updated with our latest news and initiatives.",
+        "email_placeholder": "Your email",
+        "subscribe_button": "Subscribe",
+        "success": "Subscribed. Thank you.",
+        "privacy_note": "By subscribing, you agree to our privacy policy."
+      }
+    },
+    "partners": {
+      "title": "Our Partners"
+    },
+    "copyright": {
+      "text": "© 2025 Guardian Angel Caring Hands. All rights reserved.",
+      "links": {
+        "privacy_policy": "Privacy Policy",
+        "terms_of_service": "Terms of Service",
+        "cookie_policy": "Cookie Policy"
+      }
+    }
+  },
+  "common": {
+    "home": "Home",
+    "our_impact": "Our Impact",
+    "who_we_are": "Who We Are",
+    "projects": "Projects",
+    "contact": "Contact",
+    "collaborations": "Collaborations"
+  },
+  "error": {
+    "not_found": {
+      "badge": "404",
+      "title": "Page not found",
+      "description": "The page you’re looking for doesn’t exist, was moved, or is temporarily unavailable.",
+      "actions": {
+        "home": "Back to home",
+        "back": "Go back"
+      }
+    }
+  },
+  "contact_sheet": {
+    "title": "Contact ADT",
+    "description": "Share your goals. We’ll reply within 1–2 business days.",
+    "badge_secure": "Secure",
+    "close": "Close",
+    "success": "Message sent. Thank you.",
+    "submit": "Send message",
+    "direct_line_prefix": "Direct line:",
+    "inquiry_types": {
+      "partnership": "Partnership",
+      "donation": "Donation",
+      "volunteering": "Volunteering",
+      "media": "Media",
+      "general": "General"
+    },
+    "programs": {
+      "healthy": "Healthy Domain",
+      "schooled": "Schooled Domain",
+      "stable": "Stable Domain",
+      "apiculture": "Apiculture Social Enterprise",
+      "mobility": "Logistics & Mobility Network"
+    },
+    "fields": {
+      "full_name": {
+        "placeholder": "Your full name"
+      },
+      "email": {
+        "placeholder": "you@company.com"
+      },
+      "phone": {
+        "placeholder": "+254 ..."
+      },
+      "inquiry_type": {
+        "label": "Inquiry type",
+        "placeholder": "Select"
+      },
+      "organization": {
+        "label": "Organization (optional)",
+        "placeholder": "Company / Foundation"
+      },
+      "role": {
+        "placeholder": "Program Officer, CSR Lead..."
+      },
+      "program_interest": {
+        "label": "Program interest",
+        "helper": "Select up to 3",
+        "selected_prefix": "Selected:"
+      },
+      "message": {
+        "placeholder": "Tell us what you’re trying to achieve, timelines, and how we can help."
+      },
+      "consent": {
+        "label": "I agree to be contacted and accept the privacy terms",
+        "helper": "We use your details only to respond to this inquiry."
+      }
+    }
+  },
+  "partner_modal": {
+    "title": "Become a Partner",
+    "description": "ADT is a permanent, audit-ready institution under Cap 164—built to convert partner resources into measurable results across Western Kenya’s most vulnerable households.",
+    "badge": "Partnership",
+    "close": "Close",
+    "success": "Partner inquiry sent. Thank you.",
+    "submit": "Send inquiry",
+    "partnership_types": {
+      "co_implementation": "Co-implementation",
+      "program_funding": "Program funding",
+      "technical_assistance": "Technical assistance",
+      "in_kind": "In-kind support",
+      "impact_investing": "Impact investing"
+    },
+    "interest_areas": {
+      "healthy": "Healthy Domain",
+      "schooled": "Schooled Domain",
+      "stable": "Stable Domain",
+      "apiculture": "Apiculture Social Enterprise",
+      "mobility": "Logistics & Mobility Network"
+    },
+    "fields": {
+      "full_name": {
+        "label": "Full name",
+        "placeholder": "Your full name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "you@company.com"
+      },
+      "organization": {
+        "label": "Organization (optional)",
+        "placeholder": "Company / Foundation"
+      },
+      "role": {
+        "label": "Role (optional)",
+        "placeholder": "Program Officer, CSR Lead..."
+      },
+      "phone": {
+        "label": "Phone (optional)",
+        "placeholder": "+254 ..."
+      },
+      "partnership_type": {
+        "label": "Partnership type",
+        "placeholder": "Select"
+      },
+      "interest_areas": {
+        "label": "Interest areas",
+        "helper": "Select up to 3",
+        "selected_prefix": "Selected:"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Share your goals, desired partnership model, timelines, and what support you’re exploring."
+      },
+      "consent": {
+        "label": "I agree to be contacted and accept the privacy terms",
+        "helper": "We use your details only to respond to this inquiry."
+      }
+    }
+  },
+  "blog": {
+    "hero": {
+      "image_alt": "Blog hero image",
+      "badge": "Insights & Updates",
+      "title": {
+        "prefix": "ADT",
+        "highlight": "Blog"
+      },
+      "description": "Stories, analysis, and updates from the field."
+    },
+    "main": {
+      "kicker": "Main content",
+      "title": "Latest articles"
+    },
+    "popular": {
+      "kicker": "Popular",
+      "title": "Popular articles"
+    },
+    "related": {
+      "kicker": "Related",
+      "title": "You may also like"
+    },
+    "article": {
+      "hero": {
+        "image_alt": "Article hero image",
+        "badge": "Article",
+        "description": ""
+      },
+      "content": {
+        "kicker": "Article",
+        "title": ""
+      },
+      "related": {
+        "kicker": "Related",
+        "title": "Related articles"
+      }
+    }
+  },
+  "collaboration": {
+    "hero": {
+      "image_alt": "ADT partners and field teams delivering last-mile services in Western Kenya",
+      "badge": "Partnership Pathways",
+      "title": {
+        "prefix": "Build systems.",
+        "highlight": "Deliver outcomes.",
+        "suffix": "Scale what works."
+      },
+      "description": "Akukuranut Development Trust (ADT) is a permanent, audit-ready institution under Cap 164—built to convert partner resources into measurable results across Western Kenya’s most vulnerable households.",
+      "cta": {
+        "primary": "Start a Partnership",
+        "secondary": "See proof of delivery"
+      },
+      "meta": [
+        { "label": "Cap 164 permanent trust" },
+        { "label": "Evidence-backed delivery" },
+        { "label": "Community-owned solutions" }
+      ]
+    },
+    "legitimacy": {
+      "badge": "Why Partners Choose ADT",
+      "title": {
+        "prefix": "A collaboration platform built for",
+        "highlight": "accountable scale"
+      },
+      "description": "ADT bridges local human capital and external resources with a simple promise: governance that protects investment, and delivery systems that compound outcomes.",
+      "cards": {
+        "permanence": {
+          "title": "Institutional permanence (Cap 164)",
+          "description": "ADT is registered under the Trustees (Perpetual Succession) Act, Cap 164. Partners don’t fund a temporary project—they strengthen a durable institution built to carry systems forward."
+        },
+        "governance": {
+          "title": "Audit-ready governance",
+          "description": "Accountability is engineered into the model: fiduciary oversight, professional technical delivery, and community participation that turns local legitimacy into measurable execution."
+        },
+        "discipline": {
+          "title": "Implementation discipline",
+          "description": "Our delivery systems link clinics, schools, caregivers, and field teams into a single continuity engine—so investment becomes outcomes, not activity."
+        }
+      },
+      "image_alt": "Community and partner collaboration",
+      "aside": {
+        "kicker": "Institutional edge",
+        "title": "Hyper-local intelligence, backed by systems",
+        "body": "Born in the Teso community, ADT operates with cultural alignment by design—paired with professional technical staff and disciplined reporting."
+      }
+    },
+    "models": {
+      "badge": "Partnership Models",
+      "title": {
+        "prefix": "Choose your collaboration",
+        "highlight": "architecture"
+      },
+      "description": "ADT is flexible by design: fund a domain, co-deliver a system, strengthen capacity, enable logistics, or invest in a social enterprise that sustains programs.",
+      "panel": {
+        "kicker": "Collaboration blueprint"
+      },
+      "image_alt": "Strategic partners working with ADT",
+      "itemsMap": {
+        "co_implementation": {
+          "title": "Co-implementation partnerships",
+          "description": "Work with ADT as a last-mile delivery partner—aligning roles, timelines, safeguards, and reporting so implementation is fast, locally legitimate, and measurable.",
+          "bullets": [
+            "Joint workplans and shared accountability",
+            "Community participation built into execution",
+            "Field delivery across clinics, schools, and households"
+          ]
+        },
+        "program_funding": {
+          "title": "Program funding (by domain)",
+          "description": "Fund the resilience pipeline by domain—Healthy, Schooled, Stable—or sponsor integrated delivery that moves households from survival to sustainable self-reliance.",
+          "bullets": [
+            "Domain-based funding architecture",
+            "Integrated household case-management logic",
+            "Outcome-focused milestones and reporting"
+          ]
+        },
+        "technical_assistance": {
+          "title": "Technical assistance & systems strengthening",
+          "description": "Strengthen institutional capacity: clinical-community referral systems, safeguarding, data discipline, M&E, and workforce capability building.",
+          "bullets": [
+            "Clinical-community continuity and defaulter tracing",
+            "Data quality, reporting discipline, and learning loops",
+            "Training and capacity building for staff and caregivers"
+          ]
+        },
+        "in_kind": {
+          "title": "In-kind + logistics enablement",
+          "description": "Equip the field: mobility tools, ICT infrastructure, and operational assets that reduce friction and multiply household visit frequency and response speed.",
+          "bullets": [
+            "Mobility tools for deep-rural outreach",
+            "ICT and power backup for always-on delivery",
+            "Operational equipment and service enablement"
+          ]
+        },
+        "impact_investing": {
+          "title": "Impact investing (social enterprise)",
+          "description": "Scale ADT’s apiculture value chain into processing, branding, and distribution—creating diversified household incomes while building a sustainable revenue engine for social impact.",
+          "bullets": [
+            "Modern apiary management and aggregation",
+            "Processing + packaging capacity for quality assurance",
+            "Market access, branding, and revenue recycling"
+          ]
+        }
+      }
+    },
+    "portfolio": {
+      "badge": "The Strategic Portfolio",
+      "title": {
+        "prefix": "One resilience pipeline.",
+        "highlight": "Multiple collaboration entry points."
+      },
+      "description": "ADT’s Busia Resilience Model moves households from survival to development to prosperity. Partners can fund a domain, strengthen a system, or co-deliver integrated outcomes.",
+      "domain_cta": "Explore domain pathways",
+      "image_alt": "Government and community collaboration",
+      "domains": {
+        "healthy": {
+          "title": "Healthy Domain",
+          "label": "Clinical Excellence",
+          "signal": "Last-mile health delivery",
+          "headline": "Close the gap between clinics and households.",
+          "description": "Hospitals provide medicine. ADT provides adherence architecture: household follow-up, psychosocial support, mobility-enabled tracing, and continuity—especially for CALHIV and PMTCT mothers.",
+          "highlights": [
+            "Pediatric adherence support through play therapy",
+            "PMTCT retention and defaulter tracing",
+            "Nutrition assessment linked to household action"
+          ]
+        },
+        "schooled": {
+          "title": "Schooled Domain",
+          "label": "Educational Equity",
+          "signal": "Human capital acceleration",
+          "headline": "Keep learners in school—then unlock opportunity.",
+          "description": "We remove the specific barriers—fees, uniforms, materials—that push vulnerable children out of classrooms, then link high performers to scholarship pathways and guide older youth into employability.",
+          "highlights": [
+            "Targeted school-cost support for retention",
+            "Scholarship linkages (Elimu, Wings to Fly, JKF)",
+            "TVET and apprenticeship transitions"
+          ]
+        },
+        "stable": {
+          "title": "Stable Domain",
+          "label": "Household Resilience",
+          "signal": "From dependency to market participation",
+          "headline": "Capitalize the caregiver. Fortify the household.",
+          "description": "Economic stability is the foundation of child protection. Through VSLA systems, productive assets, and climate-smart value chains, we turn caregivers into economic actors with diversified income engines.",
+          "highlights": [
+            "VSLA/VSLAs and financial literacy coaching",
+            "Productive asset injection (sewing/salon/agri kits)",
+            "Apiculture + climate-smart crop value chains"
+          ]
+        }
+      }
+    },
+    "partners": {
+      "badge": "Partner Network",
+      "title": {
+        "prefix": "Trusted by institutions.",
+        "highlight": "Built with communities."
+      },
+      "description": "ADT operates as a bridge: aligning government, civil society, and private sector partners with a community-owned implementation philosophy.",
+      "principles": {
+        "shared_accountability": {
+          "title": "Shared accountability",
+          "description": "Clear roles, transparent stewardship, and disciplined reporting—so partners can track delivery with confidence."
+        },
+        "government_aligned": {
+          "title": "Government-aligned delivery",
+          "description": "Collaborative governance with public institutions and community structures to ensure legitimacy and continuity."
+        },
+        "implementation_mindset": {
+          "title": "Implementation partner mindset",
+          "description": "We treat delivery like a system: plan, execute, measure, learn, and scale—across domains."
+        },
+        "local_intelligence": {
+          "title": "Local intelligence at scale",
+          "description": "Born in the Teso community, executed with technical teams and field networks that reach households reliably."
+        }
+      },
+      "current": {
+        "title": "Current strategic partners",
+        "items": [
+          "USAID 4TheChild",
+          "Kenya Community Development Foundation (KCDF)",
+          "Government of Kenya (National & County)",
+          "World Bicycle Relief (WBR)",
+          "Ministry of Agriculture (MOA/KALRO)"
+        ]
+      },
+      "legacy": {
+        "title": "Legacy partners (select)",
+        "items": [
+          "World Vision",
+          "AMREF",
+          "FHI 360",
+          "APHIA Plus",
+          "CRS-MWENDO",
+          "AMPATH Plus",
+          "International Child Support (ICS)"
+        ]
+      }
+    },
+    "investment": {
+      "badge": "Scaling Next",
+      "title": {
+        "prefix": "The Institutional",
+        "highlight": "Development Fund"
+      },
+      "description": "We have proof and methodology. The next leap is infrastructure—digital, energy, logistics, and processing capacity—so impact compounds with lower delivery friction.",
+      "panel": {
+        "kicker": "Investment focus",
+        "pill": "high leverage"
+      },
+      "itemsMap": {
+        "digital_hub": {
+          "title": "The Digital Hub",
+          "description": "Upgrade the computer room into a modern ICT lab that trains youth, strengthens data capture, and increases coordination speed across programs.",
+          "bullets": [
+            "ICT literacy for 1,000+ youth annually",
+            "Stronger data entry and reporting discipline",
+            "Community learning infrastructure"
+          ],
+          "cta": { "label": "Support the Digital Hub", "href": "#contact" }
+        },
+        "solar_backup": {
+          "title": "Climate-Resilient Power",
+          "description": "Build solar backup to keep case tracking, data workflows, and reporting online—especially during outages.",
+          "bullets": [
+            "24/7 operations continuity",
+            "Reliable program tracking",
+            "Lower long-term operating cost"
+          ],
+          "cta": { "label": "Invest in resilient power", "href": "#contact" }
+        },
+        "logistics_fleet": {
+          "title": "Logistics Fleet",
+          "description": "Acquire motorbikes and a utility vehicle for deep-rural outreach—reducing missed follow-ups and accelerating referral response.",
+          "bullets": [
+            "Higher visit frequency",
+            "Rapid response tracing",
+            "Expanded deep-rural coverage"
+          ],
+          "cta": { "label": "Fund mobility and logistics", "href": "#contact" }
+        },
+        "honey_processing": {
+          "title": "Honey Processing Unit",
+          "description": "Build processing and packaging capacity to formalize apiculture, improve quality assurance, and scale a regional brand that funds programs.",
+          "bullets": [
+            "Value chain formalization",
+            "Quality + branding for market access",
+            "Sustainable revenue stream for OVC services"
+          ],
+          "cta": { "label": "Scale the honey value chain", "href": "#contact" }
+        }
+      }
+    },
+    "cta": {
+      "title": "Fund delivery. Build systems. Scale what works.",
+      "description": "Whether you’re a donor, an implementation partner, or an impact investor—ADT offers a permanent, audit-ready platform to deliver measurable results across Western Kenya’s most vulnerable households.",
+      "primary": {
+        "label": "Start the conversation",
+        "href": "mailto:adtbusia@yahoo.com"
+      },
+      "secondary": {
+        "label": "Call ADT",
+        "href": "tel:+254726869951"
+      },
+      "meta": [
+        { "label": "Cap 164 permanent trust" },
+        { "label": "Evidence-backed delivery" },
+        { "label": "Community-owned solutions" },
+        { "label": "Busia resilience model" }
+      ],
+      "contact": {
+        "email": { "label": "Email", "value": "adtbusia@yahoo.com" },
+        "phone": { "label": "Phone", "value": "+254 726 869 951" }
+      }
+    }
+  },
+  "projects": {
+    "hero": {
+      "image_alt": "ADT field delivery teams implementing last-mile programs across Busia County",
+      "badge": "Strategic Projects Portfolio",
+      "title": {
+        "prefix": "Implementation",
+        "highlight": "at the last mile"
+      },
+      "description": "ADT’s projects are not stand-alone activities—they are engineered pathways. From clinical adherence to scholarship linkages, from savings systems to social enterprise, we design interventions as one institutional system that moves households from survival to prosperity.",
+      "cta": {
+        "primary": "Explore the Portfolio",
+        "secondary": "See the Growth Pipeline"
+      }
+    },
+    "navigator": {
+      "badge": "Portfolio Navigator",
+      "title": {
+        "prefix": "Projects by",
+        "highlight": "Resilience Domain"
+      },
+      "description": "We organize delivery through the Busia Resilience Model—so partners can fund a domain, co-deliver a system, or invest in the infrastructure that multiplies outcomes.",
+      "domains": {
+        "healthy": {
+          "title": "Healthy Domain",
+          "short": "Clinical-community synergy for adherence, PMTCT continuity, and nutrition outcomes.",
+          "label": "Clinical Excellence",
+          "signal": "Last-mile health delivery",
+          "headline": "Close the gap between clinics and households.",
+          "description": "Hospitals provide medicine. ADT provides the household follow-up, psychosocial support, and mobility-enabled tracing that makes treatment work—especially for CALHIV and PMTCT mothers.",
+          "highlights": [
+            "Pediatric adherence support through play therapy",
+            "Assisted disclosure and caregiver coaching",
+            "Referral loop for nutrition + clinical continuity"
+          ]
+        },
+        "schooled": {
+          "title": "Schooled Domain",
+          "short": "Retention support, MHM dignity kits, scholarship linkages, and TVET transitions.",
+          "label": "Educational Equity",
+          "signal": "Human capital acceleration",
+          "headline": "Keep learners in school—then unlock opportunity.",
+          "description": "We remove the specific barriers—fees, uniforms, supplies—that push vulnerable children out of classrooms. We then link high performers to national scholarship pathways and guide older youth into employability.",
+          "highlights": [
+            "School-cost support for OVC retention",
+            "Scholarship linkages (Elimu, Wings to Fly, JKF)",
+            "TVET and apprenticeship transitions"
+          ]
+        },
+        "stable": {
+          "title": "Stable Domain",
+          "short": "Financial inclusion, productive assets, climate-smart value chains, and social enterprise.",
+          "label": "Household Resilience",
+          "signal": "From dependency to market participation",
+          "headline": "Capitalize the caregiver. Fortify the household.",
+          "description": "Economic stability is the foundation of child protection. Through VSLA+ systems, productive asset kits, and climate-smart livelihoods, we turn caregivers into economic actors—with diversified income engines.",
+          "highlights": [
+            "VSLA/VSLAs and financial literacy coaching",
+            "Productive asset injection (sewing/salon/agri kits)",
+            "Apiculture + climate-smart crop value chains"
+          ]
+        }
+      }
+    },
+    "featured": {
+      "badge": "Flagship Projects",
+      "title": {
+        "prefix": "Program depth with",
+        "highlight": "institutional discipline"
+      },
+      "description": "Each flagship represents an end-to-end model: clear problem definition, culturally aligned delivery, measurable outcomes, and a pathway to scale.",
+      "cards": {
+        "clinical_excellence": {
+          "pill": "Healthy",
+          "title": "Pediatric HIV & Integrated Clinical Systems",
+          "description": "A high-precision last-mile intervention designed to increase pediatric adherence, retention in care, and viral load suppression through clinical-community integration.",
+          "image_alt": "Community health work and clinical linkage services",
+          "highlights": [
+            "Play therapy + child-centric adherence support",
+            "PMTCT continuity and defaulter tracing",
+            "Nutrition assessment and household action plans"
+          ],
+          "cta": "Explore the model",
+          "href": "#implementation"
+        },
+        "schooled_accelerator": {
+          "pill": "Schooled",
+          "title": "The Schooled Lifecycle Accelerator",
+          "description": "A sequenced education pathway that keeps learners in school, restores dignity for adolescent girls, and opens scholarship and employability doors.",
+          "image_alt": "Learners supported through retention programs",
+          "highlights": [
+            "Uniforms, levies, and learning materials",
+            "MHM dignity kits to reduce absenteeism",
+            "Scholarship + TVET transition support"
+          ],
+          "cta": "See education pathways",
+          "href": "#portfolio"
+        },
+        "vsla_plus": {
+          "pill": "Stable",
+          "title": "Household Resilience & Economic Fortification",
+          "description": "A caregiver capitalization framework anchored in VSLA/VSLAs, micro-enterprise coaching, and productive asset kits—built to reduce vulnerability and strengthen household stability.",
+          "image_alt": "Caregivers in savings groups and micro-enterprise support",
+          "highlights": [
+            "100+ VSLAs / savings groups coaching",
+            "Financial literacy and small business discipline",
+            "Productive launch kits for viable enterprises"
+          ],
+          "cta": "Explore resilience",
+          "href": "#pipeline"
+        },
+        "apiculture_enterprise": {
+          "pill": "Social Enterprise",
+          "title": "Apiculture Social Enterprise (ASL)",
+          "description": "An impact-investing model that creates diversified income for HIV-affected households while building a sustainable revenue engine that supports ADT’s broader social mission.",
+          "image_alt": "Beekeeping and honey production as a livelihood engine",
+          "highlights": [
+            "Modern apiary management coaching",
+            "Value chain expansion to processing + branding",
+            "Income stability for widows and elderly caregivers"
+          ],
+          "cta": "View enterprise pathway",
+          "href": "#pipeline"
+        },
+        "mobility_network": {
+          "pill": "Enabler",
+          "title": "Logistics & Mobility Network",
+          "description": "A co-financing engine with World Bicycle Relief and ADT SACCO that increases visit frequency, speeds defaulter tracing, and unlocks quality last-mile delivery.",
+          "image_alt": "Bicycles enabling rapid-response case management",
+          "highlights": [
+            "Co-investment mobility model",
+            "Rapid response tracing and referral continuity",
+            "Operational efficiency for deep-rural outreach"
+          ],
+          "cta": "See how mobility scales impact",
+          "href": "#implementation"
+        }
+      }
+    },
+    "implementation": {
+      "badge": "How ADT Delivers",
+      "title": {
+        "prefix": "A delivery model",
+        "highlight": "built for scale"
+      },
+      "description": "ADT is a permanent institution under Cap 164, designed to convert resources into accountable results. Our delivery framework combines community participation, technical staff execution, and measurable reporting.",
+      "loop": {
+        "kicker": "Core System",
+        "title": "The Clinical–Community Referral Loop",
+        "body": "We solve the last-mile gap by linking clinics, case workers, caregivers, and schools into one continuity engine. That loop reduces defaulting, improves adherence, and keeps children on track across domains.",
+        "bullets": [
+          "Household-level case planning and follow-up",
+          "Referral management and return-to-care tracing",
+          "Psychosocial support and caregiver capability building"
+        ],
+        "cta": {
+          "label": "Explore impact domains",
+          "href": "/impact"
+        }
+      },
+      "steps": [
+        {
+          "id": "diagnose",
+          "title": "Diagnose the bottleneck",
+          "description": "Start with community-defined needs and evidence: clinical data signals, school retention gaps, household vulnerability mapping, and field intelligence.",
+          "tone": "accent"
+        },
+        {
+          "id": "co_design",
+          "title": "Co-design with governance",
+          "description": "Align on a shared theory of change, accountability, and roles across partners—government, CSOs, private sector, caregivers, and ADT’s Trust structures.",
+          "tone": "secondary"
+        },
+        {
+          "id": "deliver",
+          "title": "Deliver at the last mile",
+          "description": "Deploy trained case workers and community volunteers with mobility enablement, integrated referral pathways, and culturally aligned delivery methods.",
+          "tone": "primary"
+        },
+        {
+          "id": "measure",
+          "title": "Measure, report, improve",
+          "description": "Track outputs and outcomes through disciplined reporting—then iterate the model to raise efficiency and expand the footprint.",
+          "tone": "accent"
+        }
+      ]
+    },
+    "pipeline": {
+      "badge": "Scaling Next",
+      "pill": "Investment Priority",
+      "title": {
+        "prefix": "The Institutional",
+        "highlight": "Development Fund"
+      },
+      "description": "We have methodology and proof. The next leap is infrastructure—digital, energy, logistics, and processing capacity—so impact compounds with lower delivery friction.",
+      "items": [
+        {
+          "id": "digital_hub",
+          "title": "The Digital Hub",
+          "description": "Upgrade the computer room into a modern ICT lab that trains youth, strengthens data capture, and improves program coordination.",
+          "tone": "secondary",
+          "image_alt": "ICT training and youth digital literacy",
+          "bullets": [
+            "ICT literacy for 1,000+ youth annually",
+            "Stronger data entry and reporting discipline",
+            "Community learning infrastructure"
+          ],
+          "cta": { "label": "Support the Digital Hub", "href": "#" }
+        },
+        {
+          "id": "solar_backup",
+          "title": "Climate-Resilient Power",
+          "description": "Build solar backup to keep data systems, reporting workflows, and case tracking online—especially during outages.",
+          "tone": "accent",
+          "image_alt": "Solar power and resilient infrastructure",
+          "bullets": [
+            "24/7 operations continuity",
+            "Reliable program tracking",
+            "Lower long-term operating cost"
+          ],
+          "cta": { "label": "Invest in resilient power", "href": "#" }
+        },
+        {
+          "id": "logistics_fleet",
+          "title": "Logistics Fleet",
+          "description": "Acquire motorbikes and a utility vehicle for deep-rural outreach, reducing missed follow-ups and accelerating referral response.",
+          "tone": "primary",
+          "image_alt": "Logistics tools enabling last-mile outreach",
+          "bullets": [
+            "Higher visit frequency",
+            "Rapid response tracing",
+            "Expanded deep-rural coverage"
+          ],
+          "cta": { "label": "Fund mobility and logistics", "href": "#" }
+        },
+        {
+          "id": "honey_processing",
+          "title": "Honey Processing Unit",
+          "description": "Build a processing and packaging center to formalize apiculture, improve quality assurance, and scale a regional brand that funds programs.",
+          "tone": "secondary",
+          "image_alt": "Honey processing and packaging expansion",
+          "bullets": [
+            "Value chain formalization",
+            "Quality + branding for market access",
+            "Sustainable revenue stream for OVC services"
+          ],
+          "cta": { "label": "Scale the honey value chain", "href": "#" }
+        }
+      ]
+    },
+    "cta": {
+      "title": "Fund delivery. Build systems. Scale what works.",
+      "description": "Whether you’re a donor, an implementation partner, or an impact investor—ADT offers a permanent, audit-ready platform to deliver measurable results across Western Kenya’s most vulnerable households.",
+      "primary": {
+        "label": "Partner With ADT",
+        "href": "/collaboration"
+      },
+      "secondary": {
+        "label": "Explore Our Impact",
+        "href": "/impact"
+      },
+      "meta": [
+        { "label": "Cap 164 permanent trust" },
+        { "label": "Evidence-backed delivery" },
+        { "label": "Community-owned solutions" }
+      ]
+    }
+  },
+  "impact": {
+    "hero": {
+      "image_alt": "ADT field team supporting families in Busia County",
+      "tagline": "The Busia Resilience Model",
+      "title": {
+        "prefix": "From",
+        "highlight": "Survival",
+        "suffix": "to Sustainable Prosperity"
+      },
+      "description": "ADT connects clinical outcomes, education continuity, and economic participation into one integrated pathway—so communities don’t just recover, they advance.",
+      "cta": {
+        "primary": "Explore the Domains",
+        "secondary": "Partner With ADT"
+      }
+    },
+    "stats": {
+      "badge": "Impact at a Glance",
+      "title": {
+        "prefix": "35 Years of",
+        "highlight": "Measurable Impact",
+        "suffix": ""
+      },
+      "description": "A permanent, audit-ready Trust delivering results across households, clinics, and schools—at scale.",
+      "statistics": {
+        "children_supported": {
+          "number": "6,708+",
+          "label": "Children Supported",
+          "description": "OVC reached through coordinated health, education, and protection services"
+        },
+        "households_reached": {
+          "number": "2,765+",
+          "label": "Households Reached",
+          "description": "Caregiver households supported through resilience and economic strengthening"
+        },
+        "viral_suppression": {
+          "number": "95%+",
+          "label": "Viral Load Suppression",
+          "description": "CALHIV achieving optimal outcomes through community-backed adherence"
+        },
+        "years_service": {
+          "number": "35+",
+          "label": "Years Serving",
+          "description": "Indigenous leadership building institutional structures since 1989"
+        }
+      }
+    },
+    "education": {
+      "strategic_scholarship_linkages": {
+        "title": "Strategic Scholarship Linkages",
+        "description": "ADT acts as a talent scout for the most vulnerable. We identify high-performing OVCs and link them to prestigious national scholarships including:",
+        "scholarships": {
+          "equity_bank": "Equity Bank's 'Wings to Fly'",
+          "elimu": "Elimu Scholarship Program",
+          "jomo_kenyatta": "Jomo Kenyatta Foundation",
+          "jkf": "JKF fund"
+        },
+        "result": {
+          "label": "Result:",
+          "description": "Over 6,000 children have accessed quality health and social services through our coordinated intervention."
+        }
+      },
+      "beyond_classroom": {
+        "title": "Beyond Classroom",
+        "description": "For older OVCs, we facilitate apprenticeships and technical vocational training (TVET) to ensure a direct path to employability."
+      },
+      "healthcare": {
+        "title": "Healthcare",
+        "description": "Delivering essential healthcare services and medical support to children in need across underserved communities.",
+        "learn_more": "Learn more"
+      },
+      "community": {
+        "title": "Community",
+        "description": "Empowering communities through sustainable development programs, capacity building, and social initiatives.",
+        "learn_more": "Learn more"
+      }
+    },
+    "domains": {
+      "badge": "Three Domains, One System",
+      "title": {
+        "prefix": "Healthy.",
+        "highlight": "Schooled.",
+        "suffix": "Stable."
+      },
+      "description": "Each domain is a strategic layer. Together they form a resilience pipeline that moves families forward.",
+      "cards": {
+        "education": {
+          "title": "Schooled Domain",
+          "description": "We remove the specific barriers that push vulnerable children out of the classroom—fees, uniforms, and essential learning materials—while linking top performers to national scholarships.",
+          "highlights": {
+            "0": "Targeted school-cost support",
+            "1": "Scholarship linkages (Elimu, Wings to Fly, JKF)",
+            "2": "TVET and apprenticeship transitions"
+          },
+          "cta": "Explore Education"
+        },
+        "healthcare": {
+          "title": "Healthy Domain",
+          "description": "We solve the last-mile problem in healthcare. Clinics provide medicine; ADT provides the adherence, psychosocial support, and household follow-up that makes medicine work.",
+          "highlights": {
+            "0": "Play therapy for pediatric adherence",
+            "1": "Assisted disclosure and caregiver coaching",
+            "2": "Referral loop for nutrition and PMTCT continuity"
+          },
+          "cta": "Explore Health"
+        },
+        "community": {
+          "title": "Stable Domain",
+          "description": "We strengthen household resilience through savings groups, asset kits, and climate-smart livelihoods—so caregivers become economic participants.",
+          "highlights": {
+            "0": "SILC / VSLA group formation and coaching",
+            "1": "Productive asset kits for viable micro-enterprises",
+            "2": "Apiculture and climate-smart value chains"
+          },
+          "cta": "Explore Stability"
+        },
+        "community_block": {
+          "image_alt": "Community empowerment and development activities",
+          "title": "Community Development",
+          "description": "Empowering communities through sustainable development programs, capacity building, and social initiatives.",
+          "learn_more": "Learn more",
+          "metrics_title": "Community Development Metrics",
+          "metrics": {
+            "resources_invested": "Resources Invested",
+            "activities_performed": "Activities Performed",
+            "outputs": "Outputs (Workshops, Meals, etc.)"
+          }
+        }
+      },
+      "timeline": {
+        "badge": "How Change Happens",
+        "title": {
+          "prefix": "A",
+          "highlight": "Resilience Pathway",
+          "suffix": "That Compounds"
+        },
+        "description": "From urgent stabilization to long-term prosperity: ADT's model moves people through sequenced, evidence-backed steps.",
+        "journey": "Our Journey",
+        "impact_journey": "Impact Journey",
+        "change_happens": "How Change Happens",
+        "discovery_description": "Discover how your support transforms lives through our comprehensive, multi-phase approach to creating lasting change.",
+        "items": {
+          "rescue": {
+            "title": "Rescue & Immediate Care",
+            "description": "Providing urgent assistance and safe shelter to children in crisis situations.",
+            "features": [
+              "24/7 emergency response",
+              "Medical and psychological first aid",
+              "Safe shelter and basic needs"
+            ]
+          },
+          "rehabilitation": {
+            "title": "Rehabilitation",
+            "description": "Supporting comprehensive physical, emotional, and psychological recovery.",
+            "features": [
+              "Comprehensive medical care",
+              "Psychological counseling",
+              "Physical therapy support"
+            ]
+          },
+          "education": {
+            "title": "Education & Development",
+            "description": "Unlocking potential through quality education and skill development.",
+            "features": [
+              "Individualized learning plans",
+              "Vocational training programs",
+              "Academic support services"
+            ]
+          },
+          "reintegration": {
+            "title": "Reintegration",
+            "description": "Supporting successful transition back to family or independent living.",
+            "features": [
+              "Family reunification support",
+              "Independent living skills",
+              "Community integration programs"
+            ]
+          }
+        },
+        "phases": {
+          "0": {
+            "title": "Stabilize",
+            "description": "Immediate needs and risk reduction—safe referrals, nutrition support, and household case management.",
+            "bullets": {
+              "0": "Rapid household assessment",
+              "1": "Clinical referrals and follow-up",
+              "2": "Protection and safeguarding linkage"
+            }
+          },
+          "1": {
+            "title": "Restore",
+            "description": "Rebuild health and learning routines through consistent adherence support and education continuity.",
+            "bullets": {
+              "0": "Treatment adherence reinforcement",
+              "1": "Back-to-school interventions",
+              "2": "Psychosocial and caregiver coaching"
+            }
+          },
+          "2": {
+            "title": "Accelerate",
+            "description": "Talent linkages and human-capital acceleration through scholarship pathways, skills, and mentorship.",
+            "bullets": {
+              "0": "Scholarship linkages",
+              "1": "TVET and apprenticeships",
+              "2": "Life-skills and career readiness"
+            }
+          },
+          "3": {
+            "title": "Sustain",
+            "description": "Households transition into economic participation through savings groups, assets, and enterprise.",
+            "bullets": {
+              "0": "SILC group participation",
+              "1": "Productive assets and enterprise support",
+              "2": "Market linkages and climate-smart livelihoods"
+            }
+          }
+        }
+      },
+      "healthcare": {
+        "title": "Clinical Outcomes Driven by Child-Centric Innovation",
+        "stats": {
+          "clinical_excellence": {
+            "label": "Clinical Excellence",
+            "description": "Achieving optimal treatment outcomes through precision interventions"
+          },
+          "retention_rate": {
+            "label": "Care Retention",
+            "description": "Ensuring continuous support and follow-up care"
+          },
+          "facilities_served": {
+            "label": "Health Facilities",
+            "description": "High-volume clinical centers across Western Kenya"
+          }
+        }
+      },
+      "metrics": {
+        "badge": "Implementation Discipline",
+        "journey": "Our Metrics",
+        "impact_metrics": "Impact Metrics",
+        "measuring_success": "Measuring Success",
+        "metrics_description": "Discover how we track progress from community needs to sustainable outcomes through our comprehensive measurement framework.",
+        "title": {
+          "prefix": "From",
+          "highlight": "Inputs",
+          "suffix": "to Outcomes"
+        },
+        "description": "ADT tracks the full lifecycle of delivery—from community-identified needs to measurable outcomes and sustainable systems.",
+        "program_lifecycle": {
+          "title": "Program Lifecycle",
+          "steps": {
+            "identification": "Identification of Community Needs",
+            "implementation": "Program Implementation",
+            "engagement": "Community Engagement",
+            "outcomes": "Measurable Outcomes",
+            "sustainability": "Sustainability & Growth"
+          }
+        },
+        "success_metrics": {
+          "title": "Success Metrics",
+          "resources_invested": "Resources Invested",
+          "activities_performed": "Activities Performed",
+          "outputs": "Outputs (Workshops, Meals, etc.)",
+          "outcomes": "Outcomes (Improved Skills, Health)",
+          "impact": "Impact (Community Development)"
+        },
+        "lifecycle": {
+          "0": "Community needs identification",
+          "1": "Program design and partner alignment",
+          "2": "Frontline delivery and case management",
+          "3": "Quality assurance and follow-up",
+          "4": "Outcome measurement and learning"
+        },
+        "success_metrics_list": {
+          "0": "Resource efficiency",
+          "1": "Service completion rates",
+          "2": "Clinical and education outcomes",
+          "3": "Household economic stability",
+          "4": "Institutional strengthening"
+        }
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "image_alt": "ADT Community Impact",
+      "tagline": "35 Years of Indigenous Leadership",
+      "title": {
+        "prefix": "Building",
+        "highlight": "Community Resilience",
+        "suffix": "in Western Kenya"
+      },
+      "description": {
+        "organization_name": "Akukuranut Development Trust",
+        "text": "mobilizes resources to bridge the gap between systemic vulnerability and sustainable self-reliance for",
+        "stat1": "6,708 OVC",
+        "stat2": "2,765 households",
+        "location": "across the Teso and Butula corridors"
+      },
+      "cta": {
+        "partner": "Partner with Us",
+        "explore": "Explore Our Impact"
+      }
+    },
+    "impact": {
+      "journey": "Our Impact",
+      "badge": "Transforming Lives",
+      "title": {
+        "prefix": "Our Impact",
+        "highlight": "in Numbers",
+        "suffix": ""
+      },
+      "description": "35 years of indigenous leadership delivering measurable transformation across Western Kenya's most vulnerable communities",
+      "statistics": {
+        "children_supported": {
+          "number": "1,708+",
+          "label": "Children Supported",
+          "description": "Orphans and Vulnerable Children receiving comprehensive care",
+          "icon_description": "Group of children representing our beneficiary community"
+        },
+        "households_reached": {
+          "number": "2,765+",
+          "label": "Households Reached",
+          "description": "Families benefiting from economic empowerment programs",
+          "icon_description": "Family unit representing household resilience"
+        },
+        "viral_suppression": {
+          "number": "95%+",
+          "label": "Viral Suppression Rate",
+          "description": "CALHIV achieving optimal treatment outcomes",
+          "icon_description": "Medical cross representing clinical excellence"
+        },
+        "years_service": {
+          "number": "35+",
+          "label": "Years of Service",
+          "description": "Dedicated community transformation since 1989",
+          "icon_description": "Clock representing long-term commitment"
+        }
+      }
+    },
+    "programmes": {
+      "section_title": "Our Strategic Programs",
+      "tagline": "Building Community Resilience Through Integrated Development",
+      "description": "ADT's five-pillar strategic portfolio addresses the complete lifecycle of vulnerability, from clinical intervention to economic self-reliance.",
+      "view_all": "Explore All Programs",
+      "pediatricHIV": {
+        "title": "Pediatric HIV & Integrated Clinical Systems",
+        "description": "Precision clinical interventions achieving 95-95-95 saturation through Play Therapy and Assisted Disclosure models, improving CALHIV treatment adherence while PMTCT Continuum ensures 100% retention in care for HIV-positive mothers.",
+        "learn_more": "Learn More",
+        "image_alt": "Healthcare worker providing clinical care to children in rural facility"
+      },
+      "schooled": {
+        "title": "The 'Schooled' Lifecycle Accelerator",
+        "description": "Breaking intergenerational poverty through educational equity by addressing schooling costs through levies, uniforms, and menstrual hygiene kits, while securing placements in national programs like Elimu, Wings to Fly, and JKF fund.",
+        "explore": "Explore",
+        "image_alt": "Students in uniform receiving educational materials and scholarships"
+      },
+      "householdResilience": {
+        "title": "Household Resilience & Economic Fortification",
+        "description": "",
+        "explore": "Explore",
+        "image_alt": "Caregivers managing savings group and receiving business equipment"
+      },
+      "apiculture": {
+        "title": "The Apiculture Social Enterprise",
+        "description": "Impact investing in sustainable livelihoods through beekeeping. We're transitioning traditional beekeepers into commercial-scale honey production, seeking partners to scale processing and branding into a regional honey brand that funds ADT's social mission.",
+        "explore": "Explore",
+        "image_alt": "Beekeepers managing modern apiary with honey processing equipment"
+      },
+      "mobility": {
+        "title": "ADT Logistics & Mobility Network",
+        "description": "",
+        "explore": "Explore",
+        "image_alt": "Case workers with bicycles and motorbikes reaching remote communities"
+      }
+    },
+    "participate": {
+      "badge": "MAKE AN IMPACT",
+      "title": {
+        "prefix": "Ways You Can",
+        "highlight": "Make a Difference"
+      },
+      "description": "Every action counts. Discover how your support can transform lives and create lasting change in our community.",
+      "ways": {
+        "donate": {
+          "title": "Donate",
+          "description": "Make a one-time or recurring gift that changes lives and creates lasting impact through our 35-year legacy of community transformation.",
+          "cta": "Learn more",
+          "icon_description": "Donation bell representing financial support for ADT's programs"
+        },
+        "sponsor": {
+          "title": "Sponsor",
+          "description": "Support a child directly through our child development program, watch them grow, and be part of their success story in the Busia Resilience Model.",
+          "cta": "Become a sponsor",
+          "icon_description": "Person silhouette representing child sponsorship and direct support"
+        },
+        "volunteer": {
+          "title": "Volunteer",
+          "description": "Share your skills, time, and passion with our frontline case workers to create meaningful change in Western Kenya's most vulnerable communities.",
+          "cta": "Join our team",
+          "icon_description": "Plus sign representing volunteer contribution and community service"
+        },
+        "in_kind": {
+          "title": "In-Kind Gifts",
+          "description": "Donate essential goods and supplies that directly support our programs, from productive assets to educational materials for our 6,708 children and youth.",
+          "cta": "View needs list",
+          "icon_description": "Gift box representing in-kind donations and material support"
+        }
+      }
+    },
+    "cta": {
+      "badge": "JOIN US TODAY",
+      "title": {
+        "prefix": "Ready to Make a",
+        "highlight": "Difference?"
+      },
+      "description": "Your contribution helps provide love, care, and life-changing opportunities to 6,708 children and vulnerable youth across Western Kenya's most vulnerable communities.",
+      "primary_button": {
+        "text": "Contact us now"
+      },
+      "secondary_button": {
+        "text": "Volunteer"
+      },
+      "stats": {
+        "children_helped": {
+          "label": "Children Supported"
+        },
+        "volunteers": {
+          "label": "VSLA Groups"
+        },
+        "communities": {
+          "label": "Sub-Counties"
+        },
+        "years_serving": {
+          "label": "Years Serving"
+        }
+      }
+    }
+  },
+  "who": {
+    "hero": {
+      "image_alt": "ADT community leaders and beneficiaries in Western Kenya",
+      "badge": "Built on Trust. Governed by Accountability.",
+      "title": {
+        "prefix": "A Permanent Institution for",
+        "highlight": "Community Transformation"
+      },
+      "description": "A locally led Trust with a permanent legal foundation—built to translate community participation into measurable progress across health, education, and household resilience.",
+      "cta": {
+        "primary": "Explore Our Legal Framework",
+        "secondary": "See Our Governance Model"
+      }
+    },
+    "mission_vision": {
+      "badge": "Our Core",
+      "title": {
+        "prefix": "Guiding Principles",
+        "highlight": "That Shape Our Work"
+      },
+      "description": "Our mission and vision are not slogans—they are operating standards. They govern how we listen, how we design, and how we deliver with integrity.",
+      "cards": {
+        "mission": {
+          "title": "Mission",
+          "description": "To provide a robust platform for community groups to share experience, analyze challenges, and implement practical, locally-owned solutions that reduce poverty, disease, and illiteracy."
+        },
+        "vision": {
+          "title": "Vision",
+          "description": "An empowered and organized community living free from hunger, diseases, and poverty—able to thrive through self-reliance and collective action."
+        }
+      }
+    },
+    "legal": {
+      "badge": "The Legal Framework",
+      "title": {
+        "highlight": "Cap 164",
+        "suffix": "— Trust Built to Last"
+      },
+      "description": "ADT is registered under the Trustees (Perpetual Succession) Act (Cap 164). This means we are not a temporary project vehicle—we are a permanent institution with continuity, governance discipline, and donor-grade accountability.",
+      "cards": [
+        {
+          "title": "Perpetuity",
+          "description": "Our mission and assets are held in perpetuity for community benefit—built for long-term outcomes, not short-term cycles.",
+          "icon": "landmark"
+        },
+        {
+          "title": "Audit-Ready Governance",
+          "description": "Clear fiduciary responsibility and governance structure that supports transparent reporting and partner confidence.",
+          "icon": "scale"
+        },
+        {
+          "title": "Investment Security",
+          "description": "Donor resources strengthen an institution that remains—creating durable systems and compounding impact over time.",
+          "icon": "shield"
+        }
+      ]
+    },
+    "philosophy": {
+      "badge": "Our Approach",
+      "title": {
+        "prefix": "Active Participation",
+        "highlight": "Over Passive Aid"
+      },
+      "description": "Development fails when people are treated as recipients. ADT builds platforms where communities lead the analysis, own the decisions, and co-deliver the solutions—so results sustain beyond funding timelines.",
+      "pillars": [
+        {
+          "title": "Participatory Methods",
+          "description": "We use locally grounded facilitation so households and groups define priorities and measure progress together.",
+          "icon": "people"
+        },
+        {
+          "title": "Holistic Integration",
+          "description": "Health, education, and livelihoods are interconnected. We design interventions as one system—not siloed projects.",
+          "icon": "idea"
+        }
+      ],
+      "quote": {
+        "title": "What participation looks like",
+        "body": "We convene groups, strengthen governance, and build practical planning habits—so communities can negotiate resources, protect children, and invest in resilience with discipline.",
+        "attribution": "ADT Implementation Philosophy"
+      }
+    },
+    "values": {
+      "badge": "Our Foundation",
+      "title": {
+        "prefix": "Core Values",
+        "highlight": "That Guide Us"
+      },
+      "description": "Values are our quality control. They shape the way we safeguard dignity, steward resources, and deliver with professionalism.",
+      "items": [
+        {
+          "title": "Accountability & Transparency",
+          "description": "We steward resources responsibly with clear reporting, measurable outcomes, and honest communication.",
+          "icon": "integrity",
+          "tone": "primary"
+        },
+        {
+          "title": "Professionalism",
+          "description": "We deliver with technical discipline—case management, referrals, and program execution that stands up to scrutiny.",
+          "icon": "teamwork",
+          "tone": "secondary"
+        },
+        {
+          "title": "Teamwork",
+          "description": "We collaborate across government, civil society, and the private sector to scale what works.",
+          "icon": "teamwork",
+          "tone": "accent"
+        },
+        {
+          "title": "Respect for Human Dignity",
+          "description": "We protect rights and uphold safeguarding—especially for women, children, and vulnerable households.",
+          "icon": "dignity",
+          "tone": "primary"
+        }
+      ]
+    },
+    "timeline": {
+      "badge": "Our Journey",
+      "title": {
+        "prefix": "History & Milestones",
+        "highlight": "That Shaped Us"
+      },
+      "description": "Our story is a progression of institutional strength—expanding from community mobilization into a permanent, legally recognized platform for measurable transformation.",
+      "items": {
+        "1989": {
+          "year": "1989",
+          "title": "Grassroots Origins",
+          "description": "ADT begins as a locally-led movement—mobilizing community structures to confront poverty, illness, and low school retention."
+        },
+        "2001": {
+          "year": "2001",
+          "title": "Formal Registration",
+          "description": "Registered under Cap 164, ADT becomes a permanent Trust—strengthening governance, institutional continuity, and partner confidence."
+        },
+        "2024": {
+          "year": "2024",
+          "title": "Delivery at Scale",
+          "description": "Implementing USAID 4TheChild with clinical-community integration—supporting 6,708 OVC and strengthening 2,765 households."
+        },
+        "2030": {
+          "year": "2030",
+          "title": "Resilience Infrastructure",
+          "description": "Scaling the Busia Resilience Model through digital systems, mobility, and climate-smart livelihood value chains."
+        }
+      }
+    },
+    "leadership": {
+      "badge": "Leadership & Structure",
+      "title": {
+        "prefix": "People, Governance,",
+        "highlight": "And Frontline Execution"
+      },
+      "description": "Impact requires governance, technical excellence, and trusted community presence. Our structure ensures accountability while keeping delivery grounded at household level.",
+      "items": {
+        "trustees": {
+          "kicker": "Oversight",
+          "title": "Board of Trustees",
+          "description": "High-integrity community leaders providing strategic direction, fiduciary oversight, and long-term institutional discipline.",
+          "bullets": [
+            "Strategic governance and policy direction",
+            "Stewardship and compliance",
+            "Long-term sustainability focus"
+          ]
+        },
+        "technical": {
+          "kicker": "Implementation",
+          "title": "Technical Staff",
+          "description": "Professionals in public health, social work, education support, and livelihoods—delivering evidence-backed interventions with quality assurance.",
+          "bullets": [
+            "Case management and referrals",
+            "Clinical-community coordination",
+            "Program quality and learning"
+          ]
+        },
+        "volunteers": {
+          "kicker": "Community Trust",
+          "title": "Community Volunteers",
+          "description": "Frontline advocates embedded in local realities—supporting tracing, follow-up, and safeguarding through community legitimacy.",
+          "bullets": [
+            "Household follow-up and community linkage",
+            "Child protection and prevention",
+            "Local problem-solving and feedback loops"
+          ]
+        }
+      }
+    },
+    "governance": {
+      "badge": "Governance Model",
+      "title": {
+        "prefix": "How We",
+        "highlight": "Stay Accountable"
+      },
+      "description": "Our governance is designed for durability: clear oversight, professional delivery, and structured community participation.",
+      "items": {
+        "board": {
+          "title": "Trustee Governance",
+          "description": "Provides strategic oversight, fiduciary stewardship, and institutional continuity.",
+          "bullets": [
+            "Policy and strategic direction",
+            "Risk and compliance discipline",
+            "Partner assurance"
+          ]
+        },
+        "staff": {
+          "title": "Technical Execution",
+          "description": "Runs field delivery with monitoring, learning, and quality improvement.",
+          "bullets": [
+            "Evidence-backed implementation",
+            "Measurement and reporting",
+            "Continuous improvement"
+          ]
+        },
+        "volunteers": {
+          "title": "Community Presence",
+          "description": "Ensures trust, responsiveness, and last-mile continuity in household support.",
+          "bullets": [
+            "Frontline safeguarding",
+            "Referral and follow-up support",
+            "Local legitimacy"
+          ]
+        }
+      }
+    },
+    "transparency": {
+      "badge": "Our Commitment",
+      "title": {
+        "prefix": "Transparency",
+        "highlight": "& Financials"
+      },
+      "description": "We believe trust is earned through openness. We track resources, report clearly, and optimize allocations to maximize frontline impact.",
+      "overview": {
+        "title": "Financial Overview",
+        "body": "ADT maintains disciplined stewardship with partner-grade accountability—so resources translate into outcomes at household and facility level."
+      },
+      "allocation": {
+        "title": "Financial Allocation",
+        "description": "Our allocation prioritizes program delivery while maintaining governance, compliance, and responsible fundraising.",
+        "programs": {
+          "label": "Program Services",
+          "percent": 82
+        },
+        "admin": {
+          "label": "Administration",
+          "percent": 12
+        },
+        "fundraising": {
+          "label": "Fundraising",
+          "percent": 6
+        }
+      },
+      "highlights": [
+        {
+          "value": "98%",
+          "label": "Program Efficiency",
+          "tone": "primary"
+        },
+        {
+          "value": "4★",
+          "label": "Charity Rating",
+          "tone": "secondary"
+        },
+        {
+          "value": "35+",
+          "label": "Years of Service",
+          "tone": "accent"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Partner with a Permanent Institution",
+      "description": "Whether you fund a domain, invest in institutional infrastructure, or join as an implementation partner—ADT is your audit-ready vehicle for long-term transformation in Western Kenya.",
+      "primary": {
+        "label": "Partner With ADT",
+        "href": "/collaboration"
+      },
+      "secondary": {
+        "label": "Explore Our Impact",
+        "href": "/impact"
+      },
+      "meta": [
+        { "label": "Institutional integrity" },
+        { "label": "Evidence-backed delivery" },
+        { "label": "Community-owned solutions" }
+      ]
+    }
+  },
+  "contact": {
+    "address": "P.O BOX 243-50400",
+    "person": "JUDITH A OBARI",
+    "phone": "+25472686951",
+    "email": "adtbusia@yahoo.com",
+    "facebook": "Akukuranut Development Trust (ADT)"
+  }
+}

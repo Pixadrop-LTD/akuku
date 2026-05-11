@@ -451,7 +451,6 @@ export const PartnerModal = (): React.ReactElement => {
                     </div>
                   </div>
                 </div>
-
                 <div
                   className={cn(
                     "mt-auto border-t border-border/60 px-6 py-5",

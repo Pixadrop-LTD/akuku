@@ -103,7 +103,9 @@ export const ProjectsFeaturedBlock = () => {
           <div className="mb-14">
             <motion.span
               initial={{ opacity: 0, scale: 0.95 }}
-              animate={isInView ? { opacity: 1, scale: 1 } : {}}
+              animate={
+                isInView ? { opacity: 1, scale: 1 } : { opacity: 1, scale: 1 }
+              }
               transition={{ duration: 0.6 }}
               className="inline-flex items-center rounded-full bg-accent/10 px-4 py-2 text-sm font-semibold text-accent"
             >
@@ -111,7 +113,7 @@ export const ProjectsFeaturedBlock = () => {
             </motion.span>
             <motion.h2
               initial={{ opacity: 0, y: 18 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.1 }}
               className="font-headings mt-6 text-3xl font-bold text-neutral-900 md:text-5xl"
             >
@@ -122,7 +124,7 @@ export const ProjectsFeaturedBlock = () => {
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 18 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
               className="mt-5 max-w-3xl text-lg leading-relaxed text-neutral-600"
             >
@@ -144,7 +146,9 @@ export const ProjectsFeaturedBlock = () => {
                   onHoverEnd={() => setHovered(null)}
                   whileHover={shouldReduceMotion ? undefined : { y: -4 }}
                   initial={{ opacity: 0, y: 18 }}
-                  animate={isInView ? { opacity: 1, y: 0 } : {}}
+                  animate={
+                    isInView ? { opacity: 1, y: 0 } : { opacity: 1, y: 0 }
+                  }
                   transition={{ duration: 0.6, delay: 0.15 + index * 0.08 }}
                   className={cn(
                     "group relative overflow-hidden rounded-3xl border bg-white/80 shadow-sm backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg",

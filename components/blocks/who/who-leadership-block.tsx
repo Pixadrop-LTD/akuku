@@ -38,9 +38,9 @@ export const WhoLeadershipBlock = () => {
     <section
       id="leadership"
       ref={ref}
-      className="relative overflow-hidden px-4 py-16 sm:py-20 lg:py-24"
+      className="relative overflow-hidden px-4 py-8"
     >
-      <div className="mx-auto max-container-2xl px-6 lg:px-8">
+      <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
           <div className="mb-12 text-center">
             <motion.span
@@ -69,7 +69,7 @@ export const WhoLeadershipBlock = () => {
               initial={{ opacity: 0, y: 18 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="mt-5 mx-auto max-w-3xl text-lg leading-relaxed text-neutral-600"
+              className="mx-auto mt-5 max-w-3xl text-lg leading-relaxed text-neutral-600"
             >
               {t.who.leadership.description}
             </motion.p>
@@ -87,10 +87,14 @@ export const WhoLeadershipBlock = () => {
                   className="group rounded-2xl border border-neutral-200 bg-white/80 p-7 shadow-sm backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
                 >
                   <div className="flex items-start justify-between">
-                    <span className={`rounded-full px-3 py-1 text-sm font-semibold ${leader.tone}`}>
+                    <span
+                      className={`rounded-full px-3 py-1 text-sm font-semibold ${leader.tone}`}
+                    >
                       {data.kicker}
                     </span>
-                    <div className={`h-10 w-10 rounded-2xl ring-4 ${leader.ring} bg-neutral-900/5`} />
+                    <div
+                      className={`h-10 w-10 rounded-2xl ring-4 ${leader.ring} bg-neutral-900/5`}
+                    />
                   </div>
 
                   <div className="mt-6 text-xl font-bold text-neutral-900">

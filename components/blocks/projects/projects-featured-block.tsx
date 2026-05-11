@@ -98,8 +98,8 @@ export const ProjectsFeaturedBlock = () => {
       ref={ref}
       className="relative scroll-mt-24 overflow-hidden px-4 py-16 sm:py-20 lg:py-24"
     >
-      <div className="mx-auto max-container-2xl px-6 lg:px-8">
-        <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-container-2xl">
           <div className="mb-14">
             <motion.span
               initial={{ opacity: 0, scale: 0.95 }}

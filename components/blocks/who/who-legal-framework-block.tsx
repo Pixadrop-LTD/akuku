@@ -25,7 +25,7 @@ export const WhoLegalFrameworkBlock = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,var(--color-neutral-500)_1px,transparent_0)] bg-size-[28px_28px] opacity-[0.04]" />
       </div>
 
-      <div className="mx-auto max-container-2xl px-6 lg:px-8">
+      <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         <div className="relative mx-auto max-container-2xl">
           <div
             aria-hidden

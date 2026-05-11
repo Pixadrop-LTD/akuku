@@ -193,9 +193,9 @@ const HomeImpactBlock = () => {
     <section
       ref={containerRef}
       id="impact"
-      className="relative overflow-hidden py-16 sm:py-24 lg:py-32"
+      className="relative overflow-hidden"
     >
-      <div className="relative mx-auto max-container-2xl px-6 pb-20 lg:px-18">
+      <div className="relative mx-auto max-container-2xl px-4 pb-20 sm:px-6 lg:px-18">
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}

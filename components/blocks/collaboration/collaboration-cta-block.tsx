@@ -26,7 +26,7 @@ export const CollaborationCTABlock = () => {
         <div className="absolute bottom-0 left-0 h-96 w-96 -translate-x-48 translate-y-48 rounded-full bg-white" />
       </div>
 
-      <div className="relative mx-auto max-container-2xl px-6 lg:px-8">
+      <div className="relative mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-container-2xl text-center">
           <motion.h2
             initial={{ opacity: 0, y: 18 }}
@@ -56,7 +56,7 @@ export const CollaborationCTABlock = () => {
               onClick={openSheet}
               whileHover={{ scale: 1.06, y: -2 }}
               whileTap={{ scale: 0.96 }}
-              className="group inline-flex items-center cursor-pointer justify-center gap-3 rounded-full bg-white px-8 py-4 font-semibold text-primary shadow-lg transition-all duration-300 hover:bg-neutral-100"
+              className="group inline-flex cursor-pointer items-center justify-center gap-3 rounded-full bg-white px-8 py-4 font-semibold text-primary shadow-lg transition-all duration-300 hover:bg-neutral-100"
             >
               <Mail className="h-5 w-5" />
               {t.collaboration.cta.primary.label}

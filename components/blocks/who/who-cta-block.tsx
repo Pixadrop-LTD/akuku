@@ -16,12 +16,15 @@ export const WhoCTABlock = () => {
       ref={ref}
       className="relative overflow-hidden bg-linear-to-br from-primary to-secondary px-4 py-16 text-white sm:py-20 lg:py-24"
     >
-      <div aria-hidden className="pointer-events-none absolute inset-0 opacity-10">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 opacity-10"
+      >
         <div className="absolute top-0 right-0 h-64 w-64 translate-x-32 -translate-y-32 rounded-full bg-white" />
         <div className="absolute bottom-0 left-0 h-96 w-96 -translate-x-48 translate-y-48 rounded-full bg-white" />
       </div>
 
-      <div className="relative mx-auto max-container-2xl px-6 lg:px-8">
+      <div className="relative mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <motion.h2
             initial={{ opacity: 0, y: 18 }}

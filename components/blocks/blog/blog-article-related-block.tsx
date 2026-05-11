@@ -11,7 +11,7 @@ export const BlogArticleRelatedBlock = () => {
 
   return (
     <section className="relative px-4 pb-24">
-      <div className="mx-auto max-container-2xl px-6 lg:px-8">
+      <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 18 }}

@@ -25,7 +25,7 @@ export const ProjectsCTABlock = () => {
         <div className="absolute bottom-0 left-0 h-96 w-96 -translate-x-48 translate-y-48 rounded-full bg-white" />
       </div>
 
-      <div className="relative mx-auto max-container-2xl px-6 lg:px-8">
+      <div className="relative mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <motion.h2
             initial={{ opacity: 0, y: 18 }}

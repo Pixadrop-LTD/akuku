@@ -208,7 +208,7 @@ export const ImpactCommunityBlock = () => {
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
-          className="relative z-10 container mx-auto mb-16 px-6 lg:px-8"
+          className="relative z-10 container mx-auto mb-16 px-4 sm:px-6 lg:px-8"
         >
           <div className="mx-auto max-w-5xl text-center">
             <motion.h1
@@ -310,7 +310,7 @@ export const ImpactCommunityBlock = () => {
           variants={statsBarVariants}
           className="absolute bottom-0 left-0 w-full border-t border-white/20 bg-white/10 backdrop-blur-sm"
         >
-          <div className="container mx-auto px-6 lg:px-8">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 divide-x divide-white/20 md:grid-cols-4">
               {statsData.map((stat, index) => (
                 <motion.div

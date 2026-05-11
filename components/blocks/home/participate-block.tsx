@@ -1,10 +1,7 @@
 "use client"
 
 import { useLocale } from "@/hooks/use-locale"
-import {
-  motion,
-  useInView,
-} from "framer-motion"
+import { motion, useInView } from "framer-motion"
 import { useEffect, useRef, useState } from "react"
 
 const HomeParticipateBlock = () => {
@@ -92,9 +89,9 @@ const HomeParticipateBlock = () => {
     <section
       ref={containerRef}
       id="participate"
-      className="relative overflow-hidden py-16 sm:py-24 lg:py-32"
+      className="relative overflow-hidden py-8"
     >
-      <div className="relative mx-auto max-container-2xl px-6 lg:px-8">
+      <div className="relative mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}

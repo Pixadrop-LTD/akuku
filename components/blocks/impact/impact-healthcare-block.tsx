@@ -46,7 +46,7 @@ export const ImpactHealthcareBlock = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="max-container-2xl mx-auto px-6 lg:px-8"
+        className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8"
       >
         <div className="mx-auto max-container-2xl text-center">
           {/* Badge */}

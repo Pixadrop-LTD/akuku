@@ -29,7 +29,7 @@ export const WhoMissionVisionBlock = () => {
       ref={ref}
       className="relative overflow-hidden px-4 py-16 sm:py-20 lg:py-24"
     >
-      <div className="mx-auto max-container-2xl px-6 lg:px-8">
+      <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-container-2xl">
           <div className="mb-12">
             <motion.span
@@ -80,7 +80,9 @@ export const WhoMissionVisionBlock = () => {
                     className={`pointer-events-none absolute inset-0 bg-linear-to-br ${card.tone} opacity-0 transition-opacity duration-300 group-hover:opacity-100`}
                   />
                   <div className="relative z-10">
-                    <div className={`mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-linear-to-br ${card.tone}`}>
+                    <div
+                      className={`mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-linear-to-br ${card.tone}`}
+                    >
                       {card.icon}
                     </div>
                     <h3 className="text-2xl font-bold text-neutral-900">

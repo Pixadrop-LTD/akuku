@@ -231,14 +231,15 @@ export const HeaderLayout = ({}: HeaderProps) => {
                   {item.label}
                 </Link>
               ))}
-              <Link
-                href={Routes.header.collaboration}
+              <a
+                href={`tel:${t.contact.phone}`}
                 onClick={() => setOpen(false)}
-                className="group block w-full transform rounded-full bg-linear-to-r from-primary to-accent px-5 py-3 text-center font-semibold text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60"
+                className="group flex w-full transform items-center justify-center gap-2 rounded-md bg-linear-to-r from-primary to-accent px-5 py-3 text-center font-semibold text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60"
               >
-                <span>{t.header.cta.get_involved}</span>
+                <Phone className="h-5 w-5" />
+                <span>{t.contact.phone}</span>
                 <svg
-                  className="ml-1 inline-block h-5 w-5 transition-transform duration-300 group-hover:translate-x-1"
+                  className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -251,7 +252,7 @@ export const HeaderLayout = ({}: HeaderProps) => {
                     d="M14 5l7 7m0 0l-7 7m7-7H3"
                   />
                 </svg>
-              </Link>
+              </a>
             </div>
           </div>
         )}

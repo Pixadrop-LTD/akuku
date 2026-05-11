@@ -98,9 +98,9 @@ export const ImpactStatsBlock = () => {
   return (
     <section
       ref={containerRef}
-      className="relative overflow-hidden py-16 sm:py-20 lg:py-24"
+      className="relative overflow-hidden py-4"
     >
-      <div className="mx-auto max-container-2xl px-6 lg:px-8">
+      <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-container-2xl">
           {/* Section Header */}
           <div className="relative mb-16 text-center md:text-end">

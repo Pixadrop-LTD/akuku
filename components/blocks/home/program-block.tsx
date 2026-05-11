@@ -68,7 +68,7 @@ const HomeProgramBlock = () => {
     <section
       ref={containerRef}
       id="programmes"
-      className="relative overflow-hidden py-16 sm:py-24 lg:py-32"
+      className="relative overflow-hidden py-16"
     >
       {/* Background decoration */}
       <motion.div
@@ -78,7 +78,7 @@ const HomeProgramBlock = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,var(--color-primary),transparent_50%)]" />
       </motion.div>
 
-      <div className="relative mx-auto max-container-2xl px-6 lg:px-8">
+      <div className="relative mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -158,7 +158,7 @@ const HomeProgramBlock = () => {
 
         {/* Programmes Grid */}
         <motion.div
-          className="mt-20 grid h-[640px] grid-cols-1 gap-6 lg:grid-cols-4 lg:grid-rows-2 lg:gap-8"
+          className="mt-20 grid grid-cols-1 gap-6 lg:h-[640px] lg:grid-cols-4 lg:grid-rows-2 lg:gap-8"
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ duration: 1, delay: 1 }}
@@ -175,7 +175,7 @@ const HomeProgramBlock = () => {
               <motion.a
                 key={program.id}
                 href={`/projects/${program.id}`}
-                className={`group relative ${gridClass} overflow-hidden rounded-3xl shadow-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl`}
+                className={`group relative ${gridClass} min-h-[220px] overflow-hidden rounded-3xl shadow-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl sm:min-h-[240px]`}
                 initial={{ opacity: 0, y: 50, scale: 0.9 }}
                 animate={isInView ? { opacity: 1, y: 0, scale: 1 } : {}}
                 transition={{
@@ -219,14 +219,14 @@ const HomeProgramBlock = () => {
 
                 {/* Icon Badge */}
                 <motion.div
-                  className="absolute top-4 left-4 z-10 flex h-14 w-14 items-center justify-center rounded-full bg-white/30 ring-2 ring-white/40 backdrop-blur-md transition-transform duration-300 group-hover:scale-110"
+                  className="absolute top-3 left-3 z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white/30 ring-2 ring-white/40 backdrop-blur-md transition-transform duration-300 group-hover:scale-110 sm:top-4 sm:left-4 sm:h-14 sm:w-14"
                   initial={{ opacity: 0, scale: 0 }}
                   animate={isInView ? { opacity: 1, scale: 1 } : {}}
                   transition={{ duration: 0.5, delay: 1.6 + index * 0.15 }}
                   whileHover={{ scale: 1.1, rotate: 5 }}
                 >
                   <motion.div
-                    className={`text-primary-600 ${isFeatured ? "h-8 w-8" : "h-7 w-7"}`}
+                    className={`text-primary-600 ${isFeatured ? "h-7 w-7 sm:h-8 sm:w-8" : "h-6 w-6 sm:h-7 sm:w-7"}`}
                     animate={{
                       scale: hoveredCard === program.id ? [1, 1.2, 1] : 1,
                       rotate: hoveredCard === program.id ? [0, 10, -10, 0] : 0,

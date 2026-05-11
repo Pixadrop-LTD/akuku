@@ -46,8 +46,8 @@ export const ProjectsImplementationBlock = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,oklch(0.9_0.08_250)_0%,transparent_60%)] opacity-25" />
       </div>
 
-      <div className="relative mx-auto max-container-2xl px-6 lg:px-8">
-        <div className="mx-auto max-w-6xl">
+      <div className="relative mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-container-2xl">
           <div className="mb-14">
             <motion.span
               initial={{ opacity: 0, scale: 0.95 }}

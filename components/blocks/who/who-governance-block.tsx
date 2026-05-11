@@ -24,7 +24,7 @@ export const WhoGovernanceBlock = () => {
       ref={ref}
       className="relative overflow-hidden px-4 py-16 sm:py-20 lg:py-24"
     >
-      <div className="mx-auto max-container-2xl px-6 lg:px-8">
+      <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
           <div className="mb-12">
             <motion.span
@@ -70,7 +70,10 @@ export const WhoGovernanceBlock = () => {
                   transition={{ duration: 0.6, delay: 0.2 + index * 0.1 }}
                   className="group relative overflow-hidden rounded-2xl border border-neutral-200 bg-white/80 p-7 shadow-sm backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
                 >
-                  <div aria-hidden className="pointer-events-none absolute -top-16 -right-16 h-40 w-40 rounded-full bg-primary/5 blur-2xl" />
+                  <div
+                    aria-hidden
+                    className="pointer-events-none absolute -top-16 -right-16 h-40 w-40 rounded-full bg-primary/5 blur-2xl"
+                  />
 
                   <div className="relative z-10">
                     <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-linear-to-br from-primary/10 to-secondary/10 text-primary transition-transform duration-300 group-hover:scale-105">

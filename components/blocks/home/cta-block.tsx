@@ -172,7 +172,7 @@ const HomeCTABlock = () => {
           }}
         />
 
-        <div className="relative z-10 px-6 lg:px-8">
+        <div className="relative z-10 px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
             {/* Badge */}
             <motion.div
@@ -264,7 +264,7 @@ const HomeCTABlock = () => {
               <motion.button
                 type="button"
                 onClick={openModal}
-                className="group relative flex w-full items-center cursor-pointer justify-center overflow-hidden rounded-full border-2 border-white px-8 py-4 font-bold text-white transition-all duration-300 hover:border-white/50 hover:bg-white/10 sm:w-auto"
+                className="group relative flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full border-2 border-white px-8 py-4 font-bold text-white transition-all duration-300 hover:border-white/50 hover:bg-white/10 sm:w-auto"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={isInView ? { opacity: 1, scale: 1 } : {}}
                 transition={{ duration: 0.6, delay: 1.6 }}

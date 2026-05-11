@@ -11,15 +11,12 @@ export const ImpactEducationBlock = () => {
   const isInView = useInView(containerRef, { once: true, amount: 0.2 })
 
   return (
-    <section
-      ref={containerRef}
-      className="relative overflow-hidden py-10"
-    >
+    <section ref={containerRef} className="relative overflow-hidden py-10">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="max-container-2xl mx-auto px-6 lg:px-8"
+        className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8"
       >
         <div className="mx-auto max-container-2xl">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

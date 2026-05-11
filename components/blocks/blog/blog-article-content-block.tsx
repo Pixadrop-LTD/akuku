@@ -1,7 +1,7 @@
 "use client"
 
-import { cn } from "@/lib/utils"
 import { useLocale } from "@/hooks/use-locale"
+import { cn } from "@/lib/utils"
 import { motion, useInView } from "framer-motion"
 import type { ReactNode } from "react"
 import { useRef } from "react"
@@ -21,7 +21,7 @@ export const BlogArticleContentBlock = ({
 
   return (
     <section className="relative px-4 pb-16 sm:pb-20 lg:pb-24">
-      <div className="mx-auto max-container-2xl px-6 lg:px-8">
+      <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 18 }}

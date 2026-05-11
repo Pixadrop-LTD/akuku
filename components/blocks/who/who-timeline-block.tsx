@@ -86,7 +86,7 @@ export const WhoTimelineBlock = () => {
       ref={ref}
       className="relative overflow-hidden px-4 py-16 sm:py-20 lg:py-24"
     >
-      <div className="mx-auto max-container-2xl px-6 lg:px-8">
+      <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
           <div className="mb-14">
             <motion.span
@@ -121,7 +121,7 @@ export const WhoTimelineBlock = () => {
           <div className="relative">
             <div
               aria-hidden
-              className="absolute left-1/2 top-0 h-full w-px -translate-x-1/2 bg-linear-to-b from-primary/20 via-accent/30 to-secondary/20"
+              className="absolute top-0 left-1/2 h-full w-px -translate-x-1/2 bg-linear-to-b from-primary/20 via-accent/30 to-secondary/20"
             />
 
             <div className="space-y-10 md:space-y-16">
@@ -133,15 +133,20 @@ export const WhoTimelineBlock = () => {
                   <div key={item.id} className="relative">
                     <div
                       aria-hidden
-                      className={`absolute left-1/2 top-8 z-10 h-5 w-5 -translate-x-1/2 rounded-full border-4 border-white shadow-sm ${styles.dot}`}
+                      className={`absolute top-8 left-1/2 z-10 h-5 w-5 -translate-x-1/2 rounded-full border-4 border-white shadow-sm ${styles.dot}`}
                     />
 
                     <div className="grid gap-6 md:grid-cols-2 md:items-start">
-                      <div className={isLeft ? "md:pr-12" : "md:order-2 md:pl-12"}>
+                      <div
+                        className={isLeft ? "md:pr-12" : "md:order-2 md:pl-12"}
+                      >
                         <motion.div
                           initial={{ opacity: 0, x: isLeft ? -30 : 30, y: 10 }}
                           animate={isInView ? { opacity: 1, x: 0, y: 0 } : {}}
-                          transition={{ duration: 0.6, delay: 0.15 + index * 0.08 }}
+                          transition={{
+                            duration: 0.6,
+                            delay: 0.15 + index * 0.08,
+                          }}
                           className="group relative overflow-hidden rounded-2xl border border-neutral-200 bg-white/85 p-7 shadow-sm backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
                         >
                           <div
@@ -150,10 +155,14 @@ export const WhoTimelineBlock = () => {
                           />
 
                           <div className="flex items-center justify-between gap-4">
-                            <span className={`rounded-full px-3 py-1 text-sm font-semibold ${styles.pill}`}>
+                            <span
+                              className={`rounded-full px-3 py-1 text-sm font-semibold ${styles.pill}`}
+                            >
                               {item.year}
                             </span>
-                            <div className={`flex h-10 w-10 items-center justify-center rounded-xl ${styles.icon}`}>
+                            <div
+                              className={`flex h-10 w-10 items-center justify-center rounded-xl ${styles.icon}`}
+                            >
                               {item.icon}
                             </div>
                           </div>

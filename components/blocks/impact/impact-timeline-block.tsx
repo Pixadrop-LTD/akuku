@@ -62,8 +62,8 @@ export const ImpactTimelineBlock = () => {
             <div className="absolute -bottom-6 left-0 h-0.5 w-32 bg-linear-to-l from-secondary/20 via-primary/20 to-secondary/20"></div>
 
             <div className="relative border-r-4 border-secondary/10 pr-8"></div>
-            <div className="mb-6 ml-auto inline-flex items-center justify-end space-x-3">
-              <span className="mb-4 ml-auto inline-flex items-center justify-center text-sm font-medium tracking-wider text-accent uppercase">
+            <div className="mb-3 inline-flex items-center justify-start space-x-3 md:mb-6">
+              <span className="mb-2 inline-flex items-center justify-center text-sm font-medium tracking-wider text-accent uppercase sm:mb-4">
                 <span className="h-3 w-3 animate-pulse rounded-full bg-accent"></span>
                 {t.impact.domains.timeline.journey}
               </span>
@@ -74,13 +74,13 @@ export const ImpactTimelineBlock = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="font-headings mb-6 text-4xl leading-tight font-bold md:text-5xl lg:text-6xl"
+              className="font-headings mb-6 text-3xl leading-tight font-bold sm:text-4xl md:text-5xl lg:text-6xl"
             >
               <span className="relative inline-block">
                 <span className="absolute -top-2 -right-2 h-3 w-3 animate-ping rounded-full bg-accent opacity-75"></span>
                 <span className="relative">
                   <span className="bg-linear-to-l from-secondary to-accent bg-clip-text text-transparent">
-                    {t.impact.domains.timeline.impact_journey}
+                    {t.impact.domains.timeline.impact_journey} &nbsp;
                   </span>
                   <span className="absolute -bottom-2 left-0 h-1 w-full rounded-full bg-linear-to-l from-secondary/30 to-accent/30"></span>
                 </span>

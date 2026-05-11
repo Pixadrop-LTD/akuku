@@ -96,10 +96,7 @@ export const ImpactStatsBlock = () => {
   ]
 
   return (
-    <section
-      ref={containerRef}
-      className="relative overflow-hidden py-4"
-    >
+    <section ref={containerRef} className="relative overflow-hidden py-4">
       <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-container-2xl">
           {/* Section Header */}
@@ -109,8 +106,8 @@ export const ImpactStatsBlock = () => {
             <div className="absolute right-0 -bottom-6 hidden h-0.5 w-32 bg-linear-to-r from-secondary/20 via-primary/20 to-secondary/20 md:block"></div>
 
             <div className="relative border-l-4 border-secondary/10 pl-8 md:border-r-4 md:border-l-0 md:pr-8 md:pl-0"></div>
-            <div className="mr-auto mb-6 inline-flex items-center justify-center space-x-3 md:justify-end">
-              <span className="mb-4 inline-flex items-center justify-center text-sm font-medium tracking-wider text-accent uppercase">
+            <div className="mr-auto mb-3 inline-flex items-center justify-center space-x-3 md:mb-6 md:justify-end">
+              <span className="mb-2 inline-flex items-center justify-center text-sm  font-medium tracking-wider text-accent uppercase sm:mb-4">
                 <span className="h-3 w-3 animate-pulse rounded-full bg-accent"></span>
                 {t.home.impact.journey || t.home.impact.badge}
               </span>
@@ -121,19 +118,19 @@ export const ImpactStatsBlock = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="font-headings mb-6 text-4xl leading-tight font-bold md:text-5xl lg:text-6xl"
+              className="font-headings mb-6 text-3xl leading-tight font-bold sm:text-4xl md:text-5xl lg:text-6xl"
             >
               <span className="relative inline-block">
                 <span className="absolute -top-2 -left-2 hidden h-3 w-3 animate-ping rounded-full bg-accent opacity-75 md:block"></span>
                 <span className="absolute -top-2 left-1/2 h-3 w-3 -translate-x-1/2 animate-ping rounded-full bg-accent opacity-75 md:hidden"></span>
                 <span className="relative">
                   <span className="bg-linear-to-r from-secondary to-accent bg-clip-text text-transparent">
-                    {t.home.impact.title.highlight}
+                    {t.home.impact.title.prefix} &nbsp;
                   </span>
                   <span className="absolute -bottom-2 left-0 h-1 w-full rounded-full bg-linear-to-r from-secondary/30 to-accent/30 md:right-0 md:left-auto"></span>
                 </span>
               </span>
-              {t.home.impact.title.prefix}
+              {t.home.impact.title.highlight}
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 30 }}

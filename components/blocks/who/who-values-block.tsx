@@ -25,9 +25,9 @@ export const WhoValuesBlock = () => {
     <section
       id="values"
       ref={ref}
-      className="relative overflow-hidden px-4 py-4"
+      className="relative overflow-hidden py-4"
     >
-      <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-container-2xl px-4">
         <div className="mx-auto max-w-6xl">
           <div className="mb-14 text-right">
             <motion.span

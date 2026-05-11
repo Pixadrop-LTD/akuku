@@ -62,9 +62,9 @@ export const ProjectsNavigatorBlock = () => {
     <section
       id="portfolio"
       ref={ref}
-      className="relative scroll-mt-24 overflow-hidden px-4 py-0"
+      className="relative scroll-mt-24 overflow-hidden py-0"
     >
-      <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-container-2xl px-4">
         <div className="mx-auto max-container-2xl">
           <div className="relative mb-14">
             <motion.div

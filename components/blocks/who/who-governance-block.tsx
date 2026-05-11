@@ -22,9 +22,9 @@ export const WhoGovernanceBlock = () => {
     <section
       id="governance"
       ref={ref}
-      className="relative overflow-hidden px-4 py-16 sm:py-20 lg:py-24"
+      className="relative overflow-hidden py-16 sm:py-20 lg:py-24"
     >
-      <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-container-2xl px-4">
         <div className="mx-auto max-w-6xl">
           <div className="mb-12">
             <motion.span

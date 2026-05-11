@@ -11,6 +11,26 @@ export const ImpactHealthcareBlock = () => {
   const containerRef = useRef<HTMLDivElement>(null)
   const isInView = useInView(containerRef, { once: true, amount: 0.2 })
 
+  const healthcareTitle = t.impact.domains.healthcare.title as unknown
+  const healthcareTitleParts = (() => {
+    if (typeof healthcareTitle === "string") {
+      return { prefix: "", highlight: healthcareTitle, suffix: "" }
+    }
+    if (healthcareTitle && typeof healthcareTitle === "object") {
+      const maybeTitle = healthcareTitle as {
+        prefix?: string
+        highlight?: string
+        suffix?: string
+      }
+      return {
+        prefix: maybeTitle.prefix ?? "",
+        highlight: maybeTitle.highlight ?? "Healthcare",
+        suffix: maybeTitle.suffix ?? "",
+      }
+    }
+    return { prefix: "", highlight: "Healthcare", suffix: "" }
+  })()
+
   const healthcareStats = [
     {
       id: "clinical_excellence",
@@ -49,35 +69,55 @@ export const ImpactHealthcareBlock = () => {
         className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8"
       >
         <div className="mx-auto max-container-2xl text-center">
-          {/* Badge */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={isInView ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="mb-8 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-6 py-2 backdrop-blur-sm"
-          >
-            <Heart className="mr-2 h-5 w-5 animate-pulse text-red-500" />
-            <span className="text-sm font-semibold tracking-wider text-accent uppercase">
-              {t.home.programmes.pediatricHIV.title}
-            </span>
-          </motion.div>
+          {/* Section Header */}
+          <div className="relative mb-12 text-center md:text-start">
+            {/* Decorative elements */}
+            <div className="absolute top-1/2 -left-4 hidden h-24 w-1.5 -translate-y-1/2 rounded-full bg-linear-to-b from-primary to-secondary md:block" />
+            <div className="absolute -bottom-6 left-0 hidden h-0.5 w-32 bg-linear-to-r from-secondary/20 via-primary/20 to-secondary/20 md:block" />
 
-          {/* Title */}
-          <motion.h2
-            initial={{ opacity: 0, y: 30 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="mb-6 text-4xl leading-tight font-bold md:text-5xl lg:text-6xl"
-          >
-            {t.impact.domains.healthcare.title}
-          </motion.h2>
+            <div className="relative border-l-4 border-secondary/10 pl-8" />
+
+            {/* Badge */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={isInView ? { opacity: 1, scale: 1 } : {}}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="mx-auto mb-4 inline-flex items-center rounded-full border border-white/20 bg-white/10 px-6 py-2 backdrop-blur-sm sm:mb-6 md:mx-0 md:mb-8"
+            >
+              <Heart className="mr-2 h-5 w-5 animate-pulse text-red-500" />
+              <span className="text-sm font-semibold tracking-wider text-accent uppercase">
+                {t.home.programmes.pediatricHIV.title}
+              </span>
+            </motion.div>
+
+            {/* Title */}
+            <motion.h2
+              initial={{ opacity: 0, y: 30 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="font-headings mb-6 text-3xl leading-tight font-bold sm:text-4xl md:text-5xl lg:text-6xl"
+            >
+              <span className="relative inline-block">
+                <span className="absolute -top-2 -left-2 hidden h-3 w-3 animate-ping rounded-full bg-accent opacity-75 md:block" />
+                <span className="absolute -top-2 left-1/2 h-3 w-3 -translate-x-1/2 animate-ping rounded-full bg-accent opacity-75 md:hidden" />
+                <span className="relative">
+                  <span className="bg-linear-to-r from-secondary to-accent bg-clip-text text-transparent">
+                    {healthcareTitleParts.highlight}
+                  </span>
+                  <span className="absolute -bottom-2 left-0 h-1 w-full rounded-full bg-linear-to-r from-secondary/30 to-accent/30 md:right-0 md:left-auto" />
+                </span>
+              </span>
+              {healthcareTitleParts.prefix}
+              {healthcareTitleParts.suffix}
+            </motion.h2>
+          </div>
 
           {/* Description */}
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="mx-auto max-w-2xl text-lg leading-relaxed text-gray-600 md:text-xl"
+            className="mx-auto max-w-2xl text-lg leading-relaxed text-gray-600 md:mr-auto md:ml-0 md:text-start md:text-xl"
           >
             {t.home.programmes.pediatricHIV.description}
           </motion.p>

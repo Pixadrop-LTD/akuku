@@ -65,9 +65,9 @@ export const ProjectsPipelineBlock = () => {
     <section
       id="pipeline"
       ref={ref}
-      className="relative scroll-mt-24 overflow-hidden px-4 py-16 sm:py-20 lg:py-24"
+      className="relative scroll-mt-24 overflow-hidden py-16 sm:py-20 lg:py-24"
     >
-      <div className="relative mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
+      <div className="relative mx-auto max-container-2xl px-4">
         <div className="mx-auto max-container-2xl">
           <div className="mb-14 text-right">
             <motion.span

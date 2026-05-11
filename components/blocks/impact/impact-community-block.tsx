@@ -174,7 +174,7 @@ export const ImpactCommunityBlock = () => {
   return (
     <section
       ref={containerRef}
-      className="relative overflow-hidden px-4 pt-32 pb-20"
+      className="relative overflow-hidden px-4 pt-32 pb-8"
     >
       <motion.div
         style={{ y: yTransform, opacity: opacityTransform }}
@@ -228,7 +228,7 @@ export const ImpactCommunityBlock = () => {
 
             <motion.div
               variants={buttonVariants}
-              className="flex flex-col justify-center gap-4 pb-10 sm:flex-row"
+              className="flex flex-col justify-center gap-4 pb-10 sm:flex-row pb-8"
             >
               <motion.a
                 href="#our-impact"

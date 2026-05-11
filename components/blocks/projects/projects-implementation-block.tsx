@@ -39,14 +39,14 @@ export const ProjectsImplementationBlock = () => {
     <section
       id="implementation"
       ref={ref}
-      className="relative scroll-mt-24 overflow-hidden px-4 py-16 sm:py-20 lg:py-24"
+      className="relative scroll-mt-24 overflow-hidden py-16 sm:py-20 lg:py-24"
     >
       <div aria-hidden className="pointer-events-none absolute inset-0">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,oklch(0.85_0.12_160)_0%,transparent_55%)] opacity-30" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,oklch(0.9_0.08_250)_0%,transparent_60%)] opacity-25" />
       </div>
 
-      <div className="relative mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
+      <div className="relative mx-auto max-container-2xl px-4">
         <div className="mx-auto max-container-2xl">
           <div className="mb-14">
             <motion.span

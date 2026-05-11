@@ -27,7 +27,7 @@ export const ImpactMetricsBlock = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="rounded-xl border border-gray-100 bg-white p-6 shadow-lg"
             >
-              <h3 className="mb-4 text-xl font-bold text-gray-900">
+              <h3 className="mb-4 text-lg font-bold text-gray-900 sm:text-xl">
                 {t.impact.domains.metrics.program_lifecycle.title}
               </h3>
               <div className="space-y-4">
@@ -136,7 +136,7 @@ export const ImpactMetricsBlock = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="rounded-xl border border-gray-100 bg-white p-6 shadow-lg"
             >
-              <h3 className="mb-4 text-xl font-bold text-gray-900">
+              <h3 className="mb-4 text-lg font-bold text-gray-900 sm:text-xl">
                 {t.impact.domains.metrics.success_metrics.title}
               </h3>
               <div className="space-y-4">

@@ -11,7 +11,7 @@ export const ImpactEducationBlock = () => {
   const isInView = useInView(containerRef, { once: true, amount: 0.2 })
 
   return (
-    <section ref={containerRef} className="relative overflow-hidden py-10">
+    <section ref={containerRef} className="relative overflow-hidden">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -47,10 +47,10 @@ export const ImpactEducationBlock = () => {
                 </div>
                 <div className="p-8">
                   <div className="mb-4 h-1.5 w-12 rounded-full bg-linear-to-r from-blue-500 to-indigo-600"></div>
-                  <h3 className="font-headings mb-3 text-2xl font-bold text-gray-900">
+                  <h3 className="font-headings mb-3 text-xl font-bold text-gray-900 sm:text-2xl">
                     {t.home.programmes.section_title}
                   </h3>
-                  <p className="mb-6 leading-relaxed text-gray-600">
+                  <p className="mb-4 leading-relaxed text-gray-600 sm:mb-6">
                     {t.home.programmes.description}
                   </p>
                   <div className="space-y-4 text-gray-600">
@@ -170,10 +170,10 @@ export const ImpactEducationBlock = () => {
                 </div>
                 <div className="p-8">
                   <div className="mb-4 h-1.5 w-12 rounded-full bg-linear-to-r from-green-500 to-teal-600"></div>
-                  <h3 className="font-headings mb-3 text-2xl font-bold text-gray-900">
+                  <h3 className="font-headings mb-3 text-xl font-bold text-gray-900 sm:text-2xl">
                     {t.impact.education.healthcare.title}
                   </h3>
-                  <p className="mb-6 leading-relaxed text-gray-600">
+                  <p className="mb-4 leading-relaxed text-gray-600 sm:mb-6">
                     {t.impact.education.healthcare.description}
                   </p>
                   <div className="space-y-4 text-gray-600">
@@ -318,10 +318,10 @@ export const ImpactEducationBlock = () => {
                 </div>
                 <div className="p-8">
                   <div className="mb-4 h-1.5 w-12 rounded-full bg-linear-to-r from-purple-500 to-pink-600"></div>
-                  <h3 className="font-headings mb-3 text-2xl font-bold text-gray-900">
+                  <h3 className="font-headings mb-2 text-2xl font-bold text-gray-900 sm:mb-3">
                     {t.impact.education.community.title}
                   </h3>
-                  <p className="mb-6 leading-relaxed text-gray-600">
+                  <p className="mb-4 leading-relaxed text-gray-600 sm:mb-6">
                     {t.impact.education.community.description}
                   </p>
                   <div className="space-y-4 text-gray-600">

@@ -16,7 +16,7 @@ export const WhoLegalFrameworkBlock = () => {
     <section
       id="legal"
       ref={ref}
-      className="relative overflow-hidden px-4 py-16 sm:py-20 lg:py-24"
+      className="relative overflow-hidden py-16 sm:py-20 lg:py-24"
     >
       <div aria-hidden className="pointer-events-none absolute inset-0">
         <div className="absolute inset-0 bg-linear-to-b from-primary/5 via-background to-background" />
@@ -25,7 +25,7 @@ export const WhoLegalFrameworkBlock = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,var(--color-neutral-500)_1px,transparent_0)] bg-size-[28px_28px] opacity-[0.04]" />
       </div>
 
-      <div className="mx-auto max-container-2xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-container-2xl px-4">
         <div className="relative mx-auto max-container-2xl">
           <div
             aria-hidden

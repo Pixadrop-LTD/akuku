@@ -9,7 +9,7 @@ import {
   useSpring,
   useTransform,
 } from "framer-motion"
-import { Car, Home, School, Stethoscope } from "lucide-react"
+import { Car, Computer, Home, School, Sprout, Stethoscope } from "lucide-react"
 import Image from "next/image"
 import { useEffect, useRef, useState } from "react"
 
@@ -53,13 +53,18 @@ const HomeProgramBlock = () => {
       featured: false,
     },
     {
+      id: "digital",
+      icon: <Computer className="h-full w-full text-accent" />,
+      featured: false,
+    },
+    {
       id: "householdResilience",
       icon: <Home className="h-full w-full text-accent" />,
       featured: false,
     },
     {
-      id: "mobility",
-      icon: <Car className="h-full w-full text-accent" />,
+      id: "climate",
+      icon: <Sprout className="h-full w-full text-accent" />,
       featured: false,
     },
   ]
@@ -167,9 +172,7 @@ const HomeProgramBlock = () => {
             const isFeatured = program.featured
             const gridClass = isFeatured
               ? "lg:col-span-2 lg:row-span-2"
-              : index === 1
-                ? "lg:col-span-2 lg:row-span-1"
-                : "lg:col-span-1 lg:row-span-1"
+              : "lg:col-span-1 lg:row-span-1"
 
             return (
               <motion.a

@@ -1074,7 +1074,7 @@
   "home": {
     "hero": {
       "image_alt": "ADT Community Impact",
-      "tagline": "35 Years of Indigenous Leadership",
+      "tagline": "35 Years Of",
       "title": {
         "prefix": "Building ",
         "highlight": "Community Resilience",
@@ -1134,8 +1134,8 @@
       "description": "ADT's five-pillar strategic portfolio addresses the complete lifecycle of vulnerability, from clinical intervention to economic self-reliance.",
       "view_all": "Explore All Programs",
       "pediatricHIV": {
-        "title": "Pediatric HIV & Integrated Clinical Systems",
-        "description": "Precision clinical interventions achieving 95-95-95 saturation through Play Therapy and Assisted Disclosure models, improving CALHIV treatment adherence while PMTCT Continuum ensures 100% retention in care for HIV-positive mothers.",
+        "title": "Health",
+        "description": "Increasing access to quality health and social services for orphans and vulnerable children and their families.",
         "learn_more": "Learn More",
         "image_alt": "Healthcare worker providing clinical care to children in rural facility"
       },
@@ -1146,20 +1146,20 @@
         "image_alt": "Students in uniform receiving educational materials and scholarships"
       },
       "digital": {
-        "title": "Digital Skills",
-        "description": "Breaking intergenerational poverty through educational equity by addressing schooling costs through levies, uniforms, and menstrual hygiene kits, while securing placements in national programs like Elimu, Wings to Fly, and JKF fund.",
+        "title": "Digital Skills Literacy",
+        "description": "Equipping children, youth, and caregivers with practical digital skills for learning, communication, and economic opportunity.",
         "explore": "Explore",
         "image_alt": "Students in uniform receiving educational materials and scholarships"
       },
       "climate": {
-        "title": "Climate Resilience",
-        "description": "Building climate-adaptive livelihoods through sustainable agriculture and environmental stewardship, equipping communities with, and climate-smart farming practices.",
+        "title": "Climate Action Support Objective",
+        "description": "Promote climate resilience and environmental conservation through beekeeping, hive production, and farmer support that enhances pollination, biodiversity, and sustainable livelihoods.",
         "explore": "Explore",
         "image_alt": "Farmers practicing sustainable agriculture and climate-resilient farming techniques"
       },
       "householdResilience": {
-        "title": "Household Resilience & Economic Fortification",
-        "description": "",
+        "title": "Household Economic Resilience",
+        "description": "Strengthening household livelihoods through skills development, savings culture, and income- generating initiatives.",
         "explore": "Explore",
         "image_alt": "Caregivers managing savings group and receiving business equipment"
       },

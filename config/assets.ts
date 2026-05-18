@@ -4,12 +4,14 @@ import CollaborationsBusinessPartnersImage from '../assets/images/collborations/
 import CollaborationsColabosImage from '../assets/images/collborations/colabos.jpg'
 import CollaborationsGovernmentImage from '../assets/images/collborations/government.jpg'
 import CollaborationsHeroImage from '../assets/images/collborations/hero.jpg'
-import HouseholdResilienceImage from '../assets/images/home/empowerment.jpg'
+import ClimateImage from '../assets/images/home/climate.jpg'
+import StableImage from '../assets/images/home/stable.jpg'
 import HomeHeroImage from '../assets/images/home/hero.jpeg'
 import MobilityImage from '../assets/images/home/patners.jpg'
 import PediatricHIVImage from '../assets/images/home/program.jpg'
-import SchooledImage from '../assets/images/home/tranning.jpg'
+import SchooledImage from '../assets/images/home/schooled.jpeg'
 import ApicultureImage from '../assets/images/home/women.jpg'
+import DigitalLiteracyImage from '../assets/images/home/digital.jpeg'
 import ImpactHeroImage from '../assets/images/impact/impact.jpg'
 import ImpactStatsImage from '../assets/images/impact/impact2.jpg'
 import ImpactEducationImage from '../assets/images/impact/impact3.jpg'
@@ -41,9 +43,11 @@ export const Assets = {
         programmes: {
             pediatricHIV: PediatricHIVImage,
             schooled: SchooledImage,
-            householdResilience: HouseholdResilienceImage,
+            householdResilience: StableImage,
             apiculture: ApicultureImage,
             mobility: MobilityImage,
+            digital: DigitalLiteracyImage,
+            climate: ClimateImage
         },
     },
     impact: {

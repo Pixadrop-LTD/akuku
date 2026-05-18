@@ -62,9 +62,8 @@ const HomeCTABlock = () => {
 
         const newValues: Record<string, string> = {}
         const stats = [
-          { id: "children_helped", target: "10001+" },
-          { id: "volunteers", target: "117+" },
-          { id: "communities", target: "4+" },
+          { id: "children_helped", target: "100001+" },
+          { id: "volunteers", target: "30001+" },
           { id: "years_serving", target: "36+" },
         ]
 
@@ -109,11 +108,6 @@ const HomeCTABlock = () => {
       id: "volunteers",
       number: animatedStats["volunteers"] || "0",
       label: t.home.cta.stats.volunteers.label,
-    },
-    {
-      id: "communities",
-      number: animatedStats["communities"] || "0",
-      label: t.home.cta.stats.communities.label,
     },
     {
       id: "years_serving",
@@ -303,7 +297,7 @@ const HomeCTABlock = () => {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: 1.8, ease: "easeOut" }}
             >
-              <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+              <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
                 {stats.map((stat, index) => (
                   <motion.div
                     key={stat.id}

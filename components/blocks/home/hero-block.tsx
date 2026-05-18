@@ -102,7 +102,7 @@ const HomeHeroBlock = () => {
             animate={{ opacity: 1, scale: 1, rotateX: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
             whileHover={{ scale: 1.05, y: -2 }}
-            className="inline-block rounded-full border border-white/20 bg-white/10 px-4 py-1 text-sm tracking-widest text-accent uppercase shadow-sm backdrop-blur-sm"
+            className="inline-block rounded-full border border-white/20 bg-white/10 px-4 py-1 text-sm tracking-widest text-neutral-900 uppercase shadow-sm backdrop-blur-sm"
           >
             {t.home.hero.tagline}
           </motion.span>
@@ -122,7 +122,7 @@ const HomeHeroBlock = () => {
               transition={{ duration: 0.6, delay: 0.8 }}
               className="inline-block"
             >
-              {t.home.hero.title.prefix}{" "}
+              {t.home.hero.title.prefix}&nbsp;
             </motion.span>
             <motion.span
               initial={{ opacity: 0, scale: 0.8 }}
@@ -173,7 +173,7 @@ const HomeHeroBlock = () => {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: 2.0, ease: "easeOut" }}
-              className="font-semibold text-secondary"
+              className="font-bold text-neutral-900"
               whileHover={{ scale: 1.1, color: "#fff" }}
             >
               {t.home.hero.description.stat1}
@@ -190,7 +190,7 @@ const HomeHeroBlock = () => {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: 2.4, ease: "easeOut" }}
-              className="font-semibold text-secondary"
+              className="font-bold text-neutral-900"
               whileHover={{ scale: 1.1, color: "#fff" }}
             >
               {t.home.hero.description.stat2}

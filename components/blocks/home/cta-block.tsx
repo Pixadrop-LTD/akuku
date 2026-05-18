@@ -62,10 +62,10 @@ const HomeCTABlock = () => {
 
         const newValues: Record<string, string> = {}
         const stats = [
-          { id: "children_helped", target: "6708+" },
+          { id: "children_helped", target: "10001+" },
           { id: "volunteers", target: "117+" },
           { id: "communities", target: "4+" },
-          { id: "years_serving", target: "35+" },
+          { id: "years_serving", target: "36+" },
         ]
 
         stats.forEach((stat) => {

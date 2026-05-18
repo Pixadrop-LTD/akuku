@@ -61,8 +61,8 @@ const HomeImpactBlock = () => {
 
         const newValues: Record<string, string> = {}
         const stats = [
-          { id: "children_supported", target: "6708+" },
-          { id: "households_reached", target: "2765+" },
+          { id: "children_supported", target: "100,000+" },
+          { id: "households_reached", target: "35,000+" },
           { id: "viral_suppression", target: "95%" },
           { id: "years_service", target: "35+" },
         ]

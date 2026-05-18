@@ -815,12 +815,12 @@
       "description": "A permanent, audit-ready Trust delivering results across households, clinics, and schools—at scale.",
       "statistics": {
         "children_supported": {
-          "number": "6,708+",
+          "number": "100,000+",
           "label": "Children Supported",
           "description": "OVC reached through coordinated health, education, and protection services"
         },
         "households_reached": {
-          "number": "2,765+",
+          "number": "35,000+",
           "label": "Households Reached",
           "description": "Caregiver households supported through resilience and economic strengthening"
         },
@@ -848,7 +848,7 @@
         },
         "result": {
           "label": "Result:",
-          "description": "Over 6,000 children have accessed quality health and social services through our coordinated intervention."
+          "description": "Over 100,000 children have accessed quality health and social services through our coordinated intervention."
         }
       },
       "beyond_classroom": {
@@ -1076,16 +1076,16 @@
       "image_alt": "ADT Community Impact",
       "tagline": "35 Years of Indigenous Leadership",
       "title": {
-        "prefix": "Building",
+        "prefix": "Building ",
         "highlight": "Community Resilience",
         "suffix": "in Western Kenya"
       },
       "description": {
         "organization_name": "Akukuranut Development Trust",
         "text": "mobilizes resources to bridge the gap between systemic vulnerability and sustainable self-reliance for",
-        "stat1": "6,708 OVC",
-        "stat2": "2,765 households",
-        "location": "across the Teso and Butula corridors"
+        "stat1": "100,000 OVC",
+        "stat2": "35,000 households",
+        "location": "across Western region"
       },
       "cta": {
         "partner": "Partner with Us",
@@ -1100,16 +1100,16 @@
         "highlight": "in Numbers",
         "suffix": ""
       },
-      "description": "35 years of indigenous leadership delivering measurable transformation across Western Kenya's most vulnerable communities",
+      "description": "35 years of building resilience and delivering measurable transformation across Western Kenya's most vulnerable communities",
       "statistics": {
         "children_supported": {
-          "number": "1,708+",
+          "number": "100,000+",
           "label": "Children Supported",
           "description": "Orphans and Vulnerable Children receiving comprehensive care",
           "icon_description": "Group of children representing our beneficiary community"
         },
         "households_reached": {
-          "number": "2,765+",
+          "number": "35,000+",
           "label": "Households Reached",
           "description": "Families benefiting from economic empowerment programs",
           "icon_description": "Family unit representing household resilience"
@@ -1192,7 +1192,7 @@
         },
         "in_kind": {
           "title": "In-Kind Gifts",
-          "description": "Donate essential goods and supplies that directly support our programs, from productive assets to educational materials for our 6,708 children and youth.",
+          "description": "Donate essential goods and supplies that directly support our programs, from productive assets to educational materials for our 100,000+ children and youth.",
           "cta": "View needs list",
           "icon_description": "Gift box representing in-kind donations and material support"
         }
@@ -1204,7 +1204,7 @@
         "prefix": "Ready to Make a",
         "highlight": "Difference?"
       },
-      "description": "Your contribution helps provide love, care, and life-changing opportunities to 6,708 children and vulnerable youth across Western Kenya's most vulnerable communities.",
+      "description": "Your contribution helps provide love, care, and life-changing opportunities to 100,000+ children and vulnerable youth across Western Kenya's most vulnerable communities.",
       "primary_button": {
         "text": "Contact us now"
       },
@@ -1235,7 +1235,7 @@
         "prefix": "A Permanent Institution for",
         "highlight": "Community Transformation"
       },
-      "description": "A locally led Trust with a permanent legal foundation—built to translate community participation into measurable progress across health, education, and household resilience.",
+      "description": "A locally led Trust with a permanent legal foundation—built to translate community participation into measurable progress across health, education, household resilience, climate action and protection.",
       "cta": {
         "primary": "Explore Our Legal Framework",
         "secondary": "See Our Governance Model"
@@ -1362,9 +1362,9 @@
           "description": "Registered under Cap 164, ADT becomes a permanent Trust—strengthening governance, institutional continuity, and partner confidence."
         },
         "2024": {
-          "year": "2024",
+          "year": "Ongoing",
           "title": "Delivery at Scale",
-          "description": "Implementing USAID 4TheChild with clinical-community integration—supporting 6,708 OVC and strengthening 2,765 households."
+          "description": "Implementing USAID 4TheChild with clinical-community integration—supporting over 100,000 OVC and strengthening over 35,000 households."
         },
         "2030": {
           "year": "2030",
@@ -1516,7 +1516,7 @@
   "contact": {
     "address": "P.O BOX 243-50400",
     "person": "JUDITH A OBARI",
-    "phone": "+25472686951",
+    "phone": "+254726869951",
     "email": "adtbusia@yahoo.com",
     "facebook": "Akukuranut Development Trust (ADT)"
   }

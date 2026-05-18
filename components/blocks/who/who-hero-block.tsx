@@ -108,7 +108,7 @@ export const WhoHeroBlock = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.35 }}
             whileHover={{ scale: 1.04, y: -2 }}
-            className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm tracking-widest text-accent uppercase shadow-sm backdrop-blur-sm"
+            className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm tracking-widest text-neutral-900 uppercase shadow-sm backdrop-blur-sm"
           >
             <ShieldCheck className="h-4 w-4" />
             {t.who.hero.badge}

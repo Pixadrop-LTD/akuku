@@ -404,7 +404,7 @@ export const FooterLayout = () => {
                 role="img"
                 aria-labelledby="logo-unicef"
               >
-                <title id="logo-unicef">UNICEF</title>
+                <title id="logo-unicef">USAID</title>
                 <rect
                   width="120"
                   height="40"
@@ -421,7 +421,7 @@ export const FooterLayout = () => {
                   fill="currentColor"
                   opacity="0.8"
                 >
-                  UNICEF
+                  USAID
                 </text>
               </svg>
             </div>
@@ -432,7 +432,7 @@ export const FooterLayout = () => {
                 role="img"
                 aria-labelledby="logo-stc"
               >
-                <title id="logo-stc">Save the Children</title>
+                <title id="logo-stc">UK GOV</title>
                 <rect
                   width="160"
                   height="40"
@@ -449,7 +449,7 @@ export const FooterLayout = () => {
                   fill="currentColor"
                   opacity="0.8"
                 >
-                  Save the Children
+                  UK GOV
                 </text>
               </svg>
             </div>
@@ -488,7 +488,7 @@ export const FooterLayout = () => {
                 role="img"
                 aria-labelledby="logo-plan"
               >
-                <title id="logo-plan">Plan International</title>
+                <title id="logo-plan">WORLD NEIGHBOURS</title>
                 <rect
                   width="150"
                   height="40"
@@ -505,7 +505,7 @@ export const FooterLayout = () => {
                   fill="currentColor"
                   opacity="0.8"
                 >
-                  Plan International
+                  WORLD NEIGHBOURS
                 </text>
               </svg>
             </div>
@@ -516,7 +516,7 @@ export const FooterLayout = () => {
                 role="img"
                 aria-labelledby="logo-irc"
               >
-                <title id="logo-irc">Red Cross</title>
+                <title id="logo-irc">WORLD BANK</title>
                 <rect
                   width="120"
                   height="40"
@@ -533,7 +533,7 @@ export const FooterLayout = () => {
                   fill="currentColor"
                   opacity="0.8"
                 >
-                  Red Cross
+                  WORLD BANK
                 </text>
               </svg>
             </div>

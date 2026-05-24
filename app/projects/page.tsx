@@ -1,9 +1,6 @@
 import { ProjectsCTABlock } from "@/components/blocks/projects/projects-cta-block"
 import { ProjectsFeaturedBlock } from "@/components/blocks/projects/projects-featured-block"
 import { ProjectsHeroBlock } from "@/components/blocks/projects/projects-hero-block"
-import { ProjectsImplementationBlock } from "@/components/blocks/projects/projects-implementation-block"
-import { ProjectsNavigatorBlock } from "@/components/blocks/projects/projects-navigator-block"
-import { ProjectsPipelineBlock } from "@/components/blocks/projects/projects-pipeline-block"
 import { Metadata } from "next"
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
@@ -69,10 +66,7 @@ const ProjectsPage = () => {
   return (
     <div>
       <ProjectsHeroBlock />
-      <ProjectsNavigatorBlock />
       <ProjectsFeaturedBlock />
-      <ProjectsImplementationBlock />
-      <ProjectsPipelineBlock />
       <ProjectsCTABlock />
     </div>
   )

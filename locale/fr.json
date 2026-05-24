@@ -875,7 +875,10 @@
         "highlight": "Survie",
         "suffix": "à la prospérité durable"
       },
-      "description": "ADT relie les résultats cliniques, la continuité de l'éducation et la participation économique en un seul parcours intégré - les communautés ne se contentent pas de se rétablir, elles progressent.",
+      "description": {
+        "organization_name": "Akukuranut Development Trust (ADT)",
+        "text": "s’associe aux communautés vulnérables de la région occidentale afin d’améliorer les moyens de subsistance, de renforcer les systèmes de santé, de promouvoir l’inclusion numérique et de créer des opportunités durables pour les femmes, les jeunes et les enfants."
+      },
       "cta": {
         "primary": "Explorer les domaines",
         "secondary": "Partenariater avec ADT"

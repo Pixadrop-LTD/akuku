@@ -9,7 +9,7 @@ import {
   useSpring,
   useTransform,
 } from "framer-motion"
-import { Car, Computer, Home, School, Sprout, Stethoscope } from "lucide-react"
+import { Computer, Home, School, Sprout, Stethoscope } from "lucide-react"
 import Image from "next/image"
 import { useEffect, useRef, useState } from "react"
 
@@ -43,13 +43,13 @@ const HomeProgramBlock = () => {
 
   const programmes = [
     {
-      id: "pediatricHIV",
-      icon: <Stethoscope className="h-full w-full text-accent" />,
+      id: "schooled",
+      icon: <School className="h-full w-full text-accent" />,
       featured: true,
     },
     {
-      id: "schooled",
-      icon: <School className="h-full w-full text-accent" />,
+      id: "pediatricHIV",
+      icon: <Stethoscope className="h-full w-full text-accent" />,
       featured: false,
     },
     {

@@ -156,8 +156,7 @@ const HomeHeroBlock = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.4, delay: 1.6 }}
-              className="font-semibold text-accent"
-              whileHover={{ scale: 1.05 }}
+              className="font-semibold text-white"
             >
               {t.home.hero.description.organization_name}
             </motion.span>
@@ -167,41 +166,7 @@ const HomeHeroBlock = () => {
               transition={{ duration: 0.4, delay: 1.8 }}
             >
               {" "}
-              {t.home.hero.description.text}{" "}
-            </motion.span>
-            <motion.span
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, delay: 2.0, ease: "easeOut" }}
-              className="font-bold text-neutral-900"
-              whileHover={{ scale: 1.1, color: "#fff" }}
-            >
-              {t.home.hero.description.stat1}
-            </motion.span>
-            <motion.span
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.4, delay: 2.2 }}
-            >
-              {" "}
-              and{" "}
-            </motion.span>
-            <motion.span
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, delay: 2.4, ease: "easeOut" }}
-              className="font-bold text-neutral-900"
-              whileHover={{ scale: 1.1, color: "#fff" }}
-            >
-              {t.home.hero.description.stat2}
-            </motion.span>
-            <motion.span
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.4, delay: 2.6 }}
-            >
-              {" "}
-              {t.home.hero.description.location}
+              {t.home.hero.description.text}
             </motion.span>
           </motion.p>
 

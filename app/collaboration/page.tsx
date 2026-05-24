@@ -38,7 +38,6 @@ const CollaborationPage = () => {
     <div>
       <CollaborationHeroBlock />
       <CollaborationLegitimacyBlock />
-      <CollaborationModelsBlock />
       <CollaborationPortfolioBlock />
       <CollaborationEvidenceBlock />
       <CollaborationPartnersBlock />

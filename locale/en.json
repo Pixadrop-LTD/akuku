@@ -23,7 +23,7 @@
   "footer": {
     "brand": {
       "name": "AKUKURANUT",
-      "tagline": "Empowering lives through compassion, advocacy, and sustainable support for children in need."
+      "tagline": "Advancing livelihoods, health and digital inclusion."
     },
     "sections": {
       "quick_links": {
@@ -248,11 +248,11 @@
       "image_alt": "ADT partners and field teams delivering last-mile services in Western Kenya",
       "badge": "Partnership Pathways",
       "title": {
-        "prefix": "Build systems.",
-        "highlight": "Deliver outcomes.",
-        "suffix": "Scale what works."
+        "prefix": "Community-Led Solutions for ",
+        "highlight": "Lasting Change.",
+        "suffix": ""
       },
-      "description": "Akukuranut Development Trust (ADT) is a permanent, audit-ready institution under Cap 164—built to convert partner resources into measurable results across Western Kenya’s most vulnerable households.",
+      "description": "ADT place communities at the center of action, supporting locally driven ideas that create sustainable and meaningful impact. ",
       "cta": {
         "primary": "Start a Partnership",
         "secondary": "See proof of delivery"
@@ -528,10 +528,10 @@
       "image_alt": "ADT field delivery teams implementing last-mile programs across Busia County",
       "badge": "Strategic Projects Portfolio",
       "title": {
-        "prefix": "Implementation",
-        "highlight": "at the last mile"
+        "prefix": "Empowering Vulnerable Communities Through Innovation, Livelihoods, and Inclusion",
+        "highlight": ""
       },
-      "description": "ADT’s projects are not stand-alone activities—they are engineered pathways. From clinical adherence to scholarship linkages, from savings systems to social enterprise, we design interventions as one institutional system that moves households from survival to prosperity.",
+      "description": "ADT promote inclusive opportunities, skills, and local innovation to help communities thrive with dignity and self-reliance. ",
       "cta": {
         "primary": "Explore the Portfolio",
         "secondary": "See the Growth Pipeline"
@@ -906,9 +906,9 @@
           "cta": "Explore Stability"
         },
         "community_block": {
-          "image_alt": "Community empowerment and development activities",
-          "title": "Community Development",
-          "description": "Empowering communities through sustainable development programs, capacity building, and social initiatives.",
+          "image_alt": "Transforming Communities Through Sustainable Development",
+          "title": "Transforming Communities Through Sustainable Development",
+          "description": "ADT drive practical, long-term solutions that improve livelihoods, health, and environmental resilience for vulnerable families.",
           "learn_more": "Learn more",
           "metrics_title": "Community Development Metrics",
           "metrics": {
@@ -1081,11 +1081,8 @@
         "suffix": "in Western Kenya"
       },
       "description": {
-        "organization_name": "Akukuranut Development Trust",
-        "text": "mobilizes resources to bridge the gap between systemic vulnerability and sustainable self-reliance for",
-        "stat1": "100,000 OVC",
-        "stat2": "35,000 households",
-        "location": "across Western region"
+        "organization_name": "Akukuranut Development Trust (ADT)",
+        "text": "partners with vulnerable communities in Western region to improve livelihoods, strengthen health systems, promote digital inclusion, and create sustainable opportunities for women, youth, and children."
       },
       "cta": {
         "partner": "Partner with Us",
@@ -1134,32 +1131,32 @@
       "description": "ADT's five-pillar strategic portfolio addresses the complete lifecycle of vulnerability, from clinical intervention to economic self-reliance.",
       "view_all": "Explore All Programs",
       "pediatricHIV": {
-        "title": "Health",
-        "description": "Increasing access to quality health and social services for orphans and vulnerable children and their families.",
-        "learn_more": "Learn More",
-        "image_alt": "Healthcare worker providing clinical care to children in rural facility"
+        "title": "Health Systems Strengthening",
+        "description": "Improving access to quality health services through community support, referrals, and health education. ",
+        "image_alt": "Healthcare worker providing clinical care to children in rural facility",
+        "explore": "Explore"
       },
       "schooled": {
         "title": "Education Support",
         "description": "Breaking intergenerational poverty through educational equity by addressing schooling costs through levies, uniforms, and menstrual hygiene kits, while securing placements in national programs like Elimu, Wings to Fly, and JKF fund.",
-        "explore": "Explore",
+        "learn_more": "Learn More",
         "image_alt": "Students in uniform receiving educational materials and scholarships"
       },
       "digital": {
         "title": "Digital Skills Literacy",
-        "description": "Equipping children, youth, and caregivers with practical digital skills for learning, communication, and economic opportunity.",
+        "description": "Promoting learning and digital skills to equip the community for opportunities in a changing world.",
         "explore": "Explore",
         "image_alt": "Students in uniform receiving educational materials and scholarships"
       },
       "climate": {
-        "title": "Climate Action Support Objective",
+        "title": "Climate Resilience",
         "description": "Promote climate resilience and environmental conservation through beekeeping, hive production, and farmer support that enhances pollination, biodiversity, and sustainable livelihoods.",
         "explore": "Explore",
         "image_alt": "Farmers practicing sustainable agriculture and climate-resilient farming techniques"
       },
       "householdResilience": {
-        "title": "Household Economic Resilience",
-        "description": "Strengthening household livelihoods through skills development, savings culture, and income- generating initiatives.",
+        "title": "Livelihoods & Economic Empowerment",
+        "description": "Strengthening household incomes through skills development, enterprise support, and sustainable livelihood opportunities.",
         "explore": "Explore",
         "image_alt": "Caregivers managing savings group and receiving business equipment"
       },

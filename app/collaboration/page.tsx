@@ -5,8 +5,6 @@ import { CollaborationHeroBlock } from "@/components/blocks/collaboration/collab
 import { CollaborationLegitimacyBlock } from "@/components/blocks/collaboration/collaboration-legitimacy-block"
 import { CollaborationPartnersBlock } from "@/components/blocks/collaboration/collaboration-partners-block"
 import { CollaborationEvidenceBlock } from "@/components/blocks/collaboration/collaboration-evidence-block"
-import { CollaborationPortfolioBlock } from "@/components/blocks/collaboration/collaboration-portfolio-block"
-import { CollaborationInvestmentBlock } from "@/components/blocks/collaboration/collaboration-investment-block"
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
 const siteName = process.env.NEXT_PUBLIC_SITE_NAME ?? "ADT"

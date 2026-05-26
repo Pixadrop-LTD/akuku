@@ -3,11 +3,25 @@
 import { useLocale } from "@/hooks/use-locale"
 import { cn } from "@/lib/utils"
 import { motion, useInView } from "framer-motion"
-import { GraduationCap, HeartPulse, TrendingUp } from "lucide-react"
+import {
+  GraduationCap,
+  HeartPulse,
+  Leaf,
+  ShieldCheck,
+  TrendingUp,
+  Wifi,
+} from "lucide-react"
 import type { ReactNode } from "react"
 import { useRef, useState } from "react"
 
-type DomainId = "healthy" | "schooled" | "stable"
+type DomainId =
+  | "healthy"
+  | "schooled"
+  | "stable"
+  | "digital"
+  | "child_protection"
+  | "climate_resilience"
+  | "governance_advocacy"
 
 type DomainTone = "primary" | "secondary" | "accent"
 
@@ -30,6 +44,22 @@ export const ProjectsNavigatorBlock = () => {
       icon: <GraduationCap className="h-5 w-5" />,
     },
     { id: "stable", tone: "primary", icon: <TrendingUp className="h-5 w-5" /> },
+    { id: "digital", tone: "secondary", icon: <Wifi className="h-5 w-5" /> },
+    {
+      id: "child_protection",
+      tone: "accent",
+      icon: <ShieldCheck className="h-5 w-5" />,
+    },
+    {
+      id: "climate_resilience",
+      tone: "primary",
+      icon: <Leaf className="h-5 w-5" />,
+    },
+    {
+      id: "governance_advocacy",
+      tone: "secondary",
+      icon: <TrendingUp className="h-5 w-5" />,
+    },
   ]
 
   const toneStyles: Record<

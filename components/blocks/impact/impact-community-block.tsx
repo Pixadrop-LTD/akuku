@@ -25,23 +25,19 @@ export const ImpactCommunityBlock = () => {
 
   const statsData = [
     {
-      target: 117,
-      label:
-        t.impact.domains.cards.community_block.metrics?.resources_invested ||
-        "VSLA Groups",
-      suffix: "",
-    },
-    {
-      target: 584,
-      label:
-        t.impact.domains.cards.community_block.metrics?.activities_performed ||
-        "Caregiver Members",
+      target: 12000,
+      label: "Community Savings Groups",
       suffix: "+",
     },
     {
-      target: 95,
-      label: "Economic Empowerment",
-      suffix: "%",
+      target: 80000,
+      label: "Community Members Trained",
+      suffix: "+",
+    },
+    {
+      target: 300,
+      label: "ADT SACCO Members",
+      suffix: "+",
     },
     {
       target: 35,
@@ -228,7 +224,7 @@ export const ImpactCommunityBlock = () => {
 
             <motion.div
               variants={buttonVariants}
-              className="flex flex-col justify-center gap-4 pb-10 sm:flex-row pb-8"
+              className="flex flex-col justify-center gap-4 pb-10 sm:flex-row"
             >
               <motion.a
                 href="#our-impact"

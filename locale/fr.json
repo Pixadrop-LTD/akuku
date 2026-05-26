@@ -340,24 +340,36 @@
       ]
     },
     "legitimacy": {
-      "badge": "Pourquoi les partenaires choisissent ADT",
+      "badge": "Pourquoi collaborer avec ADT ?",
       "title": {
-        "prefix": "Une plateforme de collaboration conçue pour",
-        "highlight": "l’échelle responsable"
+        "prefix": "",
+        "highlight": "Pourquoi collaborer avec ADT ?"
       },
-      "description": "ADT relie le capital humain local et les ressources externes avec une promesse simple : une gouvernance qui protège l’investissement et des systèmes de mise en œuvre qui font croître l’impact.",
+      "description": "Nous apportons des décennies de travail pratique avec les communautés, transformant les réalités locales en solutions pratiques et durables.",
       "cards": {
-        "permanence": {
-          "title": "Pérennité institutionnelle (Cap 164)",
-          "description": "ADT est enregistré sous la loi des Trustees (Perpetual Succession), Cap 164. Les partenaires ne financent pas un projet temporaire : ils renforcent une institution durable, conçue pour porter les systèmes dans le temps."
+        "experience": {
+          "title": "Plus de 30 ans d'expérience de développement communautaire",
+          "description": "Nous apportons des décennies de travail pratique avec les communautés, transformant les réalités locales en solutions pratiques et durables."
         },
-        "governance": {
-          "title": "Gouvernance prête pour l’audit",
-          "description": "La redevabilité est intégrée : supervision fiduciaire, mise en œuvre technique professionnelle et participation communautaire qui transforme la légitimité locale en exécution mesurable."
+        "compliance": {
+          "title": "Systèmes solides de conformité et de redevabilité des donateurs",
+          "description": "Nos contrôles financiers transparents et nos systèmes de reporting assurent une gestion responsable des ressources des partenaires."
         },
-        "discipline": {
-          "title": "Discipline de mise en œuvre",
-          "description": "Nos systèmes relient cliniques, écoles, soignants et équipes de terrain en un moteur de continuité—pour que l’investissement devienne des résultats, pas seulement des activités."
+        "trust": {
+          "title": "Confiance communautaire profonde et réseaux locaux",
+          "description": "Des relations de longue date avec les ménages, les leaders et les bénévoles permettent une action efficace et appartenant à la communauté."
+        },
+        "donor_experience": {
+          "title": "Expérience éprouvée dans la gestion de programmes financés par des donateurs internationaux",
+          "description": "Nous mettons en œuvre et rapportons avec succès des projets complexes selon les normes et les délais mondiaux."
+        },
+        "expertise": {
+          "title": "Expertise dans le développement communautaire et durable",
+          "description": "Notre approche centre sur la participation locale, construisant des solutions que les communautés peuvent soutenir au-delà des cycles de projet."
+        },
+        "monitoring": {
+          "title": "Systèmes solides de suivi, d'évaluation et de sauvegarde",
+          "description": "Nous suivons rigoureusement les résultats tout en respectant la protection de l'enfant, l'intégrité des données et la livraison éthique des programmes."
         }
       },
       "image_alt": "Collaboration entre communautés et partenaires",
@@ -427,12 +439,12 @@
       }
     },
     "portfolio": {
-      "badge": "Portefeuille stratégique",
+      "badge": "Nos Organisations Partenaires",
       "title": {
         "prefix": "Un seul pipeline de résilience.",
         "highlight": "Plusieurs points d’entrée pour collaborer."
       },
-      "description": "Le modèle de résilience de Busia fait passer les ménages de la survie au développement puis à la prospérité. Les partenaires peuvent financer un domaine, renforcer un système ou co-livrer des résultats intégrés.",
+      "description": "Nous collaborons avec des organisations de premier plan pour livrer des résultats mesurables dans la santé, l'éducation et la résilience des ménages dans l'ouest du Kenya.",
       "domain_cta": "Explorer les parcours par domaine",
       "image_alt": "Collaboration entre gouvernement et communautés",
       "domains": {
@@ -475,10 +487,10 @@
       }
     },
     "partners": {
-      "badge": "Réseau de partenaires",
+      "badge": "Nos Partenaires",
       "title": {
-        "prefix": "La confiance des institutions.",
-        "highlight": "La force des communautés."
+        "prefix": "",
+        "highlight": "Nos Partenaires"
       },
       "description": "ADT agit comme un pont : aligner gouvernement, société civile et secteur privé autour d’une philosophie de mise en œuvre portée par la communauté.",
       "principles": {
@@ -622,12 +634,12 @@
       "description": "Nous structurons la mise en œuvre via le modèle de résilience de Busia — afin que les partenaires puissent financer un domaine, co-déployer un système, ou investir dans l’infrastructure qui multiplie les résultats.",
       "domains": {
         "healthy": {
-          "title": "Domaine Healthy",
+          "title": "Renforcement des systèmes de santé",
           "short": "Synergie clinique-communautaire pour l’adhésion, la continuité PMTCT et la nutrition.",
           "label": "Excellence clinique",
           "signal": "Santé au dernier kilomètre",
           "headline": "Relier les cliniques aux ménages.",
-          "description": "Les hôpitaux fournissent les médicaments. ADT apporte le suivi ménager, le soutien psychosocial et le traçage appuyé par la mobilité — particulièrement pour les CALHIV et les mères PMTCT.",
+          "description": "Améliorer l'accès aux services de santé de qualité grâce au soutien communautaire, aux référencements et à l'éducation sanitaire.",
           "highlights": [
             "Adhésion pédiatrique via la play therapy",
             "Divulgation assistée et coaching des soignants",
@@ -635,12 +647,12 @@
           ]
         },
         "schooled": {
-          "title": "Domaine Schooled",
+          "title": "Soutien à l'éducation",
           "short": "Soutien à la rétention, kits MHM, bourses et transitions TVET.",
           "label": "Équité éducative",
           "signal": "Accélération du capital humain",
           "headline": "Maintenir la scolarité — puis ouvrir les opportunités.",
-          "description": "Nous supprimons les barrières concrètes — frais, uniformes, fournitures — qui excluent les enfants vulnérables. Nous relions ensuite les meilleurs profils aux bourses nationales et accompagnons les jeunes vers l’employabilité.",
+          "description": "Soutenir les enfants avec du matériel scolaire, un suivi scolaire et du mentorat pour maintenir les apprenants vulnérables à l'école.",
           "highlights": [
             "Soutien ciblé des coûts de scolarité",
             "Liens de bourses (Elimu, Wings to Fly, JKF)",
@@ -648,16 +660,68 @@
           ]
         },
         "stable": {
-          "title": "Domaine Stable",
+          "title": "Moyens de subsistance et autonomisation économique",
           "short": "Inclusion financière, actifs productifs, chaînes de valeur climato-intelligentes et entreprise sociale.",
           "label": "Résilience des ménages",
           "signal": "De la dépendance à la participation au marché",
           "headline": "Capitaliser le soignant. Renforcer le ménage.",
-          "description": "La stabilité économique est la base de la protection de l’enfance. Avec les systèmes VSLA+, les kits d’actifs productifs et les moyens de subsistance climato-intelligents, nous transformons les soignants en acteurs économiques.",
+          "description": "Renforcer les revenus des ménages par le développement des compétences, le soutien aux entreprises et les opportunités de moyens de subsistance durables.",
           "highlights": [
             "VSLAs/VSLA et coaching en littératie financière",
             "Injection d’actifs productifs (couture/salon/agri)",
             "Apiculture + chaînes de valeur climato-intelligentes"
+          ]
+        },
+        "digital": {
+          "title": "Inclusion numérique",
+          "short": "Promouvoir l'apprentissage et les compétences numériques pour les enfants et les jeunes.",
+          "label": "Compétences numériques",
+          "signal": "Opportunité dans l'économie numérique",
+          "headline": "Équiper pour l'avenir numérique.",
+          "description": "Promouvoir l'apprentissage et les compétences numériques pour équiper les enfants et les jeunes pour les opportunités dans un monde en évolution.",
+          "highlights": [
+            "Formation en littératie numérique pour les jeunes",
+            "Cours d'informatique et compétences TIC",
+            "Accès aux ressources d'apprentissage numérique"
+          ]
+        },
+        "child_protection": {
+          "title": "Protection de l'enfance",
+          "short": "Protéger les enfants contre les abus, la négligence et l'exploitation.",
+          "label": "Environnement sûr",
+          "signal": "Droits et bien-être",
+          "headline": "Protéger l'avenir de chaque enfant.",
+          "description": "Protéger les enfants contre les abus, la négligence et l'exploitation tout en promouvant leur bien-être et leurs droits.",
+          "highlights": [
+            "Gestion de cas et référencements de santé",
+            "Soutien psychosocial pour les enfants vulnérables",
+            "Autonomisation des soignants et protection de l'enfance"
+          ]
+        },
+        "climate_resilience": {
+          "title": "Résilience climatique",
+          "short": "Soutenir les communautés pour s'adapter au changement climatique.",
+          "label": "Pratiques durables",
+          "signal": "Adaptation climatique",
+          "headline": "Construire la résilience pour demain.",
+          "description": "Soutenir les communautés pour s'adapter au changement climatique par la conservation environnementale et des pratiques durables.",
+          "highlights": [
+            "Moyens de subsistance climato-intelligents",
+            "Conservation environnementale",
+            "Pratiques agricoles durables"
+          ]
+        },
+        "governance_advocacy": {
+          "title": "Gouvernance et plaidoyer",
+          "short": "Amplifier les voix communautaires pour influencer les politiques.",
+          "label": "Voix communautaire",
+          "signal": "Influence politique",
+          "headline": "Amplifier les voix communautaires.",
+          "description": "Amplifier les voix communautaires pour influencer les politiques et promouvoir la responsabilité pour un développement inclusif.",
+          "highlights": [
+            "Forums de dialogue communautaire",
+            "Éducation civique et participation",
+            "Réunions de plaidoyer sur les priorités communautaires"
           ]
         }
       }
@@ -670,70 +734,96 @@
       },
       "description": "Chaque projet phare représente un modèle bout-en-bout : problème clair, mise en œuvre alignée culturellement, résultats mesurables et trajectoire de mise à l’échelle.",
       "cards": {
-        "clinical_excellence": {
-          "pill": "Healthy",
-          "title": "VIH pédiatrique & systèmes cliniques intégrés",
-          "description": "Intervention de haute précision au dernier kilomètre pour renforcer l’adhésion, la rétention des soins et la suppression virale via l’intégration clinique-communautaire.",
-          "image_alt": "Services de liaison clinique et action communautaire",
+        "ovc_project": {
+          "pill": "Protection de l'enfance",
+          "title": "Projet OVC (Enfants orphelins et vulnérables)",
+          "description": "Nous renforçons le bien-être des enfants orphelins et vulnérables par la gestion de cas, les référencements de santé, le soutien psychosocial, la protection de l'enfance et l'autonomisation des soignants pour assurer que chaque enfant grandisse dans un environnement sûr et favorable.",
+          "image_alt": "Services de soutien OVC et protection de l'enfance",
           "highlights": [
-            "Play therapy + adhésion centrée sur l’enfant",
-            "Continuité PMTCT et traçage des défauts",
-            "Évaluation nutritionnelle et plans d’action ménagers"
+            "Gestion de cas et référencements de santé",
+            "Soutien psychosocial pour les enfants vulnérables",
+            "Autonomisation des soignants et protection de l'enfance"
           ],
-          "cta": "Explorer le modèle",
-          "href": "#implementation"
-        },
-        "schooled_accelerator": {
-          "pill": "Schooled",
-          "title": "Accélérateur du cycle Schooled",
-          "description": "Une trajectoire éducative séquencée : maintien à l’école, dignité des adolescentes, bourses et transitions vers l’employabilité.",
-          "image_alt": "Apprenants soutenus par des programmes de rétention",
-          "highlights": [
-            "Uniformes, frais et fournitures",
-            "Kits MHM pour réduire l’absentéisme",
-            "Bourses + transitions TVET"
-          ],
-          "cta": "Voir les parcours",
+          "cta": "Explorer le soutien OVC",
           "href": "#portfolio"
         },
-        "vsla_plus": {
-          "pill": "Stable",
-          "title": "Résilience des ménages & fortification économique",
-          "description": "Cadre de capitalisation des soignants ancré dans les VSLAs/VSLA, le coaching d’entreprise et les kits d’actifs productifs.",
-          "image_alt": "Groupes d’épargne et appui à la micro-entreprise",
+        "bee_keeping": {
+          "pill": "Moyens de subsistance climato-intelligents",
+          "title": "Projet d'apiculture",
+          "description": "Nous promouvons des moyens de subsistance climato-intelligents en soutenant les agriculteurs avec des ruches modernes, une formation et des liens de marché—améliorant les revenus tout en renforçant la pollinisation et la conservation environnementale.",
+          "image_alt": "Apiculture moderne et production de miel",
           "highlights": [
-            "Coaching de 100+ groupes d’épargne",
-            "Discipline de gestion et littératie financière",
-            "Kits de lancement pour micro-entreprises viables"
+            "Ruches modernes et formation",
+            "Liens de marché pour les produits du miel",
+            "Conservation environnementale par pollinisation"
           ],
-          "cta": "Explorer la résilience",
+          "cta": "Voir l'initiative apicole",
           "href": "#pipeline"
         },
-        "apiculture_enterprise": {
-          "pill": "Entreprise sociale",
-          "title": "Entreprise sociale apicole (ASL)",
-          "description": "Modèle d’impact-investissement : revenus diversifiés pour les ménages affectés par le VIH et moteur durable qui soutient la mission sociale d’ADT.",
-          "image_alt": "Apiculture et production de miel comme moteur de revenus",
+        "sacco_project": {
+          "pill": "Résilience financière",
+          "title": "Projet SACCO",
+          "description": "Nous construisons la résilience économique des ménages par les groupes d'épargne et de crédit, la littératie financière et le soutien aux petites entreprises, permettant aux familles d'accéder à un crédit abordable et d'accroître leurs revenus.",
+          "image_alt": "Groupes d'épargne et de crédit SACCO",
           "highlights": [
-            "Coaching en gestion moderne d’apiary",
-            "Extension vers processing + marque",
-            "Stabilité de revenus pour veuves et soignants âgés"
+            "Groupes d'épargne et de crédit",
+            "Formation en littératie financière",
+            "Soutien aux petites entreprises"
           ],
-          "cta": "Voir la trajectoire",
+          "cta": "Explorer le modèle SACCO",
           "href": "#pipeline"
         },
-        "mobility_network": {
-          "pill": "Levier",
-          "title": "Réseau logistique & mobilité",
-          "description": "Moteur de co-financement avec World Bicycle Relief et l’ADT SACCO, améliorant la fréquence des visites, le traçage et la continuité des référencements.",
-          "image_alt": "Vélos permettant une gestion de cas réactive",
+        "bicycles_project": {
+          "pill": "Mobilité et accès",
+          "title": "Projet de bicyclettes",
+          "description": "Nous améliorons l'accès à l'éducation et aux services de santé en fournissant des bicyclettes aux apprenants et aux bénévoles communautaires, réduisant les barrières de distance et économisant du temps pour les services essentiels.",
+          "image_alt": "Bicyclettes pour l'accès à l'éducation et la santé",
           "highlights": [
-            "Modèle mobilité co-investi",
-            "Traçage rapide et continuité des soins",
-            "Efficacité opérationnelle pour l’outreach rural"
+            "Bicyclettes pour les apprenants",
+            "Mobilité des bénévoles communautaires",
+            "Réduction des barrières de distance"
           ],
-          "cta": "Voir l’effet de la mobilité",
+          "cta": "Voir l'impact de la mobilité",
           "href": "#implementation"
+        },
+        "digital_literacy": {
+          "pill": "Inclusion numérique",
+          "title": "Projet de compétences en littératie numérique",
+          "description": "Nous équipons les enfants, les jeunes et les soignants de compétences numériques essentielles pour l'apprentissage, la communication et l'opportunité dans un monde de plus en plus numérique.",
+          "image_alt": "Formation en littératie numérique pour les jeunes",
+          "highlights": [
+            "Formation aux compétences numériques essentielles",
+            "Outils d'apprentissage et de communication",
+            "Opportunités dans l'économie numérique"
+          ],
+          "cta": "Explorer les programmes numériques",
+          "href": "#portfolio"
+        },
+        "hes_project": {
+          "pill": "Renforcement économique",
+          "title": "Projet HES (Renforcement économique des ménages)",
+          "description": "Nous autonomisons les soignants avec des compétences en budgétisation, épargne, nutrition, offrons un boost commercial, des actifs productifs et le développement de petites entreprises pour améliorer la stabilité des ménages et le bien-être des enfants.",
+          "image_alt": "Programmes de renforcement économique des ménages",
+          "highlights": [
+            "Compétences de budgétisation et d'épargne",
+            "Boost commercial et actifs productifs",
+            "Développement de petites entreprises"
+          ],
+          "cta": "Voir les initiatives HES",
+          "href": "#pipeline"
+        },
+        "computer_class": {
+          "pill": "Éducation TIC",
+          "title": "Projet de cours d'informatique",
+          "description": "Nous fournissons des cours d'informatique structurés qui développent des compétences pratiques en dactylographie, applications de base et codage introductif pour préparer les apprenants au succès académique et professionnel.",
+          "image_alt": "Formation en informatique et compétences TIC",
+          "highlights": [
+            "Dactylographie et applications de base",
+            "Compétences en codage introductif",
+            "Préparation académique et professionnelle"
+          ],
+          "cta": "Explorer les cours d'informatique",
+          "href": "#portfolio"
         }
       }
     },

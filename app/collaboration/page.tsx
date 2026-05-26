@@ -1,13 +1,12 @@
 import { Metadata } from "next"
 
 import { CollaborationCTABlock } from "@/components/blocks/collaboration/collaboration-cta-block"
-import { CollaborationEvidenceBlock } from "@/components/blocks/collaboration/collaboration-evidence-block"
 import { CollaborationHeroBlock } from "@/components/blocks/collaboration/collaboration-hero-block"
-import { CollaborationInvestmentBlock } from "@/components/blocks/collaboration/collaboration-investment-block"
 import { CollaborationLegitimacyBlock } from "@/components/blocks/collaboration/collaboration-legitimacy-block"
-import { CollaborationModelsBlock } from "@/components/blocks/collaboration/collaboration-models-block"
 import { CollaborationPartnersBlock } from "@/components/blocks/collaboration/collaboration-partners-block"
+import { CollaborationEvidenceBlock } from "@/components/blocks/collaboration/collaboration-evidence-block"
 import { CollaborationPortfolioBlock } from "@/components/blocks/collaboration/collaboration-portfolio-block"
+import { CollaborationInvestmentBlock } from "@/components/blocks/collaboration/collaboration-investment-block"
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
 const siteName = process.env.NEXT_PUBLIC_SITE_NAME ?? "ADT"
@@ -38,10 +37,8 @@ const CollaborationPage = () => {
     <div>
       <CollaborationHeroBlock />
       <CollaborationLegitimacyBlock />
-      <CollaborationPortfolioBlock />
       <CollaborationEvidenceBlock />
       <CollaborationPartnersBlock />
-      <CollaborationInvestmentBlock />
       <CollaborationCTABlock />
     </div>
   )

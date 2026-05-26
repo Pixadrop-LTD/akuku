@@ -18,11 +18,13 @@ import type { ReactNode } from "react"
 import { useRef, useState } from "react"
 
 type FeaturedId =
-  | "clinical_excellence"
-  | "schooled_accelerator"
-  | "vsla_plus"
-  | "apiculture_enterprise"
-  | "mobility_network"
+  | "ovc_project"
+  | "bee_keeping"
+  | "sacco_project"
+  | "bicycles_project"
+  | "digital_literacy"
+  | "hes_project"
+  | "computer_class"
 
 type FeaturedTone = "primary" | "secondary" | "accent"
 
@@ -41,34 +43,46 @@ export const ProjectsFeaturedBlock = () => {
     image: StaticImageData
   }> = [
     {
-      id: "clinical_excellence",
+      id: "ovc_project",
       tone: "accent",
       icon: <HeartPulse className="h-5 w-5" />,
-      image: Assets.projects.health,
-    },
-    {
-      id: "schooled_accelerator",
-      tone: "secondary",
-      icon: <GraduationCap className="h-5 w-5" />,
       image: Assets.projects.childSupport,
     },
     {
-      id: "vsla_plus",
-      tone: "primary",
-      icon: <HandCoins className="h-5 w-5" />,
-      image: Assets.projects.businessEmpowerment,
-    },
-    {
-      id: "apiculture_enterprise",
+      id: "bee_keeping",
       tone: "secondary",
       icon: <Sparkles className="h-5 w-5" />,
       image: Assets.projects.beeKeeping,
     },
     {
-      id: "mobility_network",
+      id: "sacco_project",
+      tone: "primary",
+      icon: <HandCoins className="h-5 w-5" />,
+      image: Assets.projects.businessEmpowerment,
+    },
+    {
+      id: "bicycles_project",
       tone: "accent",
       icon: <Bike className="h-5 w-5" />,
       image: Assets.projects.bikes,
+    },
+    {
+      id: "digital_literacy",
+      tone: "secondary",
+      icon: <GraduationCap className="h-5 w-5" />,
+      image: Assets.projects.digital,
+    },
+    {
+      id: "hes_project",
+      tone: "primary",
+      icon: <HandCoins className="h-5 w-5" />,
+      image: Assets.projects.businessSupport,
+    },
+    {
+      id: "computer_class",
+      tone: "secondary",
+      icon: <GraduationCap className="h-5 w-5" />,
+      image: Assets.projects.digital,
     },
   ]
 

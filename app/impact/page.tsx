@@ -1,5 +1,9 @@
+import { ImpactChildProtectionBlock } from "@/components/blocks/impact/impact-child-protection-block"
+import { ImpactClimateResilienceBlock } from "@/components/blocks/impact/impact-climate-resilience-block"
 import { ImpactCommunityBlock } from "@/components/blocks/impact/impact-community-block"
+import { ImpactDigitalInclusionBlock } from "@/components/blocks/impact/impact-digital-inclusion-block"
 import { ImpactEducationBlock } from "@/components/blocks/impact/impact-education-block"
+import { ImpactGovernanceBlock } from "@/components/blocks/impact/impact-governance-block"
 import { ImpactHealthcareBlock } from "@/components/blocks/impact/impact-healthcare-block"
 import { ImpactMetricsBlock } from "@/components/blocks/impact/impact-metrics-block"
 import { ImpactStatsBlock } from "@/components/blocks/impact/impact-stats-block"
@@ -62,12 +66,15 @@ export const metadata: Metadata = {
 }
 
 const ImpactPage = () => {
-
   return (
     <div>
       <ImpactCommunityBlock />
       <ImpactEducationBlock />
       <ImpactHealthcareBlock />
+      <ImpactDigitalInclusionBlock />
+      <ImpactClimateResilienceBlock />
+      <ImpactGovernanceBlock />
+      <ImpactChildProtectionBlock />
       <ImpactStatsBlock />
       <ImpactMetricsBlock />
       <ImpactTimelineBlock />

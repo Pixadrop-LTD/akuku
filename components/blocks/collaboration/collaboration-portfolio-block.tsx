@@ -84,11 +84,7 @@ export const CollaborationPortfolioBlock = () => {
   }
 
   return (
-    <section
-      id="portfolio"
-      ref={ref}
-      className="relative overflow-hidden py-8"
-    >
+    <section id="portfolio" ref={ref} className="relative overflow-hidden py-8">
       <div className="mx-auto max-container-2xl px-4">
         <div className="mx-auto max-container-2xl">
           <div className="mb-14">

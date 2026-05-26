@@ -58,10 +58,12 @@ export const ImpactEducationBlock = () => {
                       <GraduationCap className="mt-0.5 mr-3 h-5 w-5 shrink-0 text-blue-500" />
                       <div>
                         <h4 className="mb-2 font-semibold text-gray-900">
-                          {t.home.programmes.schooled.title}
+                          Scholastic Materials Support
                         </h4>
                         <p className="text-sm leading-relaxed">
-                          {t.home.programmes.schooled.description}
+                          58,000+ children supported with scholastic materials
+                          and school follow-up to ensure they have the resources
+                          needed for academic success.
                         </p>
                       </div>
                     </div>
@@ -69,37 +71,25 @@ export const ImpactEducationBlock = () => {
                       <Users className="mt-0.5 mr-3 h-5 w-5 shrink-0 text-blue-500" />
                       <div>
                         <h4 className="mb-2 font-semibold text-gray-900">
-                          {
-                            t.impact.education.strategic_scholarship_linkages
-                              .title
-                          }
+                          Scholarship Linkages
                         </h4>
                         <p className="text-sm leading-relaxed">
-                          {
-                            t.impact.education.strategic_scholarship_linkages
-                              .description
-                          }
+                          500+ children linked to scholarship programs including
+                          Wings to Fly, KCB Foundation, and KCDF for continued
+                          education opportunities.
                         </p>
                         <ul className="mt-3 space-y-2 text-sm text-gray-600">
                           <li className="flex items-center">
                             <span className="mr-2 h-2 w-2 rounded-full bg-blue-500"></span>
-                            <span>
-                              {
-                                t.impact.education
-                                  .strategic_scholarship_linkages.scholarships
-                                  .equity_bank
-                              }
-                            </span>
+                            <span>Wings to Fly Scholarship</span>
                           </li>
                           <li className="flex items-center">
                             <span className="mr-2 h-2 w-2 rounded-full bg-blue-500"></span>
-                            <span>
-                              {
-                                t.impact.education
-                                  .strategic_scholarship_linkages.scholarships
-                                  .elimu
-                              }
-                            </span>
+                            <span>KCB Foundation Scholarships</span>
+                          </li>
+                          <li className="flex items-center">
+                            <span className="mr-2 h-2 w-2 rounded-full bg-blue-500"></span>
+                            <span>KCDF Educational Support</span>
                           </li>
                         </ul>
                       </div>

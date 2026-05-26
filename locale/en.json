@@ -264,24 +264,36 @@
       ]
     },
     "legitimacy": {
-      "badge": "Why Partners Choose ADT",
+      "badge": "Why Partner With ADT?",
       "title": {
-        "prefix": "A collaboration platform built for",
-        "highlight": "accountable scale"
+        "prefix": "",
+        "highlight": "Why Partner With ADT?"
       },
-      "description": "ADT bridges local human capital and external resources with a simple promise: governance that protects investment, and delivery systems that compound outcomes.",
+      "description": "We bring decades of hands-on work with communities, translating local realities into practical, lasting solutions.",
       "cards": {
-        "permanence": {
-          "title": "Institutional permanence (Cap 164)",
-          "description": "ADT is registered under the Trustees (Perpetual Succession) Act, Cap 164. Partners don’t fund a temporary project—they strengthen a durable institution built to carry systems forward."
+        "experience": {
+          "title": "Over 30 years of grassroots development experience",
+          "description": "We bring decades of hands-on work with communities, translating local realities into practical, lasting solutions."
         },
-        "governance": {
-          "title": "Audit-ready governance",
-          "description": "Accountability is engineered into the model: fiduciary oversight, professional technical delivery, and community participation that turns local legitimacy into measurable execution."
+        "compliance": {
+          "title": "Strong donor compliance and accountability systems",
+          "description": "Our transparent financial controls and reporting systems ensure responsible stewardship of partner resources."
         },
-        "discipline": {
-          "title": "Implementation discipline",
-          "description": "Our delivery systems link clinics, schools, caregivers, and field teams into a single continuity engine—so investment becomes outcomes, not activity."
+        "trust": {
+          "title": "Deep community trust and local networks",
+          "description": "Long-standing relationships with households, leaders, and volunteers enable effective, community-owned action."
+        },
+        "donor_experience": {
+          "title": "Proven experience managing international donor-funded programs",
+          "description": "We successfully implement and report on complex projects to global standards and timelines."
+        },
+        "expertise": {
+          "title": "Expertise in community-led and sustainable development",
+          "description": "Our approach centers on local participation, building solutions that communities can sustain beyond project cycles."
+        },
+        "monitoring": {
+          "title": "Strong monitoring, evaluation, and safeguarding systems",
+          "description": "We track results rigorously while upholding child protection, data integrity, and ethical program delivery."
         }
       },
       "image_alt": "Community and partner collaboration",
@@ -351,100 +363,198 @@
       }
     },
     "portfolio": {
-      "badge": "The Strategic Portfolio",
+      "badge": "Our Partner Organizations",
       "title": {
-        "prefix": "One resilience pipeline.",
-        "highlight": "Multiple collaboration entry points."
+        "prefix": "",
+        "highlight": "Our Partner Organizations"
       },
-      "description": "ADT’s Busia Resilience Model moves households from survival to development to prosperity. Partners can fund a domain, strengthen a system, or co-deliver integrated outcomes.",
-      "domain_cta": "Explore domain pathways",
-      "image_alt": "Government and community collaboration",
-      "domains": {
-        "healthy": {
-          "title": "Healthy Domain",
-          "label": "Clinical Excellence",
-          "signal": "Last-mile health delivery",
-          "headline": "Close the gap between clinics and households.",
-          "description": "Hospitals provide medicine. ADT provides adherence architecture: household follow-up, psychosocial support, mobility-enabled tracing, and continuity—especially for CALHIV and PMTCT mothers.",
-          "highlights": [
-            "Pediatric adherence support through play therapy",
-            "PMTCT retention and defaulter tracing",
-            "Nutrition assessment linked to household action"
+      "description": "We collaborate with leading organizations to deliver measurable outcomes across health, education, and household resilience in Western Kenya.",
+      "items": [
+        {
+          "id": "usaid",
+          "name": "United States Agency for International Development (USAID)",
+          "description": "Support for community health, OVC services, and systems strengthening through USAID4TheChild project for economic empowerment, business grants, and productive assets.",
+          "projects": [
+            "USAID4TheChild - Economic Empowerment",
+            "Business Boost Grants",
+            "Productive Assets Support"
           ]
         },
-        "schooled": {
-          "title": "Schooled Domain",
-          "label": "Educational Equity",
-          "signal": "Human capital acceleration",
-          "headline": "Keep learners in school—then unlock opportunity.",
-          "description": "We remove the specific barriers—fees, uniforms, materials—that push vulnerable children out of classrooms, then link high performers to scholarship pathways and guide older youth into employability.",
-          "highlights": [
-            "Targeted school-cost support for retention",
-            "Scholarship linkages (Elimu, Wings to Fly, JKF)",
-            "TVET and apprenticeship transitions"
+        {
+          "id": "pepfar",
+          "name": "U.S. President's Emergency Plan for AIDS Relief (PEPFAR)",
+          "description": "Advancing HIV prevention, care, and treatment for vulnerable populations.",
+          "projects": ["HIV Prevention Programs", "Care and Treatment Support"]
+        },
+        {
+          "id": "world_bank",
+          "name": "World Bank",
+          "description": "Enabling community resilience and development financing frameworks.",
+          "projects": ["Development Financing", "Community Resilience Programs"]
+        },
+        {
+          "id": "kcdf",
+          "name": "Kenya Community Development Foundation (KCDF)",
+          "description": "Strengthening local philanthropy and grassroots capacity through scholarship programs.",
+          "projects": [
+            "Scholarship Programs (Wings to Fly, KCB Foundation)",
+            "Local Philanthropy Support"
           ]
         },
-        "stable": {
-          "title": "Stable Domain",
-          "label": "Household Resilience",
-          "signal": "From dependency to market participation",
-          "headline": "Capitalize the caregiver. Fortify the household.",
-          "description": "Economic stability is the foundation of child protection. Through VSLA systems, productive assets, and climate-smart value chains, we turn caregivers into economic actors with diversified income engines.",
-          "highlights": [
-            "VSLA/VSLAs and financial literacy coaching",
-            "Productive asset injection (sewing/salon/agri kits)",
-            "Apiculture + climate-smart crop value chains"
+        {
+          "id": "path",
+          "name": "PATH",
+          "description": "Collaboration on health innovation and community health systems.",
+          "projects": ["Health Innovation", "Community Health Systems"]
+        },
+        {
+          "id": "amref",
+          "name": "Amref Health Africa (AMREF)",
+          "description": "Joint efforts in community health and capacity building.",
+          "projects": ["Community Health Programs", "Capacity Building"]
+        },
+        {
+          "id": "world_vision",
+          "name": "World Vision Kenya",
+          "description": "Partnering on child wellbeing and household resilience.",
+          "projects": [
+            "Child Wellbeing Programs",
+            "Household Resilience Initiatives"
+          ]
+        },
+        {
+          "id": "crs",
+          "name": "Catholic Relief Services (CRS)",
+          "description": "Working together on livelihoods and social protection.",
+          "projects": ["Livelihoods Support", "Social Protection Programs"]
+        },
+        {
+          "id": "fhi_360",
+          "name": "FHI 360",
+          "description": "Technical support for health and community programs.",
+          "projects": ["Technical Assistance", "Health Program Support"]
+        },
+        {
+          "id": "fips",
+          "name": "Farm Input Promotions Africa (FIPS)",
+          "description": "Promoting climate-smart agriculture and farmer support through farm input distribution for SILC groups.",
+          "projects": [
+            "Farm Input Distribution",
+            "Climate-Smart Agriculture Training",
+            "SILC Group Support"
+          ]
+        },
+        {
+          "id": "kelcop",
+          "name": "Kenya Livestock Commercialization Project (KelCOP)",
+          "description": "Enhancing livestock value chains and incomes through poultry value addition training for caregivers.",
+          "projects": [
+            "Poultry Value Addition Training",
+            "Livestock Value Chain Enhancement"
+          ]
+        },
+        {
+          "id": "busia_gov",
+          "name": "Busia County Government",
+          "description": "Coordinating local service delivery and community priorities.",
+          "projects": [
+            "Local Service Coordination",
+            "Community Priority Alignment"
+          ]
+        },
+        {
+          "id": "kenya_gov",
+          "name": "Government of Kenya",
+          "description": "Alignment with national policies and development frameworks.",
+          "projects": ["Policy Alignment", "National Development Frameworks"]
+        },
+        {
+          "id": "uk_dap",
+          "name": "UK Digital Access Program (UK-DAP)",
+          "description": "Advancing digital inclusion and ICT policy engagement.",
+          "projects": ["Digital Inclusion Programs", "ICT Policy Engagement"]
+        },
+        {
+          "id": "wbr",
+          "name": "World Bicycle Relief",
+          "description": "Improving access to education, health, and livelihoods through mobility solutions.",
+          "projects": ["Bicycle Distribution", "Mobility Solutions"]
+        },
+        {
+          "id": "ics",
+          "name": "International Child Support (ICS)",
+          "description": "Strengthening child protection and family resilience programs.",
+          "projects": ["Child Protection Programs", "Family Resilience Support"]
+        },
+        {
+          "id": "world_neighbors",
+          "name": "World Neighbors",
+          "description": "Supporting community-led development and self-reliance initiatives.",
+          "projects": ["Community-Led Development", "Self-Reliance Initiatives"]
+        },
+        {
+          "id": "lwr",
+          "name": "Lutheran World Relief",
+          "description": "Partnering on livelihoods, resilience, and sustainable agriculture.",
+          "projects": [
+            "Livelihoods Programs",
+            "Sustainable Agriculture",
+            "Resilience Building"
+          ]
+        },
+        {
+          "id": "ampath",
+          "name": "Academic Model Providing Access to Healthcare (AMPATH)",
+          "description": "Enhancing healthcare access and systems strengthening.",
+          "projects": ["Healthcare Access Programs", "Systems Strengthening"]
+        },
+        {
+          "id": "kictanet",
+          "name": "Kenya ICT Action Network (KICTANET)",
+          "description": "Advancing digital inclusion and ICT policy engagement.",
+          "projects": ["ICT Policy Advocacy", "Digital Inclusion Initiatives"]
+        },
+        {
+          "id": "sdc",
+          "name": "Swiss Agency for Development and Cooperation (SDC)",
+          "description": "Supporting Nutrition in City Ecosystems (NICE) program for improved health and nutrition.",
+          "projects": [
+            "NICE Project Support",
+            "Nutrition Programs",
+            "Urban Food Systems"
           ]
         }
-      }
+      ]
     },
     "partners": {
-      "badge": "Partner Network",
+      "badge": "Our Partners",
       "title": {
-        "prefix": "Trusted by institutions.",
-        "highlight": "Built with communities."
+        "prefix": "",
+        "highlight": "Our Partners"
       },
-      "description": "ADT operates as a bridge: aligning government, civil society, and private sector partners with a community-owned implementation philosophy.",
-      "principles": {
-        "shared_accountability": {
-          "title": "Shared accountability",
-          "description": "Clear roles, transparent stewardship, and disciplined reporting—so partners can track delivery with confidence."
-        },
-        "government_aligned": {
-          "title": "Government-aligned delivery",
-          "description": "Collaborative governance with public institutions and community structures to ensure legitimacy and continuity."
-        },
-        "implementation_mindset": {
-          "title": "Implementation partner mindset",
-          "description": "We treat delivery like a system: plan, execute, measure, learn, and scale—across domains."
-        },
-        "local_intelligence": {
-          "title": "Local intelligence at scale",
-          "description": "Born in the Teso community, executed with technical teams and field networks that reach households reliably."
-        }
-      },
-      "current": {
-        "title": "Current strategic partners",
-        "items": [
-          "USAID 4TheChild",
-          "Kenya Community Development Foundation (KCDF)",
-          "Government of Kenya (National & County)",
-          "World Bicycle Relief (WBR)",
-          "Ministry of Agriculture (MOA/KALRO)"
-        ]
-      },
-      "legacy": {
-        "title": "Legacy partners (select)",
-        "items": [
-          "World Vision",
-          "AMREF",
-          "FHI 360",
-          "APHIA Plus",
-          "CRS-MWENDO",
-          "AMPATH Plus",
-          "International Child Support (ICS)"
-        ]
-      }
+      "description": "We collaborate with leading organizations to deliver measurable outcomes across health, education, and household resilience in Western Kenya.",
+      "items": [
+        "United States Agency for International Development (USAID)",
+        "U.S. President's Emergency Plan for AIDS Relief (PEPFAR)",
+        "World Bank",
+        "Kenya Community Development Foundation (KCDF)",
+        "PATH",
+        "Amref Health Africa (AMREF)",
+        "World Vision Kenya",
+        "Catholic Relief Services (CRS)",
+        "FHI 360",
+        "Farm Input Promotions Africa (FIPS)",
+        "Kenya Livestock Commercialization Project (KelCOP)",
+        "Busia County Government",
+        "Government of Kenya",
+        "UK Digital Access Program (UK-DAP)",
+        "World Bicycle Relief",
+        "International Child Support (ICS)",
+        "World Neighbors",
+        "Lutheran World Relief",
+        "Academic Model Providing Access to Healthcare (AMPATH)",
+        "Kenya ICT Action Network (KICTANET)"
+      ]
     },
     "investment": {
       "badge": "Scaling Next",
@@ -546,12 +656,12 @@
       "description": "We organize delivery through the Busia Resilience Model—so partners can fund a domain, co-deliver a system, or invest in the infrastructure that multiplies outcomes.",
       "domains": {
         "healthy": {
-          "title": "Healthy Domain",
+          "title": "Health Systems Strengthening",
           "short": "Clinical-community synergy for adherence, PMTCT continuity, and nutrition outcomes.",
           "label": "Clinical Excellence",
           "signal": "Last-mile health delivery",
           "headline": "Close the gap between clinics and households.",
-          "description": "Hospitals provide medicine. ADT provides the household follow-up, psychosocial support, and mobility-enabled tracing that makes treatment work—especially for CALHIV and PMTCT mothers.",
+          "description": "Improving access to quality health services through community support, referrals, and health education.",
           "highlights": [
             "Pediatric adherence support through play therapy",
             "Assisted disclosure and caregiver coaching",
@@ -559,12 +669,12 @@
           ]
         },
         "schooled": {
-          "title": "Schooled Domain",
+          "title": "Education Support",
           "short": "Retention support, MHM dignity kits, scholarship linkages, and TVET transitions.",
           "label": "Educational Equity",
           "signal": "Human capital acceleration",
           "headline": "Keep learners in school—then unlock opportunity.",
-          "description": "We remove the specific barriers—fees, uniforms, supplies—that push vulnerable children out of classrooms. We then link high performers to national scholarship pathways and guide older youth into employability.",
+          "description": "Supporting children with scholastic materials, school follow-up, and mentorship to retain vulnerable learners in school.",
           "highlights": [
             "School-cost support for OVC retention",
             "Scholarship linkages (Elimu, Wings to Fly, JKF)",
@@ -572,16 +682,68 @@
           ]
         },
         "stable": {
-          "title": "Stable Domain",
+          "title": "Livelihoods & Economic Empowerment",
           "short": "Financial inclusion, productive assets, climate-smart value chains, and social enterprise.",
           "label": "Household Resilience",
           "signal": "From dependency to market participation",
           "headline": "Capitalize the caregiver. Fortify the household.",
-          "description": "Economic stability is the foundation of child protection. Through VSLA+ systems, productive asset kits, and climate-smart livelihoods, we turn caregivers into economic actors—with diversified income engines.",
+          "description": "Strengthening household incomes through skills development, enterprise support, and sustainable livelihood opportunities.",
           "highlights": [
             "VSLA/VSLAs and financial literacy coaching",
             "Productive asset injection (sewing/salon/agri kits)",
             "Apiculture + climate-smart crop value chains"
+          ]
+        },
+        "digital": {
+          "title": "Digital Inclusion",
+          "short": "Promoting learning and digital skills for children and youth in a changing world.",
+          "label": "Digital Skills",
+          "signal": "Opportunity in digital economy",
+          "headline": "Equip for the digital future.",
+          "description": "Promoting learning and digital skills to equip children and youth for opportunities in a changing world.",
+          "highlights": [
+            "Digital literacy training for youth",
+            "Computer classes and ICT skills",
+            "Access to digital learning resources"
+          ]
+        },
+        "child_protection": {
+          "title": "Child Protection",
+          "short": "Safeguarding children from abuse, neglect, and exploitation while promoting wellbeing.",
+          "label": "Safe Environment",
+          "signal": "Rights and wellbeing",
+          "headline": "Protect every child's future.",
+          "description": "Safeguarding children from abuse, neglect, and exploitation while promoting their wellbeing and rights.",
+          "highlights": [
+            "Case management and health referrals",
+            "Psychosocial support for vulnerable children",
+            "Caregiver empowerment and child protection"
+          ]
+        },
+        "climate_resilience": {
+          "title": "Climate Resilience",
+          "short": "Supporting communities to adapt to climate change through environmental conservation.",
+          "label": "Sustainable Practices",
+          "signal": "Climate adaptation",
+          "headline": "Build resilience for tomorrow.",
+          "description": "Supporting communities to adapt to climate change through environmental conservation and sustainable practices.",
+          "highlights": [
+            "Climate-smart livelihoods",
+            "Environmental conservation",
+            "Sustainable agricultural practices"
+          ]
+        },
+        "governance_advocacy": {
+          "title": "Governance & Advocacy",
+          "short": "Amplifying community voices to influence policies and promote accountability.",
+          "label": "Community Voice",
+          "signal": "Policy influence",
+          "headline": "Amplify community voices.",
+          "description": "Amplifying community voices to influence policies and promote accountability for inclusive development.",
+          "highlights": [
+            "Community dialogue forums",
+            "Civic education and participation",
+            "Advocacy meetings on community priorities"
           ]
         }
       }
@@ -594,70 +756,96 @@
       },
       "description": "Each flagship represents an end-to-end model: clear problem definition, culturally aligned delivery, measurable outcomes, and a pathway to scale.",
       "cards": {
-        "clinical_excellence": {
-          "pill": "Healthy",
-          "title": "Pediatric HIV & Integrated Clinical Systems",
-          "description": "A high-precision last-mile intervention designed to increase pediatric adherence, retention in care, and viral load suppression through clinical-community integration.",
-          "image_alt": "Community health work and clinical linkage services",
+        "ovc_project": {
+          "pill": "Child Protection",
+          "title": "OVC Project (Orphans and Vulnerable Children)",
+          "description": "We strengthen the wellbeing of orphans and vulnerable children through case management, health referrals, psychosocial support, child protection, and caregiver empowerment to ensure every child grows in a safe, supportive environment.",
+          "image_alt": "OVC support and child protection services",
           "highlights": [
-            "Play therapy + child-centric adherence support",
-            "PMTCT continuity and defaulter tracing",
-            "Nutrition assessment and household action plans"
+            "Case management and health referrals",
+            "Psychosocial support for vulnerable children",
+            "Caregiver empowerment and child protection"
           ],
-          "cta": "Explore the model",
-          "href": "#implementation"
-        },
-        "schooled_accelerator": {
-          "pill": "Schooled",
-          "title": "The Schooled Lifecycle Accelerator",
-          "description": "A sequenced education pathway that keeps learners in school, restores dignity for adolescent girls, and opens scholarship and employability doors.",
-          "image_alt": "Learners supported through retention programs",
-          "highlights": [
-            "Uniforms, levies, and learning materials",
-            "MHM dignity kits to reduce absenteeism",
-            "Scholarship + TVET transition support"
-          ],
-          "cta": "See education pathways",
+          "cta": "Explore OVC support",
           "href": "#portfolio"
         },
-        "vsla_plus": {
-          "pill": "Stable",
-          "title": "Household Resilience & Economic Fortification",
-          "description": "A caregiver capitalization framework anchored in VSLA/VSLAs, micro-enterprise coaching, and productive asset kits—built to reduce vulnerability and strengthen household stability.",
-          "image_alt": "Caregivers in savings groups and micro-enterprise support",
+        "bee_keeping": {
+          "pill": "Climate-Smart Livelihoods",
+          "title": "Bee Keeping Project",
+          "description": "We promote climate-smart livelihoods by supporting farmers with modern beehives, training, and market linkage—improving incomes while enhancing pollination and environmental conservation.",
+          "image_alt": "Modern beekeeping and honey production",
           "highlights": [
-            "100+ VSLAs / savings groups coaching",
-            "Financial literacy and small business discipline",
-            "Productive launch kits for viable enterprises"
+            "Modern beehives and training",
+            "Market linkage for honey products",
+            "Environmental conservation through pollination"
           ],
-          "cta": "Explore resilience",
+          "cta": "View beekeeping initiative",
           "href": "#pipeline"
         },
-        "apiculture_enterprise": {
-          "pill": "Social Enterprise",
-          "title": "Apiculture Social Enterprise (ASL)",
-          "description": "An impact-investing model that creates diversified income for HIV-affected households while building a sustainable revenue engine that supports ADT’s broader social mission.",
-          "image_alt": "Beekeeping and honey production as a livelihood engine",
+        "sacco_project": {
+          "pill": "Financial Resilience",
+          "title": "SACCO Project",
+          "description": "We build household economic resilience through savings and credit groups, financial literacy, and support to small enterprises, enabling families to access affordable credit and grow their incomes.",
+          "image_alt": "SACCO savings and credit groups",
           "highlights": [
-            "Modern apiary management coaching",
-            "Value chain expansion to processing + branding",
-            "Income stability for widows and elderly caregivers"
+            "Savings and credit groups",
+            "Financial literacy training",
+            "Small enterprise support"
           ],
-          "cta": "View enterprise pathway",
+          "cta": "Explore SACCO model",
           "href": "#pipeline"
         },
-        "mobility_network": {
-          "pill": "Enabler",
-          "title": "Logistics & Mobility Network",
-          "description": "A co-financing engine with World Bicycle Relief and ADT SACCO that increases visit frequency, speeds defaulter tracing, and unlocks quality last-mile delivery.",
-          "image_alt": "Bicycles enabling rapid-response case management",
+        "bicycles_project": {
+          "pill": "Mobility & Access",
+          "title": "Bicycles Project",
+          "description": "We improve access to education and health services by providing bicycles to learners and community volunteers, reducing distance barriers and saving time for essential services.",
+          "image_alt": "Bicycles for education and health access",
           "highlights": [
-            "Co-investment mobility model",
-            "Rapid response tracing and referral continuity",
-            "Operational efficiency for deep-rural outreach"
+            "Bicycles for learners",
+            "Community volunteer mobility",
+            "Reduced distance barriers"
           ],
-          "cta": "See how mobility scales impact",
+          "cta": "See mobility impact",
           "href": "#implementation"
+        },
+        "digital_literacy": {
+          "pill": "Digital Inclusion",
+          "title": "Digital Literacy Skills Project",
+          "description": "We equip children, youth, and caregivers with essential digital skills for learning, communication, and opportunity in an increasingly digital world.",
+          "image_alt": "Digital literacy training for youth",
+          "highlights": [
+            "Essential digital skills training",
+            "Learning and communication tools",
+            "Opportunity in digital economy"
+          ],
+          "cta": "Explore digital programs",
+          "href": "#portfolio"
+        },
+        "hes_project": {
+          "pill": "Economic Strengthening",
+          "title": "HES Project (Household Economic Strengthening)",
+          "description": "We empower caregivers with skills in budgeting, savings, nutrition, provide business boost, productive assets and small enterprise development to improve household stability and child wellbeing.",
+          "image_alt": "Household economic strengthening programs",
+          "highlights": [
+            "Budgeting and savings skills",
+            "Business boost and productive assets",
+            "Small enterprise development"
+          ],
+          "cta": "View HES initiatives",
+          "href": "#pipeline"
+        },
+        "computer_class": {
+          "pill": "ICT Education",
+          "title": "Computer Class Project",
+          "description": "We provide structured computer lessons that build practical skills in typing, basic applications, and introductory coding to prepare learners for academic and career success.",
+          "image_alt": "Computer class training and ICT skills",
+          "highlights": [
+            "Typing and basic applications",
+            "Introductory coding skills",
+            "Academic and career preparation"
+          ],
+          "cta": "Explore computer classes",
+          "href": "#portfolio"
         }
       }
     },

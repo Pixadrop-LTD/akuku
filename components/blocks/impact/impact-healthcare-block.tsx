@@ -33,26 +33,24 @@ export const ImpactHealthcareBlock = () => {
 
   const healthcareStats = [
     {
-      id: "clinical_excellence",
-      number: "95%+",
-      label: t.impact.domains.healthcare.stats.clinical_excellence.label,
-      description:
-        t.impact.domains.healthcare.stats.clinical_excellence.description,
+      id: "health_education",
+      number: "100,000+",
+      label: "Community Members Reached",
+      description: "Health education and HIV literacy sessions",
       icon: "🏥",
     },
     {
-      id: "retention_rate",
-      number: "100%",
-      label: t.impact.domains.healthcare.stats.retention_rate.label,
-      description: t.impact.domains.healthcare.stats.retention_rate.description,
+      id: "referrals_supported",
+      number: "40,000+",
+      label: "Children & Caregivers Supported",
+      description: "Referrals and clinic linkage services",
       icon: "💊",
     },
     {
-      id: "facilities_served",
-      number: "15+",
-      label: t.impact.domains.healthcare.stats.facilities_served.label,
-      description:
-        t.impact.domains.healthcare.stats.facilities_served.description,
+      id: "psychosocial_support",
+      number: "80,000+",
+      label: "OVC & Caregivers Supported",
+      description: "Psychosocial support and nutritional assessment",
       icon: "🏥",
     },
   ]

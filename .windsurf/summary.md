@@ -32,7 +32,7 @@ Supporting communities to adapt to climate change through environmental conserva
 **Governance & Advocacy**  
 Amplifying community voices to influence policies and promote accountability for inclusive development. 
 
-IMPACT SECTION
+IMPACT SECTION 
 
 **Livelihoods & Economic Empowerment**
 

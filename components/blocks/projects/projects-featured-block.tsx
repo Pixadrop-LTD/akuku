@@ -46,7 +46,7 @@ export const ProjectsFeaturedBlock = () => {
       id: "ovc_project",
       tone: "accent",
       icon: <HeartPulse className="h-5 w-5" />,
-      image: Assets.projects.childSupport,
+      image: Assets.projects.orphans,
     },
     {
       id: "bee_keeping",
@@ -64,25 +64,25 @@ export const ProjectsFeaturedBlock = () => {
       id: "bicycles_project",
       tone: "accent",
       icon: <Bike className="h-5 w-5" />,
-      image: Assets.projects.bikes,
+      image: Assets.projects.childMobility,
     },
     {
       id: "digital_literacy",
       tone: "secondary",
       icon: <GraduationCap className="h-5 w-5" />,
-      image: Assets.projects.digital,
+      image: Assets.projects.ditalLiteracy,
     },
     {
       id: "hes_project",
       tone: "primary",
       icon: <HandCoins className="h-5 w-5" />,
-      image: Assets.projects.businessSupport,
+      image: Assets.projects.farming,
     },
     {
       id: "computer_class",
       tone: "secondary",
       icon: <GraduationCap className="h-5 w-5" />,
-      image: Assets.projects.digital,
+      image: Assets.projects.digitalSkills,
     },
   ]
 

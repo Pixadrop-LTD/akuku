@@ -34,10 +34,10 @@ export const ProjectsPipelineBlock = () => {
   }
 
   const imageMap: Record<PipelineId, StaticImageData> = {
-    digital_hub: Assets.projects.digital,
-    solar_backup: Assets.projects.seeds,
+    digital_hub: Assets.projects.digitalSkills,
+    solar_backup: Assets.projects.climate,
     logistics_fleet: Assets.projects.mobility,
-    honey_processing: Assets.projects.beeKeeping,
+    honey_processing: Assets.projects.honeyProcessing,
   }
 
   const toneMap: Record<

@@ -6,11 +6,12 @@ import { usePartnerModal } from "@/hooks/use-partner-modal"
 import {
   motion,
   useInView,
+  useReducedMotion,
   useScroll,
   useSpring,
   useTransform,
 } from "framer-motion"
-import { ArrowDown, ArrowRight, Handshake, Heart } from "lucide-react"
+import { ArrowDown, ArrowRight, Handshake, Heart, Sparkles } from "lucide-react"
 import Image from "next/image"
 import { useEffect, useRef, useState } from "react"
 
@@ -19,242 +20,188 @@ const HomeHeroBlock = () => {
   const { openModal } = usePartnerModal()
   const containerRef = useRef<HTMLDivElement>(null)
   const [hasAnimated, setHasAnimated] = useState(false)
-  const isInView = useInView(containerRef, { once: true, amount: 0.3 })
+  const isInView = useInView(containerRef, { once: true, amount: 0.2 })
+  const shouldReduceMotion = useReducedMotion()
+
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start start", "end start"],
   })
 
-  // Parallax effects - always defined but values change based on animation state
   const imageY = useSpring(
-    useTransform(scrollYProgress, [0, 0.5], [0, hasAnimated ? 0 : 50]),
+    useTransform(scrollYProgress, [0, 0.5], [0, shouldReduceMotion ? 0 : 50]),
     {
       stiffness: 80,
       damping: 15,
     }
   )
+
   const contentY = useSpring(
-    useTransform(scrollYProgress, [0, 0.5], [0, hasAnimated ? 0 : -20]),
+    useTransform(scrollYProgress, [0, 0.5], [0, shouldReduceMotion ? 0 : -20]),
     {
       stiffness: 80,
       damping: 15,
     }
-  )
-  const opacity = useTransform(
-    scrollYProgress,
-    [0, 0.3],
-    [1, hasAnimated ? 1 : 0.9]
   )
 
   useEffect(() => {
-    if (isInView && !hasAnimated) {
-      setTimeout(() => setHasAnimated(true), 0)
-    }
+    if (isInView && !hasAnimated) setTimeout(() => setHasAnimated(true), 0)
   }, [isInView, hasAnimated])
 
   return (
     <section
       id="home"
-      className="relative flex items-center justify-center px-4 pt-28 text-center lg:pt-32"
+      className="relative px-4 sm:px-6 md:px-8 pt-24 sm:pt-28 md:pt-32 pb-8 overflow-hidden"
     >
-      {/* Hero Content Container */}
       <motion.div
         ref={containerRef}
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1.2, ease: "easeOut" }}
-        className="relative mx-auto max-container-2xl overflow-hidden rounded-3xl p-8 shadow-2xl md:p-20"
+        initial={{ opacity: 0, scale: 0.96 }}
+        animate={isInView ? { opacity: 1, scale: 1 } : {}}
+        transition={{ duration: 1.1, ease: "easeOut" }}
+        className="relative mx-auto max-container-2xl px-0 py-8 md:py-16"
       >
-        {/* Background Video/Image */}
-        <motion.div
-          className="absolute inset-0 h-full w-full"
-          style={{ y: imageY }}
-        >
-          <Image
-            src={Assets.home.hero}
-            alt={t.home.hero.image_alt}
-            fill
-            className="h-full w-full object-cover"
-            priority
-          />
-        </motion.div>
-
-        {/* Gradient Overlay for readability */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1.5, delay: 0.3 }}
-          className="pointer-events-none absolute inset-0 z-0 bg-linear-to-b from-neutral/90 via-neutral/70 to-neutral/50 backdrop-brightness-75"
-          style={{ opacity }}
-        />
-
-        {/* Hero Content */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-          style={{ y: contentY }}
-          className="relative z-10 mx-auto flex max-container flex-col items-center gap-8 text-center"
-        >
-          {/* Tagline Badge */}
-          <motion.span
-            initial={{ opacity: 0, scale: 0.8, rotateX: -90 }}
-            animate={{ opacity: 1, scale: 1, rotateX: 0 }}
-            transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-            whileHover={{ scale: 1.05, y: -2 }}
-            className="inline-block rounded-full border border-white/20 bg-white/10 px-4 py-1 text-sm tracking-widest text-neutral-900 uppercase shadow-sm backdrop-blur-sm"
-          >
-            {t.home.hero.tagline}
-          </motion.span>
-
-          {/* Advanced Heading */}
-          <motion.h1
-            initial={{ opacity: 0, y: 30, skewY: 2 }}
-            animate={{ opacity: 1, y: 0, skewY: 0 }}
-            transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
-            whileInView={{ y: [0, -5, 0] }}
-            whileHover={{ scale: 1.02 }}
-            className="text-4xl leading-tight font-bold tracking-tight text-white sm:text-5xl lg:text-7xl"
-          >
-            <motion.span
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 0.8 }}
-              className="inline-block"
-            >
-              {t.home.hero.title.prefix}&nbsp;
-            </motion.span>
-            <motion.span
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 1.0, ease: "easeOut" }}
-              className="inline-block bg-linear-to-r from-secondary via-accent to-secondary bg-clip-text text-transparent"
-              whileHover={{ scale: 1.1 }}
-            >
-              {t.home.hero.title.highlight}
-            </motion.span>
-            <motion.span
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 1.2 }}
-              className="inline-block"
-            >
-              {" "}
-              {t.home.hero.title.suffix}
-            </motion.span>
-          </motion.h1>
-
-          {/* Description */}
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 1.4, ease: "easeOut" }}
-            whileInView={{ opacity: [1, 0.9, 1] }}
-            className="mx-auto max-w-2xl text-lg leading-relaxed text-white/90 md:text-2xl"
-          >
-            <motion.span
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.4, delay: 1.6 }}
-              className="font-semibold text-white"
-            >
-              {t.home.hero.description.organization_name}
-            </motion.span>
-            <motion.span
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.4, delay: 1.8 }}
-            >
-              {" "}
-              {t.home.hero.description.text}
-            </motion.span>
-          </motion.p>
-
-          {/* Calls to Action */}
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center">
+          {/* Column 1: Details (spans 7 cols) */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 2.8, ease: "easeOut" }}
-            className="mt-12 flex w-full flex-col items-center justify-center gap-6 sm:flex-row"
+            style={{ y: contentY }}
+            className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 lg:col-span-7"
           >
-            {/* Primary CTA - Partner with Us */}
-            <motion.button
-              type="button"
-              onClick={openModal}
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: 3.0, ease: "easeOut" }}
-              whileHover={{ scale: 1.08, y: -4, rotateZ: 1 }}
-              whileTap={{ scale: 0.95 }}
-              className="group relative inline-flex w-full cursor-pointer items-center justify-center gap-4 rounded-full bg-linear-to-br from-accent to-secondary px-6 py-3.5 text-sm font-semibold tracking-wide text-neutral-50 shadow-2xl transition-all duration-300 hover:shadow-accent/50 focus:outline-none focus-visible:ring-4 focus-visible:ring-accent/60 sm:w-auto sm:px-12 sm:py-5 sm:text-base"
+            {/* Tagline Badge */}
+            <motion.span
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={isInView ? { opacity: 1, scale: 1 } : {}}
+              transition={{ duration: 0.6, delay: 0.35 }}
+              whileHover={shouldReduceMotion ? undefined : { scale: 1.04, y: -2 }}
+              className="inline-flex items-center gap-2 rounded-full border border-primary-200/50 bg-primary-100/50 px-4 py-2 text-xs font-semibold tracking-wider text-primary-800 uppercase shadow-sm backdrop-blur-sm"
             >
-              <span className="flex items-center gap-3">
-                {/* Handshake Icon */}
-                <motion.div
-                  className="relative h-5 w-5 shrink-0 text-accent sm:h-6 sm:w-6"
-                  animate={{ rotate: [0, 10, -10, 0] }}
-                  transition={{ duration: 2, repeat: Infinity, repeatDelay: 3 }}
-                  whileHover={{ rotate: 20, scale: 1.2 }}
-                >
-                  <Handshake className="h-full w-full text-secondary-50" />
-                </motion.div>
-                <motion.span
-                  className="whitespace-nowrap"
-                  whileHover={{ x: 2 }}
-                >
-                  {t.home.hero.cta.partner}
-                </motion.span>
-                <ArrowRight className="ml-2 h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1 sm:h-4 sm:w-4" />
-              </span>
-              {/* Glow ring */}
-              <motion.span
-                className="absolute -inset-px rounded-full bg-linear-to-br from-accent to-secondary opacity-0 blur-lg transition-opacity duration-300 group-hover:opacity-60"
-                animate={{ opacity: [0, 0.3, 0] }}
-                transition={{ duration: 2, repeat: Infinity, repeatDelay: 1 }}
-              />
-            </motion.button>
+              <Sparkles className="h-4 w-4 text-accent animate-pulse" />
+              {t.home.hero.tagline}
+            </motion.span>
 
-            {/* Secondary CTA - Explore Impact */}
-            <motion.a
-              href="#impact"
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: 3.2, ease: "easeOut" }}
-              whileHover={{ scale: 1.08, y: -4, rotateZ: -1 }}
-              whileTap={{ scale: 0.95 }}
-              className="group relative inline-flex w-full items-center justify-center gap-4 rounded-full border border-white/40 bg-white/10 px-6 py-3.5 text-sm font-semibold tracking-wide text-white backdrop-blur-md transition-all duration-300 hover:border-accent hover:bg-white/15 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 sm:w-auto sm:px-12 sm:py-5 sm:text-base"
+            {/* Heading */}
+            <motion.h1
+              initial={{ opacity: 0, y: 28 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
+              className="text-4xl leading-tight font-bold tracking-tight text-primary-950 sm:text-5xl lg:text-6xl xl:text-7xl"
             >
-              <span className="flex items-center gap-3">
-                {/* Heart Icon */}
-                <motion.div
-                  className="relative h-5 w-5 text-accent sm:h-6 sm:w-6"
-                  animate={{ scale: [1, 1.2, 1] }}
-                  transition={{
-                    duration: 1.5,
-                    repeat: Infinity,
-                    repeatDelay: 2,
-                  }}
-                  whileHover={{ scale: 1.3, rotate: -15 }}
-                >
-                  <Heart className="h-full w-full" />
-                </motion.div>
-                <motion.span
-                  className="whitespace-nowrap"
-                  whileHover={{ x: 2 }}
-                >
-                  {t.home.hero.cta.explore}
-                </motion.span>
-                <ArrowDown className="ml-2 h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-y-1 sm:h-4 sm:w-4" />
+              <span className="block">{t.home.hero.title.prefix}</span>
+              <span className="inline-block bg-linear-to-r from-primary-600 via-secondary to-accent bg-clip-text text-transparent">
+                {t.home.hero.title.highlight}
               </span>
-              {/* Subtle glow */}
-              <motion.span
-                className="absolute -inset-px rounded-full bg-accent opacity-0 blur-lg transition-opacity duration-300 group-hover:opacity-30"
-                animate={{ opacity: [0, 0.2, 0] }}
-                transition={{ duration: 2, repeat: Infinity, repeatDelay: 1.5 }}
-              />
-            </motion.a>
+              {t.home.hero.title.suffix && (
+                <span className="block mt-1">{t.home.hero.title.suffix}</span>
+              )}
+            </motion.h1>
+
+            {/* Description */}
+            <motion.p
+              initial={{ opacity: 0, y: 18 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.8, delay: 0.75, ease: "easeOut" }}
+              className="max-w-2xl text-lg leading-relaxed text-primary-900/80 md:text-xl"
+            >
+              <span className="font-semibold text-primary-950">
+                {t.home.hero.description.organization_name}
+              </span>{" "}
+              <span>{t.home.hero.description.text}</span>
+            </motion.p>
+
+            {/* Buttons */}
+            <motion.div
+              initial={{ opacity: 0, y: 18 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.8, delay: 0.95, ease: "easeOut" }}
+              className="mt-4 flex w-full flex-col gap-4 sm:flex-row justify-center lg:justify-start"
+            >
+              {/* Partner CTA */}
+              <motion.button
+                type="button"
+                onClick={openModal}
+                whileHover={{ scale: 1.06, y: -3 }}
+                whileTap={{ scale: 0.96 }}
+                className="group inline-flex w-full cursor-pointer items-center justify-center gap-3 rounded-full bg-linear-to-br from-accent to-secondary px-6 py-3.5 text-sm font-semibold text-white shadow-2xl transition-all duration-300 hover:shadow-accent/40 sm:w-auto sm:px-8 sm:text-base"
+              >
+                <Handshake className="h-4 w-4 sm:h-5 sm:w-5" />
+                {t.home.hero.cta.partner}
+                <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1 sm:h-4 sm:w-4" />
+              </motion.button>
+
+              {/* Explore CTA */}
+              <motion.a
+                href="#impact"
+                whileHover={{ scale: 1.06, y: -3 }}
+                whileTap={{ scale: 0.96 }}
+                className="group inline-flex w-full items-center justify-center gap-3 rounded-full border border-primary-300/50 bg-primary-100/40 px-6 py-3.5 text-sm font-semibold text-primary-900 hover:bg-primary-100/60 backdrop-blur-md transition-all duration-300 sm:w-auto sm:px-8 sm:text-base"
+              >
+                <Heart className="h-4 w-4 sm:h-5 sm:w-5 text-accent animate-pulse" />
+                {t.home.hero.cta.explore}
+                <ArrowDown className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-y-1 sm:h-4 sm:w-4" />
+              </motion.a>
+            </motion.div>
           </motion.div>
-        </motion.div>
+
+          {/* Column 2: Single Premium Floating Image (spans 5 cols) */}
+          <motion.div
+            style={{ y: imageY }}
+            className="relative flex justify-center items-center w-full lg:col-span-5 h-[320px] sm:h-[400px] md:h-[450px] lg:h-[400px] xl:h-[460px]"
+          >
+            <div className="relative w-full max-w-[320px] sm:max-w-[420px] md:max-w-[460px] lg:max-w-full h-full flex items-center justify-center">
+              
+              {/* Premium Framed Image */}
+              <motion.div
+                animate={shouldReduceMotion ? undefined : { y: [0, -12, 0] }}
+                transition={
+                  shouldReduceMotion
+                    ? undefined
+                    : {
+                        duration: 6,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                      }
+                }
+                whileHover={
+                  shouldReduceMotion
+                    ? undefined
+                    : {
+                        scale: 1.03,
+                        transition: { duration: 0.3 },
+                      }
+                }
+                className="relative z-10 w-full aspect-[4/3] overflow-hidden rounded-3xl border border-primary-200/40 bg-white/70 p-2 shadow-2xl backdrop-blur-md cursor-pointer"
+              >
+                <div className="relative w-full h-full overflow-hidden rounded-2xl">
+                  <Image
+                    src={Assets.home.hero}
+                    alt={t.home.hero.image_alt}
+                    fill
+                    className="object-cover object-center transition-transform duration-700 hover:scale-105"
+                    priority
+                    sizes="(max-width: 640px) 300px, 450px"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
+                  />
+                </div>
+              </motion.div>
+
+              {/* Overlapping Glass Badge */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={isInView ? { opacity: 1, scale: 1 } : {}}
+                transition={{ delay: 1.2, duration: 0.8 }}
+                className="absolute z-30 bottom-6 -right-6 sm:bottom-12 sm:-right-10 flex items-center gap-3 rounded-2xl border border-primary-200/40 bg-white/95 p-3 sm:p-4 shadow-xl backdrop-blur-md scale-[0.8] sm:scale-100 origin-bottom-right"
+              >
+                <div className="rounded-full bg-accent/20 p-1.5 sm:p-2 text-accent">
+                  <Heart className="h-4 w-4 sm:h-5 sm:w-5 fill-accent/25" />
+                </div>
+                <div>
+                  <div className="text-[9px] sm:text-[10px] text-primary-900/50 uppercase tracking-wider font-semibold">Since 1989</div>
+                  <div className="text-[11px] sm:text-xs font-bold text-primary-950">35+ Years Active</div>
+                </div>
+              </motion.div>
+
+            </div>
+          </motion.div>
+        </div>
       </motion.div>
     </section>
   )

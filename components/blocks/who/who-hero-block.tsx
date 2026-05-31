@@ -75,7 +75,7 @@ export const WhoHeroBlock = () => {
               initial={{ opacity: 0, y: 28 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
-              className="text-4xl leading-tight font-bold tracking-tight text-neutral-700 sm:text-5xl lg:text-6xl"
+              className="text-4xl leading-tight font-bold tracking-tight text-neutral-800 sm:text-5xl lg:text-6xl"
             >
               <span className="block">{t.who.hero.title.prefix}</span>
               <span className="bg-linear-to-r from-secondary via-accent to-secondary bg-clip-text text-transparent">

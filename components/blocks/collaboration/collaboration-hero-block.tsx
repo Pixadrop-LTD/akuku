@@ -79,7 +79,7 @@ export const CollaborationHeroBlock = () => {
               initial={{ opacity: 0, y: 28 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
-              className="text-4xl leading-tight font-bold tracking-tight text-neutral-700 sm:text-5xl lg:text-6xl"
+              className="text-4xl leading-tight font-bold tracking-tight text-neutral-800 sm:text-5xl lg:text-6xl"
             >
               <span className="block">{t.collaboration.hero.title.prefix}</span>
               <span className="inline-block bg-linear-to-r from-primary-600 via-secondary to-accent bg-clip-text text-transparent">

@@ -259,7 +259,7 @@ export const ImpactCommunityBlock = () => {
 
               <motion.h1
                 variants={titleVariants}
-                className="mb-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight font-bold text-neutral-700"
+                className="mb-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight font-bold text-neutral-800"
               >
                 {t.impact.hero.title.prefix}{" "}
                 <span className="bg-linear-to-r from-accent to-secondary bg-clip-text text-transparent">

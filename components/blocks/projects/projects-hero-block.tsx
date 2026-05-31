@@ -147,9 +147,9 @@ export const ProjectsHeroBlock = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight text-primary-950"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight text-neutral-700"
             >
-              <span className="block text-primary-950">{t.projects.hero.title.prefix}</span>
+              <span className="block text-neutral-700">{t.projects.hero.title.prefix}</span>
               <span className="bg-linear-to-r from-primary-600 via-secondary to-accent bg-clip-text text-transparent">
                 {t.projects.hero.title.highlight}
               </span>
